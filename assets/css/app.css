@@ -65,6 +65,10 @@ body { }
    .bit-date{
       width: 8%;
    }
+
+   a{
+      color: #E64C1F!important
+   }
    td a{
       color: #E64C1F!important;
    }
