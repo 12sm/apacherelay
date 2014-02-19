@@ -19,7 +19,7 @@
 
   <div class="wrap container" role="document">
     <div class="content row">
-      <main class="main col-sm-10 col-sm-offset-1" role="main">
+      <main class="main col-sm-8 col-sm-offset-2" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
     </div><!-- /.content -->
