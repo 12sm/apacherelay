@@ -12,7 +12,7 @@
    ========================================================================== */
 h3{
    font-family: "bebas";
-   font-size: 56px;
+   font-size: 36px;
    color: #646464;
 }
 h1, h2, h3, a, p{
@@ -75,9 +75,7 @@ body { }
   tr th{
    color: #646464!important;
   }
-.bit-location{
-   width: 18%;
-}
+
 .bit-buy-tix {
 color: #E64C1F;
 text-decoration: none;
@@ -137,7 +135,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .bit-venue{
       display: block!important;
    }
-   .b
+   h3{
+      font-size: 56px;
+   }
+   .bit-location{
+   width: 18%;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
