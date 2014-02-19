@@ -58,7 +58,9 @@ body { }
 /* ==========================================================================
    Tour
    ========================================================================== */
-
+   .bit-venue{
+      display: none;
+   }
    .bit-description-links{
       display: none;
    }
@@ -83,6 +85,9 @@ font-weight: bold;
 }
 .bit-rsvp {
 display: none;
+}
+.bit-location a{
+   font-weight: normal!important;
 }
 /* ==========================================================================
    Posts
@@ -128,7 +133,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: @screen-sm) {
+.bit-venue{
+      display: block;
+   }
+   .b
+ }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }
