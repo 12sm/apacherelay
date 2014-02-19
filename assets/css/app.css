@@ -16,7 +16,7 @@ h3{
    color: #646464;
 }
 h1, h2, h3, a, p{
-   font-family: "bebas";
+   font-family: "bebas"!important;
 }
 body { }
 
