@@ -75,7 +75,9 @@ body { }
   tr th{
    color: #646464!important;
   }
-
+.bit-location{
+   width: 18%!important;
+}
 .bit-buy-tix {
 color: #E64C1F;
 text-decoration: none;
@@ -138,9 +140,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    h3{
       font-size: 56px;
    }
-   .bit-location{
-   width: 18%;
-}
  }
 
 /* Medium devices (desktops, 992px and up) */
