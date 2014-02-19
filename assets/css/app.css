@@ -73,7 +73,17 @@ body { }
   tr th{
    color: #646464!important;
   }
-
+.bit-location{
+   width: 18%;
+}
+.bit-buy-tix {
+color: #E64C1F;
+text-decoration: none;
+font-weight: bold;
+}
+.bit-rsvp {
+display: none;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
