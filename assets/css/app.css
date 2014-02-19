@@ -66,12 +66,9 @@ body { }
       width: 8%;
    }
 
-   a{
-      color: #E64C1F!important
-   }
-   td a{
-      color: #E64C1F!important;
-   }
+  tr{
+   color: #646464;
+  }
 
 /* ==========================================================================
    Posts
