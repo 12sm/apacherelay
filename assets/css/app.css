@@ -66,8 +66,8 @@ body { }
       width: 8%;
    }
 
-  .bit-header-overflow-fix span{
-   color: #646464;
+  .bit-header-overflow-fix span, .bit-header-overflow-fix span a{
+   color: #646464!important;
   }
 
 /* ==========================================================================
