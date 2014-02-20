@@ -17,13 +17,13 @@
     }
   ?>
 
-  <div class="wrap container" role="document">
+  <!--<div class="wrap container" role="document">
     <div class="content row">
       <main class="main col-sm-8 col-sm-offset-2" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
-    </div><!-- /.content -->
-  </div><!-- /.wrap -->
+    <!--</div><!-- /.content -->
+  <!--</div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
 
