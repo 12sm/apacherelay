@@ -76,7 +76,7 @@ body { }
    color: #646464!important;
   }
 .bit-event-data{
-   letter-spacing: 1px;
+   letter-spacing: 1px!important;
 }
 .bit-buy-tix {
 color: #E64C1F;
