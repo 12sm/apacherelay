@@ -39,9 +39,4 @@
 	  	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  	})();
 	</script>
-  <script type="text/javascript">
-   $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#fit-vid").fitVids();
-  });
   <!-- End 12SM Network Analytics <!--> 
