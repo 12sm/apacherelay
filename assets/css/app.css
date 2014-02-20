@@ -107,7 +107,7 @@ display: none;
   -webkit-transition:.5s;
   transition:.5s;
 }
-.smaller a:hover{
+.smaller:hover{
    color: #E64C1F;
 }
 /* ==========================================================================
