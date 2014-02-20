@@ -7,15 +7,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
+     <!-- <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>-->
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
+      </div>
+      </div>
     </nav>
   </div>
 </header>
