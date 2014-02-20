@@ -86,6 +86,10 @@ color: #E64C1F;
 text-decoration: none;
 font-weight: bold;
 }
+a:hover{
+   text-decoration: none!important;
+   color: inherit!important;
+}
 .bit-rsvp {
 display: none;
 }
@@ -97,6 +101,14 @@ display: none;
 }
 .smaller{
    font-size: 36px;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.smaller a:hover{
+   color: #E64C1F;
 }
 /* ==========================================================================
    Posts
