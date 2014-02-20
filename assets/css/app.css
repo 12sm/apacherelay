@@ -10,6 +10,11 @@
 /* ==========================================================================
    Base
    ========================================================================== */
+h1{
+   color: #FFFFFF;
+   font-size: 50px;
+}
+
 h3{
    font-family: "bebas";
    font-size: 36px;
@@ -112,7 +117,17 @@ display: none;
 .hentry .entry-content { }
 .hentry footer { }
 
+.blog-home-body{
+   background-color: rgb(255,255,255);
+}
 
+.continue p{
+   color: #E64C1F;
+border: 3px solid #E64C1F;
+padding: 2px;
+text-align: center;
+font-size: 18px;
+}
 
 /* ==========================================================================
    Footer
