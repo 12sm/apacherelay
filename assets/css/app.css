@@ -118,17 +118,20 @@ display: none;
 .hentry footer { }
 
 .blog-home-body{
-   background-color: rgb(255,255,255);
+   background-color: gray;
 }
 
 .continue p{
-   color: #E64C1F;
+color: #E64C1F;
 border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
 font-size: 18px;
 }
 
+.more-blogs h3{
+   font-size: 22px;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
