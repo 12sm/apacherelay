@@ -12,7 +12,7 @@
 
     <nav class="collapse navbar-collapse" role="navigation">
     <div class="row">
-      <div class="col-sm-10">
+      <div class="col-sm-9 col-sm-offset-1">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
