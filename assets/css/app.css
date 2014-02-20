@@ -27,7 +27,10 @@ h1, h2, h3, a, p{
 }
 body { }
 
-
+.music-body{
+   background-image: url(../img/music-bg.jpg);
+   background-size: cover;
+}
 
 /* ==========================================================================
    Header
