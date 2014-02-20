@@ -65,7 +65,7 @@ body { }
       display: none;
    }
    .bit-date{
-      width: 8%;
+      width: 9%;
    }
 
   .bit-header-overflow-fix span, .bit-header-overflow-fix span a{
@@ -75,7 +75,9 @@ body { }
   tr th{
    color: #646464!important;
   }
-
+.bit-event-data{
+   letter-spacing: 1px;
+}
 .bit-buy-tix {
 color: #E64C1F;
 text-decoration: none;
