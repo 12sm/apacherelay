@@ -42,6 +42,6 @@
   <script type="text/javascript">
    $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $(".fit-vids").fitVids();
+    $(".fit-vid").fitVids();
   });
   <!-- End 12SM Network Analytics <!--> 
