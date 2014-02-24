@@ -160,7 +160,13 @@ display: none;
    background-color: gray;
 }
 
-
+.border-box-white p{
+color: #fff;
+border: 3px solid #fff;
+padding: 2px;
+text-align: center;
+font-size: 18px;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
