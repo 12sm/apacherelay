@@ -49,12 +49,3 @@ $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $("#fit-vid").fitVids();
   });
-
-//Equal column size plugin
-$(document).ready(function(){
-$('.equal-height').equalHeights();
-});
-
-$(window).resize(function(){
-$('.equal-height').equalHeights();
-});
