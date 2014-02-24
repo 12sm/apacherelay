@@ -35,6 +35,7 @@ body { }
 .music-body{
    background-image: url(../img/music-bg.jpg);
    background-size: cover;
+   padding-bottom: 5%;
 }
 
 .marg-top-sm{
@@ -115,6 +116,12 @@ body { }
 /* ==========================================================================
    Tour
    ========================================================================== */
+   .tour-body{
+      background-image: url(../img/tour-bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+
    .bit-venue{
       display: none;
    }
@@ -163,6 +170,7 @@ display: none;
    ========================================================================== */
 .video-body{
    background-color: gray;
+   padding-bottom: 10%
 }
 
 .border-box-white p{
