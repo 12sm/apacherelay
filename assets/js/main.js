@@ -51,4 +51,10 @@ $(document).ready(function(){
   });
 
 //Equal column size plugin
-$(".equal-height").equalHeight();
+$(document).ready(function(){
+$('.equal-height').equalHeight();
+});
+
+$(window).resize(function(){
+$('.equal-height').equalHeight();
+});
