@@ -42,9 +42,9 @@ body { }
    padding: 10%;
 }
 
-.border-box .gallery p{
+.border-box.gallery>p{
    color: #FFF!important;
-border-color: #FFF;
+   border-color: #FFF!important;
 }
 /* ==========================================================================
    Header
