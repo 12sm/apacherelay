@@ -81,6 +81,7 @@ body { }
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   padding: 5%;
 }
 
 .store-headline{
