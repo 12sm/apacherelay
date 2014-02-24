@@ -39,6 +39,12 @@ body { }
 
 .gallery-home-body{
    background-color: gray;
+   padding: 10%;
+}
+
+.border-box .gallery p{
+   color: #FFF!important;
+border-color: #FFF;
 }
 /* ==========================================================================
    Header
