@@ -49,3 +49,6 @@ $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $("#fit-vid").fitVids();
   });
+
+//Equal column size plugin
+$(".equal-height").equalHeight();
