@@ -140,7 +140,7 @@ display: none;
    background-color: gray;
 }
 
-.continue p{
+.border-box p{
 color: #E64C1F;
 border: 3px solid #E64C1F;
 padding: 2px;
