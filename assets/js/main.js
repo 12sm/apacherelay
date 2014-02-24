@@ -52,9 +52,9 @@ $(document).ready(function(){
 
 //Equal column size plugin
 $(document).ready(function(){
-$('.equal-height').equalHeight();
+$('.equal-height').equalHeights();
 });
 
 $(window).resize(function(){
-$('.equal-height').equalHeight();
+$('.equal-height').equalHeights();
 });
