@@ -83,7 +83,13 @@ body { }
    background-repeat: no-repeat;
 }
 
+.store-headline{
+   font-size: 72px;
+}
 
+.store-box p{
+   font-size: 30px!important;
+}
 /* ==========================================================================
    Sidebar
    ========================================================================== */
