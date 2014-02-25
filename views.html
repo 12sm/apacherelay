@@ -122,3 +122,38 @@
     [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]
+
+
+<!--Blog Home-->
+[wpv-layout-start]
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
+  <div class="container-fluid blog-home-body">
+      <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+      <wpv-loop>
+      <div class="row">
+      <div class="col-sm-12">
+        <h1>[wpv-post-title]</h1>
+      </div>
+      </div>
+        <div class="row blog-margin">
+          <div class="col-sm-2 border-box">
+            <p>Continue</p>
+          </div>
+        </div>
+    </wpv-loop>
+      <div class="row">
+        <div class="col-sm-3 more-blogs">
+          <h3>+More Dates</h3>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]

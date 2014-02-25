@@ -2,6 +2,11 @@
  * Roots 6.5.0
  */
 
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
 @font-face{
    font-family: "bebas";
    src: url(../fonts/BEBAS.TTF);
