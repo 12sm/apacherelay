@@ -23,10 +23,7 @@ get_header(); ?>
 		<?php the_content(); ?>
 		</div>
 		</div>
-		<?php else : ?>
-<h6 class="center">Not Found</h6>
-<p class="center">Sorry, but you are looking for something that isn't here.</p>
-
+		<?php endwhile; ?>
 	<?php endif; ?>
 		</div>
 		<div class="col-sm-2">
