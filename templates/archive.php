@@ -20,7 +20,7 @@ get_header(); ?>
 		</div>
 		<div class="row">
 		<div class="col-sm-12">
-		<?php the_content(); ?>
+		<p><?php the_content(); ?></p>
 		</div>
 		</div>
 		<?php endwhile; ?>
