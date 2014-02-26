@@ -35,6 +35,10 @@ h1, h2, h3, a, p{
    word-spacing: 2px;
    letter-spacing: .5px;
 }
+
+p{
+   color: #FFFFFF;
+}
 body { }
 
 .music-body{
@@ -97,6 +101,10 @@ body { }
    ========================================================================== */
 .music-content{
    margin-top: 4%;
+}
+
+.content>.row{
+   margin-top: 25px;
 }
 
 /* ==========================================================================

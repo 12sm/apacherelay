@@ -27,3 +27,62 @@
 		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+
+<!--Music content Type-->
+<!--Music content Type-->
+[wpv-layout-start]
+  [wpv-items-found]
+  <!-- wpv-loop-start -->
+<div class="container-fluid music-body">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 marg-top-sm">
+    <wpv-loop>
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="[types field="featured-image" output="raw"][/types]" class="img-responsive">
+            </div>
+            <div class="col-sm-8">
+                  <h1>[wpv-post-title]</h1>
+                </div>
+              </div>
+              <div class="row marg-top-sm">
+                [wpv-if $store2="wpcf-store-url-2" evaluate="!empty($store2)"]
+                <div class="col-sm-6">
+                  <a href="[types field="store-link" output="raw"][/types]"><img src="[types field="store-graphic" output="raw"][/types]" class="img-responsive"></a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="[types field="store-link" output="raw"][/types]"><img src="[types field="store-graphic" output="raw"][/types]" class="img-responsive"></a>
+                </div>
+                [/wpv-if]
+                [wpv-if $store2="wpcf-store-url-2" evaluate="empty($store2)"]
+                <div class="col-sm-4">
+                  <a href="[types field="store-link" output="raw"][/types]"><img src="[types field="store-graphic" output="raw"][/types]" class="img-responsive"></a>
+                </div>
+                <div class="col-sm-8">
+                  <h3>[types field="headline" output="raw"][/types]</h3>
+                </div>
+          [/wpv-if]
+          </div>
+              <div class="row marg-top-sm">
+            <div class="col-sm-12">
+              <div id="fit-vid">
+              [types field="music-player" output="raw"][/types]
+              </div>
+            </div>
+          </div>
+              <div class="row">
+                <div class="col-sm-12 marg-top-sm">
+                <p>[types field="description" output="raw"][/types]</p>
+            </div>
+          </div> 
+    </wpv-loop>
+    </div>
+  </div>
+</div>
+  <!-- wpv-loop-end -->
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
