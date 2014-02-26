@@ -54,6 +54,9 @@ body { }
 .marg-top-sm{
    margin-top: 15px;
 }
+.marg-top-md{
+   margin-top: 20px;
+}
 .marg-top-lg{
    margin-top: 55px;
 }
