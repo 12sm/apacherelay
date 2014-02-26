@@ -42,6 +42,10 @@
 
 <?php if (comments_open()) : ?>
   <section id="respond">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
     <h3><?php comment_form_title(__('Leave a Reply', 'roots'), __('Leave a Reply to %s', 'roots')); ?></h3>
     <p class="cancel-comment-reply"><?php cancel_comment_reply_link(); ?></p>
     <?php if (get_option('comment_registration') && !is_user_logged_in()) : ?>
@@ -76,5 +80,7 @@
         <?php do_action('comment_form', $post->ID); ?>
       </form>
     <?php endif; ?>
+    </div>
+    </div>
   </section><!-- /#respond -->
 <?php endif; ?>
