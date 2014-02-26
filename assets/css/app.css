@@ -43,6 +43,10 @@ body { }
    padding-bottom: 5%;
 }
 
+.container-fluid>*{
+   margin-left: 10px;
+   margin-right: 10px;
+}
 .marg-top-sm{
    margin-top: 15px;
 }
@@ -282,7 +286,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:992px) { }
+@media (min-width:992px) {
+.container-fluid>*{
+   margin-left: inherit;
+   margin-right: inherit;
+}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) { }
