@@ -5,6 +5,10 @@
 
  if (have_comments()) : ?>
   <section id="comments">
+  <div class="row">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8">
     <h3><?php printf(_n('One Response to &ldquo;%2$s&rdquo;', '%1$s Responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'roots'), number_format_i18n(get_comments_number()), get_the_title()); ?></h3>
 
     <ol class="media-list">
@@ -29,6 +33,8 @@
       <?php _e('Comments are closed.', 'roots'); ?>
     </div>
     <?php endif; ?>
+    </div>
+    </div>
   </section><!-- /#comments -->
 <?php endif; ?>
 
