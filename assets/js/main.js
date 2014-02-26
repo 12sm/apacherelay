@@ -49,3 +49,8 @@ $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $("#fit-vid").fitVids();
   });
+
+//Flexslider
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
