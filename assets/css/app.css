@@ -54,7 +54,9 @@ body { }
 .marg-top-sm{
    margin-top: 15px;
 }
-
+.marg-top-lg{
+   margin-top: 35px;
+}
 
 .gallery-home-body{
    background-color: gray;
