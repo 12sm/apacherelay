@@ -227,11 +227,11 @@ font-size: 18px;
    color: #FFF;
 }
 
-.blog-title a{
+.blog-title, .blog-title a{
    color: #E64C1F;
 }
 .blog-title a:hover{
-   color: #E64C1F;
+   color: #E64C1F!important;
 }
 
 .blog-body p{
