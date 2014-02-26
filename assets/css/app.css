@@ -17,12 +17,12 @@ html {
    ========================================================================== */
 h1{
    color: #FFFFFF;
-   font-size: 80px;
+   font-size: 60px;
 }
 
 h2{
    color: #FFFFFF;
-   font-size: 60px;
+   font-size: 50px;
 }
 
 h3{
@@ -292,6 +292,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    }
    .bit-location{
    width: 18%!important;
+}
+
+h1{
+   font-size: 80px;
+}
+h2{
+   font-size: 60px;
 }
  }
 
