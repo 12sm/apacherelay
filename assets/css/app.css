@@ -297,12 +297,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    width: 18%!important;
 }
 
-h1{
-   font-size: 80px;
-}
-h2{
-   font-size: 60px;
-}
+
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -310,6 +305,12 @@ h2{
 .container-fluid>*{
    margin-left: inherit;
    margin-right: inherit;
+}
+h1{
+   font-size: 80px;
+}
+h2{
+   font-size: 60px;
 }
  }
 
