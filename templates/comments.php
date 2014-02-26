@@ -34,8 +34,14 @@
 
 <?php if (!have_comments() && !comments_open() && !is_page() && post_type_supports(get_post_type(), 'comments')) : ?>
   <section id="comments">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
     <div class="alert alert-warning">
       <?php _e('Comments are closed.', 'roots'); ?>
+    </div>
+    </div>
     </div>
   </section><!-- /#comments -->
 <?php endif; ?>
