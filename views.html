@@ -51,7 +51,7 @@
   [wpv-items-found]
   <!-- wpv-loop-start -->
 <div class="container-fluid video-body">
-  <div class="row video-content">
+  <div class="row" id="vid-content">
     <div class="col-lg-3">
     </div>
     <div class="col-lg-6">
@@ -76,15 +76,36 @@
   </div>
   </div>
   </div>
-  </div>
+  <script type="text/javascript">
+  $(".launch-vid").click(function(){
+    $("#vid-content").addClass("hide");
+    $('#video-player').removeClass("hide");
+  });
+  </script>
+  <div class="row hide" id="video-player">
+    <div class="col-sm-12 flexslider">
     <wpv-loop>
+      <ul class="slides">
+        <li>
+          [wpv-if select="wpcf-select" evaluate="$select=1"]
+      [types field="video-embed"][/types]
+          [/wpv-if]
+          [wpv-if select="wpcf-select" evaluate="$select=2"]
+                <iframe id="player_1" src="[types field="video-url" output="raw"][/types]" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          [/wpv-if]
+        </li>
+      </ul>
     </wpv-loop>
+  </div>
+  </div>
+  </div>
   <!-- wpv-loop-end -->
   [/wpv-items-found]
   [wpv-no-items-found]
     [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]
+
 <!--Tour-->
 [wpv-layout-start]
   [wpv-items-found]
