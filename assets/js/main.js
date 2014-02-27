@@ -48,6 +48,7 @@ $(document).ready(UTIL.loadEvents);
 $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $("#fit-vid").fitVids();
+    $(".flexslider").fitVids();
   });
 
 //Flexslider
