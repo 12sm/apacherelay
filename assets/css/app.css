@@ -308,6 +308,9 @@ background: url(polina.jpg) no-repeat;
 background-size: cover;
 }
 
+.vid-layer-top{
+   z-index: 100;
+}
 .video-body{
    background-color: gray;
    padding-bottom: 10%;
