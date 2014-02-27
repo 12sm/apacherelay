@@ -212,6 +212,10 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
+/*Full Width Fix*/
+#video-player > div > ul.slides > li > div > iframe{
+   width: 100%
+}
 
 /* ==========================================================================
    Store
