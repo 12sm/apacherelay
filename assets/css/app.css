@@ -214,7 +214,8 @@ html[xmlns] .slides {display: block;}
 }
 /*Full Width Fix*/
 #video-player > div > ul.slides > li > div > iframe{
-   width: 100%
+   width: 100%;
+   height: 200px;
 }
 
 /* ==========================================================================
@@ -400,6 +401,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    }
    .bit-location{
    width: 18%!important;
+}
+
+#video-player > div > ul.slides > li > div > iframe{
+   height: inherit;
 }
 
 
