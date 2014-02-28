@@ -45,7 +45,7 @@ a{
 }
 body { }
 
-.un-rotate {
+.rotate-pos {
 	-webkit-transform: rotate(2deg);
      -moz-transform: rotate(2deg);
      -ms-transform: rotate(2deg);
@@ -53,7 +53,23 @@ body { }
      transform: rotate(2deg);
 }
 
-.un-rotate-opposite {
+.rotate-neg {
+	-webkit-transform: rotate(-2deg);
+     -moz-transform: rotate(-2deg);
+     -ms-transform: rotate(-2deg);
+     -o-transform: rotate(-2deg);
+     transform: rotate(-2deg);
+}
+
+.un-rotate-pos {
+	-webkit-transform: rotate(2deg);
+     -moz-transform: rotate(2deg);
+     -ms-transform: rotate(2deg);
+     -o-transform: rotate(2deg);
+     transform: rotate(2deg);
+}
+
+.un-rotate-neg {
 	-webkit-transform: rotate(-2deg);
      -moz-transform: rotate(-2deg);
      -ms-transform: rotate(-2deg);
