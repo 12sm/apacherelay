@@ -45,6 +45,22 @@ a{
 }
 body { }
 
+.un-rotate {
+	-webkit-transform: rotate(2deg);
+     -moz-transform: rotate(2deg);
+     -ms-transform: rotate(2deg);
+     -o-transform: rotate(2deg);
+     transform: rotate(2deg);
+}
+
+.un-rotate-opposite {
+	-webkit-transform: rotate(-2deg);
+     -moz-transform: rotate(-2deg);
+     -ms-transform: rotate(-2deg);
+     -o-transform: rotate(-2deg);
+     transform: rotate(-2deg);
+}
+
 .music-body{
    background-image: url(../img/music-bg.jpg);
    background-size: cover;
