@@ -120,3 +120,7 @@ $(function() {
   $('#videoFeature').on("show.bs.modal", function(){
     console.log("Shown function is firing")
   });
+
+ $('#videoFeature').on('hide.bs.modal', tear_down_modal);
+
+tear_down_modal = function() { console.log('down') };
