@@ -302,7 +302,7 @@ display: none;
 }
 
 #myModal{
-   margin-top: 45%;
+   margin-top: 40%;
 }
 .launch-vid:hover{
 cursor: pointer;
@@ -438,7 +438,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    width: 18%!important;
 }
 #myModal{
-   margin-top: 5%;
+   margin-top: 3%;
 }
  }
 
@@ -455,7 +455,7 @@ h2{
    font-size: 60px;
 }
 #myModal{
-   margin-top: 5%;
+   margin-top: 1%;
 }
  }
 
