@@ -304,7 +304,9 @@ display: none;
 #myModal{
    margin-top: 45%;
 }
-
+.launch-vid:hover{
+cursor: pointer;
+}
 .modal-dialog{
    width: 90%;
 }
