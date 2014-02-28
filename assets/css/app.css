@@ -41,7 +41,7 @@ p{
 }
 
 a{
-   color: initial;
+   color: inherit!important;
 }
 body { }
 
