@@ -317,8 +317,13 @@ background-size: cover;
 .vid-layer-top{
    z-index: 100;
 }
+.video-body #video-player{
+   background-color: black;
+   padding: 0;
+}
+
 .video-body{
-   padding-bottom: 10%;
+   padding-bottom: 7%;
    padding-top: 7%;
 }
 .border-box-white{
