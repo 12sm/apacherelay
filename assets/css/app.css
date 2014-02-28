@@ -265,6 +265,7 @@ html[xmlns] .slides {display: block;}
       background-image: url(../img/tour-bg.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+	  background-position:center;
 }
 
 .bit-venue{
