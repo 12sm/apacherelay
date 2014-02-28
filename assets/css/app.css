@@ -76,6 +76,8 @@ body { }
    border-color: #FFF!important;
 }
 
+.bit-location {width:23%;}
+
 .bit-venue, .bit-date, .bit-description-links,
 .bit-location, .bit-tickets
 {font-size:20px!important;}
@@ -454,7 +456,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
       font-size: 56px;
    }
    .bit-location{
-   width: 23%!important;
+   width: 18%!important;
 }
 #myModal{
    margin-top: 3%;
