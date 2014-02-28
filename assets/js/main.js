@@ -119,4 +119,4 @@ $(function() {
 });
   $('#videoFeature').on("show.bs.modal", function(){
     console.log("Shown function is firing")
-  })
+  });
