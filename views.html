@@ -51,10 +51,15 @@
   [wpv-items-found]
   <!-- wpv-loop-start -->
 <div class="container-fluid video-body">
+  <div id="video-container">
+  <video autoplay loop poster="/assets/img/back.jpg" id="bgvid">
+    <source src="/wp-content/themes/apacherelay/assets/img/back.webm" type="video/webm">
+      <source src="/wp-content/themes/apacherelay/assets/img/back.mp4" type="video/mp4">
+    </video>
   <div class="row" id="vid-content">
     <div class="col-lg-3">
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 vid-layer-top">
       <div class="row">
         <div class="co-sm-12">
 <h1 class="vid-text">The Apache Relay</h1>
@@ -88,10 +93,10 @@
       <ul class="slides">
         <li>
           [wpv-if select="wpcf-select" evaluate="$select=1"]
-      [types field="video-embed"][/types]
+      [types field="video-embed"][/types]<!--option1-->
           [/wpv-if]
           [wpv-if select="wpcf-select" evaluate="$select=2"]
-                <iframe id="player_1" src="[types field="video-url" output="raw"][/types]" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <iframe id="player_1" src="[types field="video-url" output="raw"][/types]" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><!--option2-->
           [/wpv-if]
         </li>
       </ul>
@@ -99,6 +104,7 @@
   </div>
   </div>
   </div>
+</div>
   <!-- wpv-loop-end -->
   [/wpv-items-found]
   [wpv-no-items-found]
