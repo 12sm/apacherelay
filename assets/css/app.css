@@ -430,6 +430,11 @@ font-size: 18px;
 .blog-body p{
    color: #fff;
 }
+
+body > div.container-fluid.blog-home-body > div > div > div:nth-child(1) > div > a > h1:hover {
+color:#E64C1F;
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
