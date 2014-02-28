@@ -75,6 +75,9 @@ body { }
    color: #FFF!important;
    border-color: #FFF!important;
 }
+
+.bit-venue, .bit-date, .bit-description-links {font-size:20px!important;}
+
 /* ==========================================================================
    Header
    ========================================================================== */
