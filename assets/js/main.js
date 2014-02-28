@@ -113,7 +113,7 @@ $(function() {
 });
 
 //home page video scripts
-  $('#videoFeature').on('hide.bs.modal', function(){
+  $('body').on('hide.bs.modal', function(){
       $('#bgvid').get(0).play();
     console.log("modal hide listen is working");
 });
