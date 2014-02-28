@@ -431,7 +431,7 @@ font-size: 18px;
    color: #fff;
 }
 
-body > div.container-fluid.blog-home-body > div > div > div:nth-child(1) > div > a > h1:hover {
+body > div.container-fluid.blog-home-body > div > div > div > div > a > h1:hover {
 color:#E64C1F;
 }
 
