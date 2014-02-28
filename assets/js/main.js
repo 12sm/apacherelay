@@ -113,7 +113,6 @@ $(function() {
 });
 
 //home page video scripts
-<script type="text/javascript">
   $(".launch-vid").click(function(){
     $("#myModal").modal();
     $('#bgvid').get(0).pause();
@@ -123,4 +122,3 @@ $(function() {
       $('#bgvid').get(0).play();
     console.log("modal hide listen is working");
 });
-</script>
