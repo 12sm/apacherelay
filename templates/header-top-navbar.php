@@ -21,9 +21,15 @@
       </div>
       </div>
     </nav>
-    <video autoplay loop poster="/assets/img/back.jpg" id="bgvid">
+  </div>
+</header>
+<div class="top-banner container-fluid">
+<div class="container">
+<div class="row">
+</div>
+</div>
+ <video autoplay loop poster="/assets/img/back.jpg" id="bgvid">
     <source src="/wp-content/themes/apacherelay/assets/img/back.webm" type="video/webm">
       <source src="/wp-content/themes/apacherelay/assets/img/back.mp4" type="video/mp4">
     </video>
-  </div>
-</header>
+    </div>
