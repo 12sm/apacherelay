@@ -266,6 +266,7 @@ html[xmlns] .slides {display: block;}
       background-size: cover;
       background-repeat: no-repeat;
 	  background-position:center;
+	  padding: 50px 0px;
 }
 
 .tour-body h3 {
