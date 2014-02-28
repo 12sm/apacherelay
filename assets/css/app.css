@@ -39,6 +39,10 @@ h1, h2, h3, a, p{
 p{
    color: #FFFFFF;
 }
+
+a{
+   color: initial;
+}
 body { }
 
 .music-body{
