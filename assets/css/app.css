@@ -301,6 +301,10 @@ display: none;
    padding: 00px!important;
 }
 
+#myModal{
+   margin-top: 45%;
+}
+
 .modal-dialog{
    width: 90%;
 }
@@ -431,7 +435,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    .bit-location{
    width: 18%!important;
 }
-
+#myModal{
+   margin-top: 5%;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -445,6 +451,9 @@ h1{
 }
 h2{
    font-size: 60px;
+}
+#myModal{
+   margin-top: 5%;
 }
  }
 
