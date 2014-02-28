@@ -297,6 +297,8 @@ display: none;
    ========================================================================== */
 .page-header{
    border: 0px #FFF solid!important;
+   margin: 0px!important;
+   padding: 00px!important;
 }
 
 video#bgvid {
@@ -318,7 +320,6 @@ background-size: cover;
    z-index: 100;
 }
 #video-player{
-   background-color: black;
    padding: 0;
 }
 
