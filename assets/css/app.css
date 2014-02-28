@@ -301,6 +301,9 @@ display: none;
    padding: 00px!important;
 }
 
+.modal-dialog{
+   width: 90%;
+}
 video#bgvid {
 position: fixed;
 top: 0;

@@ -50,13 +50,8 @@
 [wpv-layout-start]
   [wpv-items-found]
   <!-- wpv-loop-start -->
-<div class="container-fluid video-body">
-  <div id="video-container">
-  <video autoplay loop poster="/assets/img/back.jpg" id="bgvid">
-    <source src="/wp-content/themes/apacherelay/assets/img/back.webm" type="video/webm">
-      <source src="/wp-content/themes/apacherelay/assets/img/back.mp4" type="video/mp4">
-    </video>
-  <div class="row" id="vid-content">
+<div class="container-fluid video-body" id="vid-content">
+  <div class="row" >
     <div class="col-lg-3">
     </div>
     <div class="col-lg-6 vid-layer-top">
@@ -81,30 +76,38 @@
   </div>
   </div>
   </div>
+</div>
   <script type="text/javascript">
   $(".launch-vid").click(function(){
-    $("#vid-content").addClass("hide");
-    $('#video-player').removeClass("hide");
+    $("#myModal").modal();
   });
   </script>
-  <div class="row hide" id="video-player">
-    <div class="col-sm-12 flexslider">
     <wpv-loop>
-      <ul class="slides">
-        <li>
+          <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
           [wpv-if select="wpcf-select" evaluate="$select=1"]
       [types field="video-embed"][/types]<!--option1-->
           [/wpv-if]
           [wpv-if select="wpcf-select" evaluate="$select=2"]
                 <iframe id="player_1" src="[types field="video-url" output="raw"][/types]" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><!--option2-->
           [/wpv-if]
-        </li>
-      </ul>
-    </wpv-loop>
-  </div>
-  </div>
+         </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
 </div>
+   
+    </wpv-loop>
   <!-- wpv-loop-end -->
   [/wpv-items-found]
   [wpv-no-items-found]
