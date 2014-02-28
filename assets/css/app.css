@@ -272,7 +272,7 @@ html[xmlns] .slides {display: block;}
    } */
    
 td.bit-date {
-width: 90px;
+width: 90px!important;
 }
 
 .bit-header-overflow-fix span, .bit-header-overflow-fix span a{
