@@ -317,7 +317,7 @@ background-size: cover;
 .vid-layer-top{
    z-index: 100;
 }
-.video-body #video-player{
+#video-player{
    background-color: black;
    padding: 0;
 }
