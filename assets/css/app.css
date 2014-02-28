@@ -79,8 +79,10 @@ body { }
 .bit-location {width:23%;}
 
 .bit-venue, .bit-date, .bit-description-links,
-.bit-location, .bit-tickets
-{font-size:20px!important;}
+.bit-location, .bit-tickets {
+	font-size:20px!important;
+	padding:10px 0px;
+}
 
 /* ==========================================================================
    Header
