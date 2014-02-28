@@ -295,17 +295,14 @@ display: none;
 /* ==========================================================================
    Video
    ========================================================================== */
-
-#video-container {
-   position: absolute;
-   top:0%;
-   left:0%;
-   height:100%;
-   width:100%;
-   overflow: hidden;
+.page-header{
+   border: 0px #FFF! solid!important;
 }
+
 video#bgvid {
 position: absolute;
+top: 0;
+left:0;
 right: 0;
 bottom: 0;
 min-width: 100%;
@@ -321,7 +318,6 @@ background-size: cover;
    z-index: 100;
 }
 .video-body{
-   background-color: gray;
    padding-bottom: 10%;
    padding-top: 7%;
 }
