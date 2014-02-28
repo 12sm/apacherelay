@@ -117,6 +117,6 @@ $(function() {
       $('#bgvid').get(0).play();
     console.log("modal hide listen is working");
 });
-  $('#videoFeature').on("show.bs.modal", function(){
+  $(body).on("show.bs.modal", function(){
     console.log("Shown function is firing")
   });
