@@ -113,10 +113,10 @@ $(function() {
 });
 
 //home page video scripts
-  $('#myModal').on('hide.bs.modal', function(){
+  $('#videoFeature').on('hide.bs.modal', function(){
       $('#bgvid').get(0).play();
     console.log("modal hide listen is working");
 });
-  $('#myModal').on("show.bs.modal", function(){
+  $('#videoFeature').on("show.bs.modal", function(){
     console.log("Shown function is firing")
   })
