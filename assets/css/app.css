@@ -268,6 +268,10 @@ html[xmlns] .slides {display: block;}
 	  background-position:center;
 }
 
+.tour-body h3 {
+	margin-left: -10px;
+}
+
 .bit-venue{
       display: none;
 }
