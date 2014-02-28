@@ -253,38 +253,47 @@ html[xmlns] .slides {display: block;}
 /* ==========================================================================
    Tour
    ========================================================================== */
-   .tour-body{
+.tour-body{
       background-image: url(../img/tour-bg.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-   }
+}
 
-   .bit-venue{
+.bit-venue{
       display: none;
-   }
-   .bit-description-links{
+}
+
+.bit-description-links{
       display: none;
-   }
-   .bit-date{
+}
+   
+   /* .bit-date{
       width: 9%;
-   }
+   } */
+   
+td.bit-date {
+width: 90px;
+}
 
-  .bit-header-overflow-fix span, .bit-header-overflow-fix span a{
+.bit-header-overflow-fix span, .bit-header-overflow-fix span a{
    color: #646464!important;
-  }
+}
 
-  tr th{
+tr th{
    color: #646464!important;
-  }
+}
+
 .bit-event-data{
    letter-spacing: .5px!important;
    word-spacing: 3px!important;
 }
+
 .bit-buy-tix {
 color: #E64C1F;
 text-decoration: none;
 font-weight: bold;
 }
+
 a:hover{
    text-decoration: none!important;
    color: inherit!important;
