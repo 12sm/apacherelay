@@ -1,6 +1,7 @@
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
 var modalUp= 0;
+console.log("I should fire at the top");
 var ExampleSite = {
   // All pages
   common: {
@@ -32,6 +33,8 @@ $('body').on('click', function(e) {
   }
 };
 
+console.log("I'm in the middle");
+
 var UTIL = {
   fire: function(func, funcname, args) {
     var namespace = ExampleSite;
@@ -59,6 +62,8 @@ $(document).ready(function(){
     $("#fit-vid").fitVids();
     $(".flexslider").fitVids();
   });
+
+console.log("I'm line 66");
 
 //Flexslider
   $(window).load(function() {
