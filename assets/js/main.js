@@ -1,6 +1,6 @@
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
-
+var modalUp= 0;
 var ExampleSite = {
   // All pages
   common: {
@@ -12,7 +12,16 @@ var ExampleSite = {
   // Home page
   home: {
     init: function() {
-      // JS here
+     //home page video scripts
+
+if (modalUp == 1) {
+$('body').on('click', function(e) {
+  $('#bgvid').get(0).play(); 
+  modalUp=0; 
+  });
+};
+ 
+ console.log(modalUp);
     }
   },
   // About page
@@ -112,11 +121,3 @@ $(function() {
   });
 });
 
-//home page video scripts
-var modalUp= 0;
-if (modalUp == 1) {
-$('body').on('click', function(e) {
-  $('#bgvid').get(0).play();  
-  });
-};
- 
