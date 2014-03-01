@@ -77,17 +77,20 @@
   </div>
   </div>
 </div>
-  <script type="text/javascript">
-  $(".launch-vid").click(function(){
-    $("#myModal").modal();
+<script>
+  var modalUp=0;
+   $(".launch-vid").click(function(){
+    $("#videoFeature").modal();
+    $('#bgvid').get(0).pause();
+    var modalUp=1;
   });
-  </script>
+</script>
     <wpv-loop>
           <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+<div class="modal fade" id="videoFeature" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
     <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
       <div class="modal-body flexslider">
           [wpv-if select="wpcf-select" evaluate="$select=1"]
       [types field="video-embed"][/types]<!--option1-->
@@ -100,6 +103,7 @@
   </div>
   </div>
     </wpv-loop>
+
   <!-- wpv-loop-end -->
   [/wpv-items-found]
   [wpv-no-items-found]

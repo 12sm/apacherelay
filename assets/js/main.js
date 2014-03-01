@@ -113,6 +113,7 @@ $(function() {
 });
 
 //home page video scripts
+var modalUp= 0;
 if (modalUp == 1) {
 $('body').on('click', function(e) {
   $('#bgvid').get(0).play();  
