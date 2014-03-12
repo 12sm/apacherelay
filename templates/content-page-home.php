@@ -4,7 +4,7 @@
   
   <?php 
   $video = do_shortcode('[wpv-view name="background-video"]');
-  $vidID = youtube_id_from_url(do_shortcode('[wpv-view name="background-video"]'));
+  $vidID = function youtube_id_from_url($video);
   
   echo $vidID;
   echo "poop";
