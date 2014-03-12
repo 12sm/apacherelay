@@ -4,7 +4,10 @@
   
   <?php 
   $video = do_shortcode('[wpv-view name="background-video"]');
-  $vidID = youtube_id_from_url($video) ?>
+  $vidID = youtube_id_from_url($video);
+  echo $video;
+  echo $vidID;
+  ?>
   <script type="text/javascript">
             $(document).ready(function(){
             	$videoURL= <?php echo $vidID?>
