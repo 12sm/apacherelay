@@ -4,7 +4,7 @@ function youtube_id_from_url($atts) {
     'url' => '00000',
    ), $atts));   
     $result = preg_match("#(?<=v=)[a-zA-Z0-9-]+(?=&)|(?<=v\/)[^&\n]+(?=\?)|(?<=v=)[^&\n]+|(?<=youtu.be/)[^&\n]+#", $url, $matches);
-    return $result;
+    return $matches[0];
 }
 
 
