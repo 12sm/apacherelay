@@ -176,13 +176,13 @@ min-height:800px; /* adding height to each section. Not sure if this is the best
    Tour Section [Home]
    ======================= */
    
-.bit-description-links,
-.bit-date, 
-.bit-venue,
-.bit-location,
+.bit-description-links a:hover,
+.bit-date a:hover, 
+.bit-venue a:hover,
+.bit-location a:hover,
 .bit-tickets a:hover,
 .bit-rsvp a:hover {
-	color:#777;
+	color:#777!important;
 }
    
 /* =======================
