@@ -1,5 +1,5 @@
 <?php
-function youtube_id_from_url($url) 
+function youtube_id_from_url($url) {
     $pattern = 
         '%^# Match any youtube URL
         (?:https?://)?  # Optional scheme. Either http or https
