@@ -169,7 +169,7 @@ min-height:800px; /* adding height to each section. Not sure if this is the best
 }
 
 #tubular-container{
-  z-index: -100!important;
+  z-index: -10000!important;
 }
 
 
