@@ -5,7 +5,7 @@
 
 do_shortcode('[wpv-view name="Home-video"]');
 
-do_shortcode('[wpv-view name="Music"])';
+do_shortcode('[wpv-view name="Music"]');
 
 do_shortcode('[wpv-view name="Tour"]');
 
