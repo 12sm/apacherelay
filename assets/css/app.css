@@ -134,6 +134,25 @@ line-height: 3em;
    text-align: center;
 }
 
+.navbar-default {
+background: rgba(0,0,0,.10);
+border: none!important;
+position: fixed;
+width: 100%;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+background:none!important;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #FFF!important;
+}
+
+#menu-navbar > li > a:hover {
+color: rgb(111,111,111)!important;
+}
+
 /* ==========================================================================
    Content
    ========================================================================== */
