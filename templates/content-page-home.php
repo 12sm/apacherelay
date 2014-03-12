@@ -7,6 +7,7 @@
   $vidID = youtube_id_from_url($video);
   echo $video;
   echo $vidID;
+  echo "poop";
   ?>
   <script type="text/javascript">
             $(document).ready(function(){
