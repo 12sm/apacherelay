@@ -196,9 +196,21 @@ min-height:800px; /* adding height to each section. Not sure if this is the best
 /* =======================
    Store Section [Home]
    ======================= */
-=======
+
 #tubular-container{
   z-index: -10000!important;
+}
+
+/* ==========================================================================
+   Tour [Page]
+   ========================================================================== */
+
+body.tour .tour-body {
+background-attachment: fixed;
+}
+
+body.tour .tour-body h3 {
+display: none;
 }
 
 
