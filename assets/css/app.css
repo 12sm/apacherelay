@@ -293,6 +293,7 @@ html[xmlns] .slides {display: block;}
 .store-body{
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
+   background-position:center;
    background-repeat: no-repeat;
    padding: 5%;
 }
