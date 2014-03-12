@@ -180,7 +180,7 @@ min-height:800px; /* adding height to each section. Not sure if this is the best
 .bit-date, 
 .bit-venue,
 .bit-location,
-.bit-tickets,
+.bit-tickets a:hover,
 .bit-rsvp a:hover {
 	color:#777;
 }
