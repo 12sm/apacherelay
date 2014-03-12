@@ -155,10 +155,18 @@ color: rgb(111,111,111)!important;
 }
 
 /* ==========================================================================
-   Content
+   Content - HOME
    ========================================================================== */
 
 .content { }
+
+.music-body,
+.tour-body,
+.blog-home-body,
+.gallery-home-body,
+.store-body {
+min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
+}
 
 
 
