@@ -21,5 +21,6 @@ function youtube_id_from_url($url) {
         return $matches[1];
     }
     return false;
+    echo false;
 }
 ?>
