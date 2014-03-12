@@ -161,6 +161,13 @@ color: rgb(111,111,111)!important;
 min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
 }
 
+#tubular-shield{
+   z-index: -10000!important;
+}
+#vid-content{
+   z-index: 5!important;
+}
+
 /* =======================
    Music Section [Home]
    ======================= */
