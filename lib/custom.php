@@ -18,8 +18,8 @@ function youtube_id_from_url(&$url) {
         ;
     $result = preg_match($pattern, $url, $matches);
     if (false !== $result) {
-        return $matches[1];
-        echo $matches[1];
+        return $matches[0];
+        echo $matches[0];
     }
     return false;
     echo false;
