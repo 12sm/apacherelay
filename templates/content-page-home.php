@@ -3,7 +3,7 @@
   <?php the_content(); ?>
   
   <?php 
-  $video = "do_shortcode('[wpv-view name="background-video"]')";
+  $video = do_shortcode('[wpv-view name="background-video"]');
   echo youtube_id_from_url($video) ?>
   <script type="text/javascript">
             $(document).ready(function(){
