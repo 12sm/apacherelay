@@ -11,6 +11,6 @@ function youtube_id_from_url($atts) {
 }
 
 
-add_shortcode('youtube_ID', 'youtube_id_from_url');
+add_shortcode('youtube_id', 'youtube_id_from_url');
 
 ?>
