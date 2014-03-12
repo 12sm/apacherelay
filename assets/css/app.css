@@ -50,6 +50,10 @@ color: #FFF;
 border: 3px solid #FFF;
 }
 
+a h3.smaller:hover {
+color: #FFF;
+}
+
 .rotate-pos {
 	-webkit-transform: rotate(2deg);
      -moz-transform: rotate(2deg);
