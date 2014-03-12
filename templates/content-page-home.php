@@ -4,10 +4,10 @@
   
   <?php 
   $video = do_shortcode('[wpv-view name="background-video"]');
-  echo youtube_id_from_url($video) ?>
+  $ vidID = youtube_id_from_url($video) ?>
   <script type="text/javascript">
             $(document).ready(function(){
-            	$videoURL= <?php echo $video?>
+            	$videoURL= <?php echo $vidID?>
     $('.video-content').tubular({videoId: '$videoURL',
             			repeat: true,
             		wrapperZIndex: -10000
