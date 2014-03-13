@@ -50,10 +50,10 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox and FitVids
-		$('.vid-feature').colorbox({maxWidth:'100%', maxHeight:'95%'});
-    // onComplete:function(){
-    //$("#cboxLoadedContent").fitVids();
+		$('.vid-feature').colorbox({maxWidth:'100%', innerHeight:'105%', onComplete:function(){
+    $("#cboxLoadedContent").fitVids();
     }
+  });
     
     //Begin Parallax
 	var $window = $(window);
