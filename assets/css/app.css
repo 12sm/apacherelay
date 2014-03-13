@@ -347,7 +347,7 @@ html[xmlns] .slides {display: block;}
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-position:center;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    padding: 5%;
 }
 
@@ -368,7 +368,7 @@ html[xmlns] .slides {display: block;}
    Tour
    ========================================================================== */
 .tour-body{
-      background: url(../img/tour-bg.jpg) top center no-repeat;
+      background: url(../img/tour-bg.jpg) top center repeat;
       background-size: cover;
 	  padding: 50px 0px;
 }
@@ -506,7 +506,7 @@ font-size: 18px;
 .blog-home-body{
    background-image: url(../img/news-bg.jpg);
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-position: center;
    padding: 50px 0px;
 }
