@@ -522,12 +522,17 @@ font-size: 18px;
    padding: 50px 0px;
 }
 
-.border-box p{
-color: #E64C1F;
+.border-box a{
+color: #E64C1F!important;
 border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
 font-size: 18px;
+}
+
+.border-box a:hover {
+color: #FFF!important;
+border: 3px solid #FFF;
 }
 
 .more-blogs h3{
