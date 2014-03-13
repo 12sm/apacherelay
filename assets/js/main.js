@@ -95,7 +95,7 @@ var Roots = {
 
     //FitVids
 
-    $("#cboxLoadedContent").FitVids();
+    $("#cboxLoadedContent").fitVids();
 
 
 =======
