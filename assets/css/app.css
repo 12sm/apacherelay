@@ -55,33 +55,19 @@ color: #FFF;
 }
 
 .rotate-pos {
-	-webkit-transform: rotate(2deg);
-     -moz-transform: rotate(2deg);
-     -ms-transform: rotate(2deg);
-     -o-transform: rotate(2deg);
-     transform: rotate(2deg);
-	 -webkit-transform-origin: left center;
-	-moz-transform-origin: left center;
-	-o-transform-origin: left center;
-	-ms-transform-origin: left center;
-	transform-origin: left center;
-	 margin:0 -20px;
-	 overflow:hidden;
+transform: skewY(3deg);
+-moz-transform: skewY(3deg);
+-webkit-transform: skewY(3deg);
+-o-transform: skewY(3deg);
+-ms-transform: skewY(3deg);
 }
 
 .rotate-neg {
-	-webkit-transform: rotate(-2deg);
-     -moz-transform: rotate(-2deg);
-     -ms-transform: rotate(-2deg);
-     -o-transform: rotate(-2deg);
-     transform: rotate(-2deg);
-	 -webkit-transform-origin: left center;
-	-moz-transform-origin: left center;
-	-o-transform-origin: left center;
-	-ms-transform-origin: left center;
-	transform-origin: left center;
-	 margin:0 -20px;
-	 overflow:hidden;
+transform: skewY(-3deg);
+-moz-transform: skewY(-3deg);
+-webkit-transform: skewY(-3deg);
+-o-transform: skewY(-3deg);
+-ms-transform: skewY(-3deg);
 }
 
 /*.go-full {margin:0 -20px; padding:0 20px;}*/
