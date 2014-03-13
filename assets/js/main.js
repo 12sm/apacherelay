@@ -53,8 +53,9 @@ var Roots = {
 		$('.vid-feature').colorbox();
 		
 		//FitVids
+    $('#cboxLoadedContent').load(function(){
 		$("#cboxLoadedContent").fitVids();
-    
+    });
     
     //Begin Parallax
 	var $window = $(window);
