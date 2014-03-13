@@ -50,11 +50,9 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox and FitVids
-		$(function(){
 		$('.vid-feature').colorbox({iframe:true, innerWidth:80%, innerHeight:80% onComplete:function(){
     	$("#cboxLoadedContent").fitVids();}, 
   		});
-    	});
     //Begin Parallax
 	var $window = $(window);
 	var $firstBG = $('.music-body');
