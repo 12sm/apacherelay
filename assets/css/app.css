@@ -470,10 +470,12 @@ background-size: cover;
    padding: 0;
 }
 
-.video-body{
-   padding-bottom: 30%;
-   padding-top: 7%;
+.video-body {
+padding-bottom: 40%;
+padding-top: 7%;
+height: 0px;
 }
+
 .border-box-white{
    margin-top: 10px;
 }
@@ -485,10 +487,12 @@ text-align: center;
 font-size: 18px;
 }
 
-.vid-icon{
-   text-align: center;
-   color: #D3D3D3;
-   margin-top: 1%;
+.vid-icon {
+text-align: center;
+color: #fff;
+padding-top: 20%;
+position: static;
+width: 140px;
 }
 
 .vid-text{
