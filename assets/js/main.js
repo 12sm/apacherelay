@@ -50,6 +50,7 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox and FitVids
+		$.getScript('http://www.youtube.com/player_api');
 		$('.vid-feature').colorbox({onComplete:function(){
     $("#cboxLoadedContent").fitVids();
     $("#tubular-player").get(0).stopVideo();
