@@ -53,7 +53,7 @@ var Roots = {
 		$('.vid-feature').colorbox({onCleanup:function(){
       console.log('cbox loaded')
     $("#cboxLoadedContent").fitVids();
-    });});
+    };});
     
     //Begin Parallax
 	var $window = $(window);
