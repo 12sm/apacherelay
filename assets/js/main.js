@@ -50,7 +50,7 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox and FitVids
-		$('.vid-feature').colorbox({width:'100%', maxwidth:'80%', onComplete:function(){
+		$('.vid-feature').colorbox({width:'100%', innerWidth:'80%', onComplete:function(){
     $("#cboxLoadedContent").fitVids();
     }
   });
