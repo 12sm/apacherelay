@@ -50,7 +50,7 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox
-    $('.colorbox').colorbox({iframe:true});
+    $('.vid-feature').colorbox({iframe:true});
 
       
     }
