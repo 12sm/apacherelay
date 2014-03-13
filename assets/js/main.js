@@ -48,7 +48,6 @@ var Roots = {
 		   });
 		});
 		// End Smooth Scroll
-<<<<<<< HEAD
 		
 		//Colorbox
 		$('.vid-feature').colorbox();
