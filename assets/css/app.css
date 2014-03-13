@@ -368,11 +368,9 @@ html[xmlns] .slides {display: block;}
    Tour
    ========================================================================== */
 .tour-body{
-      background: url(../img/tour-bg.jpg) top center no-repeat fixed;
+      background: url(../img/tour-bg.jpg) top center no-repeat;
       background-size: cover;
 	  padding: 50px 0px;
-	  -webkit-backface-visibility:hidden; 
-	  -webkit-transform: translateZ(0);
 }
 
 .tour-body h3 {
