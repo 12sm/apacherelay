@@ -554,7 +554,13 @@ min-height: 400px;
 
 .blog-post-square h1 {
 font-size: 31px;
-margin-bottom:0;
+margin-bottom: -20px;
+}
+
+span.post-date {
+color: #A5A5A5;
+font-size: 11px;
+margin-top: 0;
 }
 
 /* ==========================================================================
