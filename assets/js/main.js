@@ -54,6 +54,7 @@ var Roots = {
 		
 		//FitVids
     $('#cboxLoadedContent').load(function(){
+      console.log('cbox loaded')
 		$("#cboxLoadedContent").fitVids();
     });
     
