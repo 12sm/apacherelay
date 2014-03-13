@@ -217,6 +217,9 @@ display: none;
    top: 15%!important;
    outline: none!important;
 }
+#cboxLoadedContent{
+   overflow: visible!important;
+}
 
 
 /* ==========================================================================
