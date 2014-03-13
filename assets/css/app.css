@@ -155,15 +155,6 @@ color: rgb(111,111,111)!important;
 
 .content { }
 
-.music-body,
-.tour-body,
-.blog-home-body,
-.gallery-home-body,
-.store-body {
-min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
-margin-bottom:50px;
-}
-
 #tubular-shield{
    z-index: -10000!important;
 }
@@ -627,6 +618,16 @@ h2{
 }
 #myModal{
    margin-top: 1%;
+}
+
+
+.music-body,
+.tour-body,
+.blog-home-body,
+.gallery-home-body,
+.store-body {
+min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
+margin-bottom:50px;
 }
  }
 
