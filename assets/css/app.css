@@ -545,11 +545,11 @@ color:#E64C1F;
 }
 
 .blog-post-square {
-border:1px solid #FFF;
-padding: 2%;
-max-height:400px;
-min-height:400px;
+padding: 6px;
+max-height: 400px;
+min-height: 400px;
 }
+
 
 .blog-post-square h1 {
 font-size: 31px;
