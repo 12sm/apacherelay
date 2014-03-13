@@ -66,6 +66,7 @@ color: #FFF;
 	-ms-transform-origin: left center;
 	transform-origin: left center;
 	 margin:0 -20px;
+	 overflow:hidden;
 }
 
 .rotate-neg {
@@ -80,6 +81,7 @@ color: #FFF;
 	-ms-transform-origin: left center;
 	transform-origin: left center;
 	 margin:0 -20px;
+	 overflow:hidden;
 }
 
 /*.go-full {margin:0 -20px; padding:0 20px;}*/
