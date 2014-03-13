@@ -53,7 +53,7 @@ var Roots = {
 		$('.vid-feature').colorbox();
 		
 		//FitVids
-		$(".embed-youtube").fitVids();
+		$("#cboxLoadedContent").fitVids();
     
     
     //Begin Parallax
@@ -90,16 +90,7 @@ var Roots = {
 	//function to be called whenever the window is scrolled or resized
 	function Move(){ 
 		var pos = $window.scrollTop(); //position of the scrollbar
-<<<<<<< HEAD
 
-
-    //FitVids
-
-    $("#cboxLoadedContent").fitVids();
-
-
-=======
->>>>>>> 13b555c1605619de99df8a4a4ba0c959b451349f
 
 		//if the first section is in view...
 		if($firstBG.hasClass("inview")){
