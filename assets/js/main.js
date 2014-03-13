@@ -49,14 +49,11 @@ var Roots = {
 		});
 		// End Smooth Scroll
 		
-		//Colorbox
-		$('.vid-feature').colorbox();
-		
-		//FitVids
-    $('#cboxLoadedContent').load(function(){
+		//Colorbox and FitVids
+		$('.vid-feature').colorbox({onCleanup:function(){
       console.log('cbox loaded')
-		$("#cboxLoadedContent").fitVids();
-    });
+    $("#cboxLoadedContent").fitVids();
+    });});
     
     //Begin Parallax
 	var $window = $(window);
