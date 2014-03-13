@@ -214,6 +214,7 @@ display: none;
 #colorbox{
    z-index: 1000;
    top: 15%!important;
+   outline: none!important;
 }
 
 

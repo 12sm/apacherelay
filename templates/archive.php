@@ -2,7 +2,7 @@
   <article <?php post_class(); ?>>
     <header>
     </header>
-    <div class="entry-content">
+    <div class="entry-content test">
       <?php the_content(); ?>
     </div>
     <footer>
