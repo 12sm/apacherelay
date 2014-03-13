@@ -517,6 +517,7 @@ border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
 font-size: 18px;
+margin-left: -15px;
 }
 
 .border-box a:hover {
@@ -550,9 +551,9 @@ max-height: 400px;
 min-height: 400px;
 }
 
-
 .blog-post-square h1 {
 font-size: 31px;
+margin-bottom:0;
 }
 
 /* ==========================================================================
