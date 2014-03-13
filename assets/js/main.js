@@ -49,6 +49,8 @@ var Roots = {
 		});
 		// End Smooth Scroll
 
+    //FitVids
+    $(".embed-youtube").FitVids();
 
       
     }
