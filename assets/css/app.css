@@ -70,6 +70,8 @@ color: #FFF;
      transform: rotate(-2deg);
 }
 
+.go-full {margin:0 -20px; padding:0 20px;}
+
 .music-body{
    background-image: url(../img/music-bg.jpg);
    background-size: cover;
