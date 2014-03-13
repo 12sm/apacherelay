@@ -657,6 +657,15 @@ body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > 
 display: none;
 } /* removes the "Continued" link from the Excerpt */
 
+.store-body .border-box a {
+color: #E64C1F!important;
+border: 3px solid #E64C1F;
+padding: 2px;
+text-align: center;
+font-size: 18px;
+margin-left: 0px!important;
+}
+
  }
 
 /* Large devices (large desktops, 1200px and up) */
