@@ -629,6 +629,18 @@ h2{
 min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
 margin-bottom:50px;
 }
+
+.featured-image-home {
+height: 200px;
+overflow: hidden;
+padding: 0;
+}
+
+.featured-image-home img {
+width: 100%;
+height: auto;
+}
+
  }
 
 /* Large devices (large desktops, 1200px and up) */
