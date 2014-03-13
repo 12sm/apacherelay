@@ -52,10 +52,10 @@ var Roots = {
 		//Colorbox and FitVids
 		$('.vid-feature').colorbox({maxWidth:'100%', innerHeight:'105%', onComplete:function(){
     $("#cboxLoadedContent").fitVids();
-    $("#tubular-player").pauseVideo();
+    $("#tubular-player").get(0).pauseVideo();
     }, 
     onCleanup: function(){
-      $("#tubular-player").playVideo();
+      $("#tubular-player").get(0).playVideo();
     }
   });
     
