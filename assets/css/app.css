@@ -60,6 +60,11 @@ color: #FFF;
      -ms-transform: rotate(2deg);
      -o-transform: rotate(2deg);
      transform: rotate(2deg);
+	 -webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
 	 margin:0 -20px;
 }
 
@@ -69,6 +74,11 @@ color: #FFF;
      -ms-transform: rotate(-2deg);
      -o-transform: rotate(-2deg);
      transform: rotate(-2deg);
+	 -webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
 	 margin:0 -20px;
 }
 
