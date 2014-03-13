@@ -50,8 +50,85 @@ var Roots = {
 		// End Smooth Scroll
 		
 		//Colorbox
-    $('.vid-feature').colorbox();
+		$('.vid-feature').colorbox();
+    
+    
+    //Begin Parallax
+	var $window = $(window);
+	var $firstBG = $('.music-body');
+	var $secondBG = $('.tour-body');
+	var $thirdBG = $('.blog-home-body');
+	var $fourthBG = $('.gallery-home-body');
+	var $fifthBG = $('.store-body');
+	
+	var windowHeight = $window.height(); //get the height of the window
+		
+	//apply the class "inview" to a section that is in the viewport
+	$('.music-body, .tour-body, .blog-home-body, .gallery-home.body, .store-body').bind('inview', function (event, visible) {
+			if (visible == true) {
+			$(this).addClass("inview");
+			} else {
+			$(this).removeClass("inview");
+			}
+		});
+	
+	//function that is called for every pixel the user scrolls. Determines the position of the background
+	/*arguments: 
+		x = horizontal position of background
+		windowHeight = height of the viewport
+		pos = position of the scrollbar
+		adjuster = adjust the position of the background
+		inertia = how fast the background moves in relation to scrolling
+	*/
+	function newPos(x, windowHeight, pos, adjuster, inertia){
+		return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+	}
+	
+	//function to be called whenever the window is scrolled or resized
+	function Move(){ 
+		var pos = $window.scrollTop(); //position of the scrollbar
 
+		//if the first section is in view...
+		if($firstBG.hasClass("inview")){
+			//call the newPos function and change the background position
+			$firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, 900, 0.3)}); 
+		}
+		
+		//if the second section is in view...
+		if($secondBG.hasClass("inview")){
+			//call the newPos function and change the background position
+			$secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 1850, 0.4)});
+		}
+		
+		//if the third section is in view...
+		if($thirdBG.hasClass("inview")){
+			//call the newPos function and change the background position
+			$thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2850, 0.25)});
+		}
+		
+		//if the fourth section is in view...
+		if($fourthBG.hasClass("inview")){
+			//call the newPos function and change the background position for CSS3 multiple backgrounds
+			$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 3850, 0.3)});		
+		}
+		
+		//if the fifth section is in view...
+		if($fifthBG.hasClass("inview")){
+			//call the newPos function and change the background position
+			$fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 5250, 0.5)});
+		}
+		
+	}
+			
+	$window.resize(function(){ //if the user resizes the window...
+		Move(); //move the background images in relation to the movement of the scrollbar
+	});		
+	
+	$window.bind('scroll', function(){ //when the user is scrolling...
+		Move(); //move the background images in relation to the movement of the scrollbar
+	});
+	// End Parallax
+	
       
     }
   },
