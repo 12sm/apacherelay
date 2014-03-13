@@ -523,7 +523,7 @@ font-size: 18px;
 }
 
 .border-box a{
-color: #E64C1F;
+color: #E64C1F!important;
 border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
@@ -531,7 +531,7 @@ font-size: 18px;
 }
 
 .border-box a:hover {
-color: #FFF;
+color: #FFF!important;
 border: 3px solid #FFF;
 }
 
