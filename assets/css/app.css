@@ -665,7 +665,7 @@ border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
 font-size: 18px;
-margin-left: 0px;
+margin-left: 0px!important;
 }
 
  }
