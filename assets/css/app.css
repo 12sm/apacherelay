@@ -7,6 +7,8 @@ html {
     -webkit-font-smoothing: antialiased !important;
 }
 
+body {background:#000; }
+
 @font-face{
    font-family: "bebas";
    src: url(../fonts/BEBAS.TTF);
@@ -43,7 +45,6 @@ p{
 a{
    color: inherit!important;
 }
-body { }
 
 .border-box p:hover {
 color: #FFF;
