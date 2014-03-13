@@ -49,7 +49,8 @@ var Roots = {
 		});
 		// End Smooth Scroll
 		
-		
+		//Colorbox
+    $('.colorbox').colorbox({iframe;true});
 
       
     }
