@@ -555,6 +555,17 @@ border: 3px solid #FFF;
 color:#E64C1F;
 }
 
+.blog-post-square {
+border:1px solid #FFF;
+padding: 2%;
+max-height:400px;
+min-height:400px;
+}
+
+.blog-post-h1 {
+font-size:22px;	
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
