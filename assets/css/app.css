@@ -213,11 +213,9 @@ display: none;
    ========================================================================== */
 #colorbox{
    z-index: 1000;
-   top:0!important;
+   top: 17%!important;
 }
-#cboxLoadedContent{
-   overflow: visible!important;
-}
+
 
 /* ==========================================================================
    Primary Content
