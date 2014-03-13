@@ -51,16 +51,10 @@ var Roots = {
 		
 		//Colorbox and FitVids
 		$.getScript('http://www.youtube.com/player_api');
-		$('.vid-feature').colorbox({onComplete:function(){
+		$('.vid-feature').colorbox({iframe:true, innerWidth:80%, innerHeight:80% onComplete:function(){
     $("#cboxLoadedContent").fitVids();
-    console.log("onComplete")
-    $("#tubular-player").get(0).stopVideo();
-    }, 
-    onCleanup: function(){
-    	console.log("onCleanup")
-      $("#tubular-player").get(0).playVideo();
-    }
-  });
+    	}, 
+  		});
     
     //Begin Parallax
 	var $window = $(window);
