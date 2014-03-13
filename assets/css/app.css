@@ -526,9 +526,10 @@ color: #FFF!important;
 border: 3px solid #FFF;
 }
 
-.more-blogs h3{
-   font-size: 22px;
-   color: #FFF;
+.more-blogs h3 {
+font-size: 32px;
+color: #FFF;
+margin-top: 100px;
 }
 
 .blog-title, .blog-title a{
