@@ -7,6 +7,8 @@ html {
     -webkit-font-smoothing: antialiased !important;
 }
 
+body {background:#000; }
+
 @font-face{
    font-family: "bebas";
    src: url(../fonts/BEBAS.TTF);
@@ -43,7 +45,6 @@ p{
 a{
    color: inherit!important;
 }
-body { }
 
 .border-box p:hover {
 color: #FFF;
@@ -347,7 +348,7 @@ html[xmlns] .slides {display: block;}
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-position:center;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    padding: 5%;
 }
 
@@ -368,7 +369,7 @@ html[xmlns] .slides {display: block;}
    Tour
    ========================================================================== */
 .tour-body{
-      background: url(../img/tour-bg.jpg) top center no-repeat;
+      background: url(../img/tour-bg.jpg) top center repeat;
       background-size: cover;
 	  padding: 50px 0px;
 }
@@ -506,7 +507,7 @@ font-size: 18px;
 .blog-home-body{
    background-image: url(../img/news-bg.jpg);
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-position: center;
    padding: 50px 0px;
 }
@@ -517,6 +518,7 @@ border: 3px solid #E64C1F;
 padding: 2px;
 text-align: center;
 font-size: 18px;
+margin-left: -15px;
 }
 
 .border-box a:hover {
@@ -550,9 +552,15 @@ max-height: 400px;
 min-height: 400px;
 }
 
-
 .blog-post-square h1 {
 font-size: 31px;
+margin-bottom: -20px;
+}
+
+span.post-date {
+color: #A5A5A5;
+font-size: 11px;
+margin-top: 0;
 }
 
 /* ==========================================================================
@@ -619,13 +627,9 @@ h2{
 }
 
 
-.music-body,
-.tour-body,
-.blog-home-body,
-.gallery-home-body,
-.store-body {
-min-height:800px; /* adding height to each section. Not sure if this is the best way to do it? -SS */	
-margin-bottom:50px;
+.music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
+margin-bottom: 50px;
+padding: 10% 0px 13% 0px;
 }
 
 .featured-image-home {
@@ -638,6 +642,10 @@ padding: 0;
 width: 100%;
 height: auto;
 }
+
+body > div.container-fluid.blog-home-body.rotate-neg.inview > div > div > div > div > p > a {
+display: none;
+} /* removes the "Continued" link from the Excerpt */
 
  }
 
