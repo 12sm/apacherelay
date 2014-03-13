@@ -60,6 +60,7 @@ color: #FFF;
      -ms-transform: rotate(2deg);
      -o-transform: rotate(2deg);
      transform: rotate(2deg);
+	 margin:0 -20px;
 }
 
 .rotate-neg {
@@ -68,9 +69,10 @@ color: #FFF;
      -ms-transform: rotate(-2deg);
      -o-transform: rotate(-2deg);
      transform: rotate(-2deg);
+	 margin:0 -20px;
 }
 
-.go-full {margin:0 -20px; padding:0 20px;}
+/*.go-full {margin:0 -20px; padding:0 20px;}*/
 
 .music-body{
    background-image: url(../img/music-bg.jpg);
