@@ -51,9 +51,10 @@ var Roots = {
 		
 		//Colorbox and FitVids
 		$('.vid-feature').colorbox({onCleanup:function(){
-      console.log('cbox loaded')
+      console.log('cbox loaded');
     $("#cboxLoadedContent").fitVids();
-    };});
+    };
+  });
     
     //Begin Parallax
 	var $window = $(window);
