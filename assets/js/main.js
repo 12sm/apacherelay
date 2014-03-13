@@ -53,7 +53,7 @@ var Roots = {
 		$('.vid-feature').colorbox();
 		
 		//FitVids
-		$(".embed-youtube").FitVids();
+		$(".embed-youtube").fitVids();
     
     
     //Begin Parallax
