@@ -126,6 +126,8 @@ var Roots = {
 	});
 	// End Parallax
 	
+	$(".vid-feature").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+	
       
     }
   },
