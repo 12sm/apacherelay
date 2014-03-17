@@ -127,8 +127,8 @@ var Roots = {
 	// End Parallax
 	 
 	 $('.vid-feature').fancybox({
-		openEffect  : 'elastic',
-		closeEffect : 'elastic',
+		openEffect  : 'fade',
+		closeEffect : 'fade',
 		helpers : {
 			media : {}
 		}
