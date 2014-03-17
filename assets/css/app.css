@@ -465,14 +465,6 @@ padding-top: 7%;
 height: 0px;
 }
 
-.vid-feature {
-cursor:pointer; display:block; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; border: 4px white solid; background-color: transparent; outline:none;-webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; -o-transition: 0.4s; transition: 0.4s;position:relative;}	
-}
-
-.vid-feature:hover {
-background:#fff; border-color:#ffffff; -webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1);
-}
-
 .border-box-white{
    margin-top: 10px;
 }
