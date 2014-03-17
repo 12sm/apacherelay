@@ -126,7 +126,17 @@ var Roots = {
 	});
 	// End Parallax
 	 
-	 $('.vid-feature').nivoLightbox();
+	 $('.vid-feature').nivoLightbox({
+		 effect: 'fade',                             // The effect to use when showing the lightbox
+		 theme: 'default',                           // The lightbox theme to use
+		 keyboardNav: true,                          // Enable/Disable keyboard navigation (left/right/escape)
+		 clickOverlayToClose: true,                  // If false clicking the "close" button will be the only way to close the lightbox
+		 onInit: function(){},                       // Callback when lightbox has loaded
+		 beforeShowLightbox: function(){},           // Callback before the lightbox is shown
+		 afterShowLightbox: function(lightbox){},    // Callback after the lightbox is shown
+		 beforeHideLightbox: function(){},           // Callback before the lightbox is hidden
+		 afterHideLightbox: function(){},            // Callback after the lightbox is hidden
+	 });
       
     }
   },
