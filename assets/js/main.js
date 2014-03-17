@@ -127,11 +127,16 @@ var Roots = {
 	// End Parallax
 	 
 	 $('.vid-feature').fancybox({
-		openEffect  : 'fade',
-		closeEffect : 'fade',
+	 	padding:0,
+		openEffect  : 'none',
+		closeEffect : 'none',
 		helpers : {
 			media : {}
-		}
+		},
+		afterClose : function() {
+        	$('#vid-content').playVideo();
+        return;
+        }
 	});
       
     }
