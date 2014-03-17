@@ -134,7 +134,7 @@ var Roots = {
 			media : {}
 		},
 		afterClose : function() {
-        	$('#vid-content').playVideo();
+        	$('#tubular-player').get(0).playVideo();
         return;
         }
 	});
