@@ -92,6 +92,12 @@ $options[] = array(
 		'type' => 'text');
 		
 	$options[] = array(
+		'name' => __('Site Domain (thesite.com)', 'options_check'),
+		'desc' => __('Enter for the GA tracking code', 'options_check'),
+		'id' => 'ga_domain',
+		'type' => 'text');
+		
+	$options[] = array(
 		'name' => __('Favicon Uploader', 'options_check'),
 		'desc' => __('Upload your theme Favicon. Please name "favicon.ico" and be in the .ico format.', 'options_check'),
 		'id' => 'favicon_upload',

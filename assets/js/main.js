@@ -47,12 +47,8 @@ var Roots = {
 			}
 		   });
 		});
-		// End Smooth Scroll
-		
-		//Colorbox and FitVids
-		$('.vid-feature').colorbox({iframe:true, innerWidth:80%, innerHeight:80% onComplete:function(){
-    	$("#cboxLoadedContent").fitVids();}, 
-  		});
+		// End Smooth Scroll	
+			
     //Begin Parallax
 	var $window = $(window);
 	var $firstBG = $('.music-body');
@@ -129,7 +125,19 @@ var Roots = {
 		Move(); //move the background images in relation to the movement of the scrollbar
 	});
 	// End Parallax
-	
+	 
+	 $('.vid-feature').fancybox({
+	 	padding:0,
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		},
+		afterClose : function() {
+        	$('#vid-content').playVideo();
+        return;
+        }
+	});
       
     }
   },
