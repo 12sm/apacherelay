@@ -141,7 +141,7 @@ var Roots = {
         }
 	});
 	
-	$(".vid-feature").fitVids();
+	$(".fancybox-outer").fitVids();
       
     }
   },
