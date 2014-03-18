@@ -579,7 +579,7 @@ width: 100%;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 border: 0px #fff solid!important;
 }
-.twitter-tweet>p>a:hover, .twitter-tweet>p>a:hover{
+.twitter-tweet>p>a:hover, .twitter-tweet>p>a:hover, .twitter-tweet>p{
 border: 0px #fff solid!important;
 }
 
