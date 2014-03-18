@@ -152,12 +152,14 @@ var Roots = {
     
 
     //Tumblr JS
+    var tumblr = require('tumblr.js');
 var client = tumblr.createClient({
   consumer_key: 'wOHQtd8mwKnwX4Vi9mNvwx6PFK486RjS38a4aby53lOjwJ4kbx',
   consumer_secret: 'TgRjBvRF47f8wWv3mV3wfnmmHKIHqRZDwumNIHLkcq7olHpttv',
   token: 'yJ4LXcBBK6803ehBB01Gx3iiBbkEYxtotv8cbjuDlUHavU7Bk5',
   token_secret: 'gduC5zWZfL5dglRp0YreW9nsQnQRnu39mImjoYKy89jbCLhKap'
 });
+
 var jsString =client.userInfo(callback);
 console.log('$jsString')
 // Make the request
