@@ -152,7 +152,6 @@ var Roots = {
     
 
     //Tumblr JS
-    var tumblr = require('../tumblr.js');
 var client = tumblr.createClient({
   consumer_key: 'wOHQtd8mwKnwX4Vi9mNvwx6PFK486RjS38a4aby53lOjwJ4kbx',
   consumer_secret: 'TgRjBvRF47f8wWv3mV3wfnmmHKIHqRZDwumNIHLkcq7olHpttv',
