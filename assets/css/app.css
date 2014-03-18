@@ -610,6 +610,7 @@ display: none;
 }
 .twitter-tweet>*{
    color: #E64C1F!important;
+   display: block;
 }
 /* ==========================================================================
    Footer
