@@ -131,7 +131,7 @@ var Roots = {
 		openEffect  : 'none',
 		closeEffect : 'none',
 		width : 80%.
-		height : auto,
+		height : 'auto',
 		helpers : {
 			media : {}
 		},
