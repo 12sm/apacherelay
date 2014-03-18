@@ -600,6 +600,12 @@ display: none!important;
 .tumblr_body > br:nth-child(4) {
 display: none;
 }
+.tumblr_post{
+   overflow: hidden;
+}
+.twitter-tweet{
+   bottom-margin: 80px!important;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
