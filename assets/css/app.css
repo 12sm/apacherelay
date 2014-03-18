@@ -588,7 +588,7 @@ border: 0px #fff solid!important;
 }
 .tumblr_body> * {
 display: block;
-color: #E64C1F!important;
+
 }
 .tumblr_caption {
 display: none!important;
@@ -607,6 +607,9 @@ display: none;
 }
 .twitter-tweet{
    margin-bottom: 80px!important;
+}
+.twitter-tweet>*{
+   color: #E64C1F!important;
 }
 /* ==========================================================================
    Footer
