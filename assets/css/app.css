@@ -575,14 +575,16 @@ display:inline-block;
 .tumblr_post > * {
 width: 100%;
 }
-.twitter-tweet>p>a, .twitter-tweet>p>a{
+.twitter-tweet>p>a, .twitter-tweet>a{
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 border: 0px #fff solid!important;
 }
-.twitter-tweet>p>a:hover, .twitter-tweet>p>a:hover, .twitter-tweet>p{
+.twitter-tweet>p>a:hover, .twitter-tweet>a:hover, .twitter-tweet>p{
 border: 0px #fff solid!important;
 }
-
+.tumblr_title{
+   display: none!important;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
