@@ -602,6 +602,7 @@ display: none;
 }
 .tumblr_post{
    overflow: hidden;
+   max-height: 250px;
 }
 .twitter-tweet{
    margin-bottom: 80px!important;
