@@ -132,7 +132,11 @@ var Roots = {
 		closeEffect : 'none',
 		helpers : {
 			media : {}
-		}
+		},
+		afterClose : function() {
+        	player.playVideo();
+        return;
+        }
 	});
       
     }
