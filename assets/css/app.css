@@ -575,9 +575,10 @@ display:inline-block;
 .tumblr_post > * {
 width: 100%;
 }
-.twitter-tweet>p>a, .twitter-tweet>a, .tumblr_body>a{
+.twitter-tweet>p>a, .twitter-tweet>a, .tumblr_body>a, .twitter-tweet>p{
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 border: 0px #fff solid!important;
+display: inline-block;
 }
 .twitter-tweet>p>a:hover, .twitter-tweet>a:hover, .tumblr_body>a:hover, .twitter-tweet>p:hover{
 border: 0px #fff solid!important;
@@ -595,6 +596,9 @@ display: none!important;
    position: relative;
    float: left;
    margin: auto;
+}
+.tumblr_body > br:nth-child(4) {
+display: none;
 }
 /* ==========================================================================
    Footer
