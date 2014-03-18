@@ -585,6 +585,9 @@ border: 0px #fff solid!important;
 .tumblr_title{
    display: none!important;
 }
+.tumblr_body> * {
+display: block;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */
