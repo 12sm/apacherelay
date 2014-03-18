@@ -572,6 +572,9 @@ padding:0px;
 .gallery-home-body ol li {
 display:inline-block;
 }
+.tumblr_post > * {
+width: 100%;
+}
 
 /* ==========================================================================
    Footer

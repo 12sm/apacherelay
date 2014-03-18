@@ -147,7 +147,7 @@ var Roots = {
 
 	//Inject Bootstrap classes into tumblr widget
 	  $('.tumblr_posts').addClass('row');	
-      $('.tumblr_post').addClass('col-sm-6 col-md-4');
+      $('.tumblr_post').addClass('col-sm-6 col-md-3');
       
     }
   },
