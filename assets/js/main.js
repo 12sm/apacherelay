@@ -145,8 +145,9 @@ var Roots = {
 	
 	$(".fancybox-outer").fitVids();
 
-	//Inject Bootstrap classes into tumblr widget	
-      $('.tumblr_post').addClass('col-sm-6 col-md-4')
+	//Inject Bootstrap classes into tumblr widget
+	  $('.tumblr_posts').addClass('row');	
+      $('.tumblr_post').addClass('col-sm-6 col-md-4');
       
     }
   },
