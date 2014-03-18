@@ -353,11 +353,6 @@ html[xmlns] .slides {display: block;}
 .store-box p{
    font-size: 30px!important;
 }
-/* ==========================================================================
-   Sidebar
-   ========================================================================== */
-
-.sidebar { }
 
 /* ==========================================================================
    Tour
@@ -555,6 +550,29 @@ span.post-date {
 color: #A5A5A5;
 font-size: 11px;
 margin-top: 0;
+}
+
+/* ==========================================================================
+   Tumblr
+   ========================================================================== */
+
+.gallery-home-body { 
+background: url(../img/tour-bg.jpg) top center repeat;
+background-size: cover;
+padding: 50px 0px;
+}
+
+.gallery-home-body ol {
+list-style: none;
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+
+.gallery-home-body ol li {
+display:inline-block;
+width:23%;
+magin:2%;
 }
 
 /* ==========================================================================
