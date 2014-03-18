@@ -146,7 +146,7 @@ var Roots = {
 	$(".fancybox-outer").fitVids();
 
 	//Inject Bootstrap classes into tumblr widget
-	var tumblrText = $(".tumblr_body > a").nextAll();
+	var tumblrText = $(".twitter-tweet").nextAll();
 		$('tumblrText').remove();
     $('.tumblr_post').addClass('col-sm-6 col-md-3');
       
