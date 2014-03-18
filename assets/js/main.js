@@ -130,6 +130,8 @@ var Roots = {
 	 	padding:0,
 		openEffect  : 'none',
 		closeEffect : 'none',
+		width : 80%.
+		height : auto,
 		helpers : {
 			media : {}
 		},
@@ -138,6 +140,8 @@ var Roots = {
         return;
         }
 	});
+	
+	$(".vid-feature").fitVids();
       
     }
   },
