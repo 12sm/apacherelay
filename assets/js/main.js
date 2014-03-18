@@ -130,8 +130,10 @@ var Roots = {
 	 	padding:0,
 		openEffect  : 'none',
 		closeEffect : 'none',
-		width : 800,
-		height : 600,
+		width : 1280,
+		height : 720,
+		aspectRatio : true,
+		scrolling   : 'no',
 		helpers : {
 			media : {}
 		},
