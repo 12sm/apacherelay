@@ -25,7 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
      $(".fit-vid").fitVids();
      
-     $('#signup').hover function(){
+     $('#signup').hover() function(){
      	$('#signup').animate({
      		left: '0px'
      	});
