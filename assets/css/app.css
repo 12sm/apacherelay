@@ -200,7 +200,6 @@ color: #81194a!important;
       height: 75px;
    }
    #signup:hover{
-      transition: left 0.4s ease;
       left:0px;
    }
 
