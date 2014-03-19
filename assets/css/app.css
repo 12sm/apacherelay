@@ -188,7 +188,7 @@ color: #E46540!important;
    Email Signup
    ========================================================================== */
    #signup-button{
-      height: 75px;
+      height: 60px;
       display: none;
    }
    #signup-button > h3 {
@@ -201,12 +201,12 @@ color: #E46540!important;
       left: 0px;
       position: relative;
       bottom: 25px;
-      height: 75px;
+      height: 60px;
       padding: 0px;
    }
    .topspin-signup{
       background-color: rgba(128,122,128, .33);
-      height: 75px;
+      height: 60px;
    }
 
 
@@ -735,7 +735,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 #signup-button{
    display: block;
-   left: inherit;
 }
 #menu-social-navigation{
    display: none;
