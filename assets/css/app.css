@@ -222,6 +222,10 @@ color: #E46540!important;
 #vid-content{
    z-index: 5!important;
 }
+.vid-store-banner{
+   max-height: 225px;
+   margin: 0 auto;
+}
 
 /* =======================
    Music Section [Home]
@@ -534,9 +538,7 @@ font-size: 18px;
 .vid-icon {
 text-align: center;
 color: #fff;
-padding-top: 20%;
 position: static;
-width: 140px;
 }
 
 .vid-text{
