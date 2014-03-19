@@ -24,17 +24,6 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
      $(".fit-vid").fitVids();
-     //Move email signup out on hover
-     /*$('#signup').hover(function(){
-     	$('#signup').animate({
-     		left: '0px'
-     	});
-     }); 
-     $('#signup').mouseout(function(){
-     	$('#signup').animate({
-     		left: '-314px'
-     	});
-     }); */
 
     }
   },
