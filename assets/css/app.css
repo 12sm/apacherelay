@@ -557,7 +557,7 @@ margin-top: 10px;
 .hentry time { }
 .hentry .byline { }
 .hentry .entry-content { }
-.hentry footer { }
+.hentry footer {padding-top: 12%;}
 
 .blog-home-body{
    background-image: url(../img/news-bg.jpg);
@@ -722,6 +722,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .bit-venue{
       display: block!important;
    }
+
+   footer {padding-top: initial;}
    h3{
       font-size: 56px;
    }
