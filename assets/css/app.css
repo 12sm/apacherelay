@@ -198,17 +198,12 @@ color: #81194a!important;
       color: #fff;
    }
    #signup{
-      transition: left 0.4s ease;
       left: 0px;
       position: relative;
       bottom: 25px;
       height: 75px;
       padding: 0px;
    }
-   #signup:hover{
-      left:0px;
-   }
-
    .topspin-signup{
       background-color: rgba(128,122,128, .33);
       height: 75px;
@@ -730,8 +725,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    margin-top: 3%;
 }
 #signup{
+      transition: left 0.4s ease;
       left: -314px;
       position: fixed;
+}
+#signup:hover{
+   left: 0px;
 }
 #signup-button{
    display: block;
