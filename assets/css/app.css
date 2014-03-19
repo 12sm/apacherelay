@@ -186,6 +186,7 @@ color: #81194a!important;
    ========================================================================== */
    #signup-button{
       height: 75px;
+      display: none;
    }
    #signup-button > h3 {
       font-size: 18px;
@@ -195,8 +196,8 @@ color: #81194a!important;
    }
    #signup{
       transition: left 0.4s ease;
-      left: -314px;
-      position: fixed;
+      left: 0px;
+      position: relative;
       bottom: 25px;
       height: 75px;
       padding: 0px;
@@ -724,6 +725,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 #myModal{
    margin-top: 3%;
+}
+#signup{
+      left: -314px;
+      position: fixed;
+}
+#signup-button{
+   display: block;
 }
  }
 
