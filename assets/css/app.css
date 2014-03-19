@@ -190,6 +190,7 @@ color: #81194a!important;
    #signup-button > h3 {
       font-size: 18px;
       text-align: left;
+      height: 75px;
    }
    #signup{
       left: -345px;
