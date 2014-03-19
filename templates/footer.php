@@ -13,7 +13,19 @@
     </div>
          
       <div class="row col">
-              <div id="social" class="col-xs-12 social-nav">
+
+      <div id="ts-e4m" class="col-sm-6">
+    <h5>Email List Signup</h5>
+    <form id="signup" action="wp-content/themes/justintownesearle/lib/send.php" method="post" >
+      <input id="email"  name="fan[email]" type="email" value="enter your email here" placeholder="enter your email here" class="erase email" />  
+      <input name="artist_id" value="1221" id="artist_id" type="hidden">
+      <input name="fan[source_campaign]" value="http://app.topspin.net/api/v1/artist/1221/campaign/10045764" id="source_campaign" type="hidden">
+      <input name="fan[referring_url]" value="http://www.justintownesearle.com" id="referring_url" type="hidden">
+      <input name="fan[confirmation_target]" value="http://labs.topspin.net/downloadanywhere/confirm.php?sessionid=9358432f3b5dca8fe22794988794c6d8" id="confirmation_target" type="hidden">      
+      <input name="submit" type="submit" value="Sign Up &rsaquo;" />
+    </form>   
+  </div>
+              <div id="social" class="col-xs-6 social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/theapacherelay"><i class="fa fa-facebook fa-2x"></i></a></li>
 <li class="menu-"><a href="https://twitter.com/apacherelay" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 <li class="menu-"><a href="instagram.com/apacherelay" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
