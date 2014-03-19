@@ -205,8 +205,10 @@ color: #E46540!important;
       padding: 0px;
       -webkit-transform: skewY(3deg);
    }
+   #signup>.row{
+-webkit-transform: skewY(-3deg);
+   }
    .topspin-signup{
-      -webkit-transform: skewY(-3deg);
       background-color: rgba(128,122,128, .33);
       height: 55px;
    }
@@ -521,7 +523,7 @@ background-size: cover;
 }
 
 .video-body {
-padding-bottom: 40%;
+padding-bottom: 165%;
 padding-top: 7%;
 height: 0px;
 }
@@ -747,10 +749,16 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 #social-float{
    display: block;
 }
+.video-body{
+   padding-bottom: 68%;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+   .video-body {
+padding-bottom: 45%;
+}
 .container-fluid>*{
    margin-left: inherit;
    margin-right: inherit;
