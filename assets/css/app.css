@@ -728,6 +728,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
       transition: left 0.4s ease;
       left: -314px;
       position: fixed;
+      z-index: 10000;
 }
 #signup:hover{
    left: 0px;
