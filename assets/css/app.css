@@ -203,8 +203,10 @@ color: #E46540!important;
       bottom: 25px;
       height: 55px;
       padding: 0px;
+      -webkit-transform: skewY(3deg);
    }
    .topspin-signup{
+      -webkit-transform: skewY(-3deg);
       background-color: rgba(128,122,128, .33);
       height: 55px;
    }
