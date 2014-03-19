@@ -14,9 +14,17 @@
          
       <div class="row">
 
-      <div class="col-sm-6">
-    <script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=2335&timestamp=1395242287"></script><div class="topspin-widget topspin-widget-email-for-media"><object type="application/x-shockwave-flash" width="300" height="100" id="TSWidget223475" data="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" bgColor="rgba(255,255,255, .7)">  <param value="always" name="allowScriptAccess" />  <param name="allowfullscreen" value="true" />  <param name="quality" value="high" />  <param name="movie" value="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" />  <param name="flashvars" value="widget_id=https://cf.topspin.net/api/v1/artist/2335/email_for_media/223475?timestamp=1395242287&amp;theme=black&amp;highlightColor=0x00A1FF" /></object></div>   
-  </div>
+      <div class="col-sm-6" id="signup">
+        <div class="row">
+          <div class="col-xs-9">
+    <script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=2335&timestamp=1395242287"></script><div class="topspin-widget topspin-widget-email-for-media"><object type="application/x-shockwave-flash" width="300" height="100" id="TSWidget223475" data="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" bgColor="#fff">  <param value="always" name="allowScriptAccess" />  <param name="allowfullscreen" value="true" />  <param name="quality" value="high" />  <param name="movie" value="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" />  <param name="flashvars" value="widget_id=https://cf.topspin.net/api/v1/artist/2335/email_for_media/223475?timestamp=1395242287&amp;theme=black&amp;highlightColor=0x00A1FF" /></object></div>   
+          </div>
+          <div class="col-xs-3" id="signup-button">
+            <h3>Email Signup</h3>
+          </div>
+        </div>
+      </div>
+    </div>
               <div id="social" class="col-xs-6 social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/theapacherelay"><i class="fa fa-facebook fa-2x"></i></a></li>
 <li class="menu-"><a href="https://twitter.com/apacherelay" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
