@@ -191,6 +191,14 @@ color: #81194a!important;
       font-size: 29px;
       text-align: left;
    }
+   #signup{
+      left: -345px;
+      position: fixed;
+      bottom: 25px;
+   }
+   .topspin-signup{
+      background-color: rgba(255,255,255,.3);
+   }
 
 
 /* ==========================================================================
