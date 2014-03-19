@@ -181,6 +181,9 @@ color: #81194a!important;
    display: block;
    list-style: none;
 }
+#social-float{
+   display: none;
+}
 /* ==========================================================================
    Email Signup
    ========================================================================== */
@@ -735,6 +738,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 #menu-social-navigation{
    display: none;
+}
+#social-float{
+   display: block;
 }
  }
 
