@@ -14,16 +14,8 @@
          
       <div class="row col">
 
-      <div id="ts-e4m" class="col-sm-6">
-    <h5>Email List Signup</h5>
-    <form id="signup" action="wp-content/themes/justintownesearle/lib/send.php" method="post" >
-      <input id="email"  name="fan[email]" type="email" value="enter your email here" placeholder="enter your email here" class="erase email" />  
-      <input name="artist_id" value="1221" id="artist_id" type="hidden">
-      <input name="fan[source_campaign]" value="http://app.topspin.net/api/v1/artist/1221/campaign/10045764" id="source_campaign" type="hidden">
-      <input name="fan[referring_url]" value="http://www.justintownesearle.com" id="referring_url" type="hidden">
-      <input name="fan[confirmation_target]" value="http://labs.topspin.net/downloadanywhere/confirm.php?sessionid=9358432f3b5dca8fe22794988794c6d8" id="confirmation_target" type="hidden">      
-      <input name="submit" type="submit" value="Sign Up &rsaquo;" />
-    </form>   
+      <div class="col-sm-6">
+    <script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=2335&timestamp=1395242287"></script><div class="topspin-widget topspin-widget-email-for-media"><object type="application/x-shockwave-flash" width="300" height="250" id="TSWidget223475" data="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" bgColor="#000000">  <param value="always" name="allowScriptAccess" />  <param name="allowfullscreen" value="true" />  <param name="quality" value="high" />  <param name="movie" value="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" />  <param name="flashvars" value="widget_id=https://cf.topspin.net/api/v1/artist/2335/email_for_media/223475?timestamp=1395242287&amp;theme=black&amp;highlightColor=0x00A1FF" /></object></div>   
   </div>
               <div id="social" class="col-xs-6 social-nav">
   <ul id="menu-social-navigation" class=""><li class="menu-"><a href="https://www.facebook.com/theapacherelay"><i class="fa fa-facebook fa-2x"></i></a></li>
