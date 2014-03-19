@@ -25,7 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
      $(".fit-vid").fitVids();
      //Move email signup out on hover
-     $('#signup').hover(function(){
+     /*$('#signup').hover(function(){
      	$('#signup').animate({
      		left: '0px'
      	});
@@ -34,7 +34,7 @@ var Roots = {
      	$('#signup').animate({
      		left: '-314px'
      	});
-     }); 
+     }); */
 
     }
   },
