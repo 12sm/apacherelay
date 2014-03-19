@@ -185,7 +185,6 @@ color: #81194a!important;
    Email Signup
    ========================================================================== */
    #signup-button{
-      margin-top: 3%;
       height: 75px;
    }
    #signup-button > h3 {
@@ -194,7 +193,7 @@ color: #81194a!important;
       margin-top: 20%;
    }
    #signup{
-      left: -345px;
+      left: -338px;
       position: fixed;
       bottom: 25px;
       height: 75px;
