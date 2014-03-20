@@ -500,7 +500,7 @@ line-height: 1!important;
 border: 0px #fff solid!important;
 }
 .tumblr_title{
-   display: none!important;
+   
 }
 .tumblr_body> * {
 display: block;
@@ -523,7 +523,7 @@ display: none;
    margin-bottom: 10px;
 }
 .tumblr_post blockquote{
-   padding-top: 5px!important;
+   display: none;
 }
 .twitter-tweet{
    margin-bottom: 800px!important;
