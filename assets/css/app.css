@@ -492,6 +492,13 @@ margin: 30px 0px 100px 0px;
 position: absolute;
 bottom: 20px;	
 }
+
+#disqus_thread {
+margin: 0px auto;
+background-color: rgba(255, 255, 255, 0.7);
+padding: 15px;	
+}
+
 /* ==========================================================================
    Tumblr
    ========================================================================== */
@@ -704,6 +711,10 @@ font-size: 31px;
 margin-bottom: -20px;
 height: 135px;
 overflow: hidden;
+}
+
+#disqus_thread {
+width: 70%;
 }
 
 
