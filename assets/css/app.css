@@ -490,7 +490,8 @@ width: 100%;
 .twitter-tweet>p>a, .twitter-tweet>a, .tumblr_body>a, .twitter-tweet>p{
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 border: 0px #fff solid!important;
-display: block;
+display: inline-block;
+word-spacing: 3px;
 color: #000000;
 font-size: 14px!important;
 line-height: 1!important;
