@@ -263,9 +263,6 @@ body.store {
    background-repeat: repeat;
 }
 
-body.store {background-attachment: fixed;}
-
-body.store .wrap {padding: 50px 0px;}
 
 .store-body {padding: 5%;}
 
@@ -276,6 +273,12 @@ body.store .wrap {padding: 50px 0px;}
 .store-box p{
    font-size: 30px!important;
 }
+
+body.store {background-attachment: fixed;}
+
+body.store .wrap {padding: 50px 0px;}
+
+body.store .item {text-align:center;}
 
 /* ==========================================================================
    Tour
