@@ -19,6 +19,13 @@ body {background:#000; }
    ========================================================================== */
 
 .wrap, .main {padding:0px;}   
+
+.page-header{
+   border: 0px #FFF solid!important;
+   margin: 0px!important;
+   padding: 0px!important;
+   display:none;
+}
    
 h1{
    color: #FFFFFF;
@@ -254,8 +261,10 @@ body.store {
    background-size: cover;
    background-position:center;
    background-repeat: repeat;
-   padding: 5%;
+   padding: 50px 0px;
 }
+
+.store-body {padding: 5%;}
 
 .store-headline{
    font-size: 72px;
@@ -333,15 +342,7 @@ display: none;
 /* ==========================================================================
    Video
    ========================================================================== */
-.page-header{
-   border: 0px #FFF solid!important;
-   margin: 0px!important;
-   padding: 00px!important;
-}
 
-#myModal{
-   margin-top: 40%;
-}
 
 video#bgvid {
 position: fixed;
