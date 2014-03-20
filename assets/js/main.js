@@ -119,7 +119,10 @@ var Roots = {
 	
 	enquire.register("screen and (min-width: 992px)", {
     setup : function() {
-    	$window.resize(function(){ //if the user resizes the window...
+
+    },
+    match : function() {
+        $window.resize(function(){ //if the user resizes the window...
 			Move(); //move the background images in relation to the movement of the scrollbar
 		});		
 	
@@ -127,9 +130,6 @@ var Roots = {
 			Move(); //move the background images in relation to the movement of the scrollbar
 		});
 		// End Parallax
-    },
-    match : function() {
-        // Show sidebar
     },
     unmatch : function() {
         // Hide sidebar
