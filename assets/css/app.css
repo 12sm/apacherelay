@@ -524,7 +524,7 @@ display: none;
 }
 
 .tumblr_text_post>.tumblr_body{
-   background-image: url('../assets/img/twitter.png');
+   background-image: url('../img/twitter.png');
     background-repeat: no-repeat;
     background-position: top right;
     overflow: hidden;
