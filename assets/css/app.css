@@ -448,7 +448,9 @@ margin-top: 0;
 }
 
 .featured-image-home {
-background: transparent url(../img/news-default.jpg) top center scroll no-repeat;	
+background: transparent url(../img/news-default.jpg);
+background-size: cover;
+background-position: 50%;
 }
 
 /* ==========================================================================
