@@ -554,8 +554,10 @@ display: none;
 }
 .tumblr_post{
    overflow: hidden;
-   max-height: 188px;
-   margin-bottom: 10px;
+}
+.tumblr_post> * {
+height: auto;
+width: 100%;
 }
 .tumblr_post blockquote{
    display: none
