@@ -18,7 +18,7 @@ body {background:#000; }
    Base
    ========================================================================== */
 
-.wrap, main {padding:0px;}   
+.wrap, .main {padding:0px;}   
    
 h1{
    color: #FFFFFF;
