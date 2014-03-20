@@ -263,6 +263,8 @@ body.store {
    background-repeat: repeat;
 }
 
+body.store {background-attachment: fixed;}
+
 body.store .wrap {padding: 50px 0px;}
 
 .store-body {padding: 5%;}
@@ -682,7 +684,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:768px) {
 
 .navbar-default {
-background: rgba(0,0,0,.10);
+background: rgba(0,0,0,.50);
 }
 
 
