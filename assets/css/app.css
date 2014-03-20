@@ -261,8 +261,9 @@ body.store {
    background-size: cover;
    background-position:center;
    background-repeat: repeat;
-   padding: 50px 0px;
 }
+
+body.store .wrap {padding: 50px 0px;}
 
 .store-body {padding: 5%;}
 
@@ -410,8 +411,10 @@ body.views-template-blog {
    background-size: cover;
    background-repeat: repeat;
    background-position: center;
-   background-attachment: fixed;
 }
+
+body.category-news,
+body.views-template-blog {background-attachment: fixed;}
 
 body.category-news .wrap,
 body.views-template-blog .wrap {padding: 50px 0px;}
