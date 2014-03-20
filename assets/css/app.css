@@ -405,7 +405,8 @@ margin-top: 10px;
 .hentry footer {}
 
 .blog-home-body ,
-.blog-body{
+body.category-news,
+body.views-template-blog {
    background-image: url(../img/news-bg.jpg);
    background-size: cover;
    background-repeat: repeat;
@@ -469,6 +470,10 @@ width: 100%;
 margin: 30px 0px 100px 0px;
 }
 
+.post-nav {
+position: absolute;
+bottom: 20px;	
+}
 /* ==========================================================================
    Tumblr
    ========================================================================== */
@@ -555,15 +560,22 @@ display: none;
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info {
+padding: 30px 0px;
+text-align: center;
+}
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
 .credits {
-text-align: right;
+text-align: center;
+width: 100%;
+display: block;
+margin: 10px auto;
 }
+
 footer {padding-top: 12%;}
 
 #social-float>ul{
@@ -726,10 +738,10 @@ padding-bottom: 45%;
    margin-right: inherit;
 }
 h1{
-   font-size: 80px;
+   font-size: 62px;
 }
 h2{
-   font-size: 60px;
+   font-size: 50px;
 }
 #myModal{
    margin-top: 1%;
