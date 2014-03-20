@@ -554,13 +554,15 @@ display: none;
 }
 .tumblr_post{
    overflow: hidden;
+   margin: 2px;
+   min-height: 188px;
 }
 .tumblr_post> * {
 height: auto;
 width: 100%;
 }
 .tumblr_post blockquote{
-   display: none
+   display: none;
 }
 .twitter-tweet{
    margin-bottom: 800px!important;
@@ -582,6 +584,7 @@ width: 100%;
     overflow: hidden;
     background-size: 20%;
     background-color: rgba(255,255,255, 0.4);
+    padding-top: 5px;
 }
 /* ==========================================================================
    Footer
