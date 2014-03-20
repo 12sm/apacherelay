@@ -49,7 +49,7 @@ a{
    color: inherit!important;
 }
 
-.border-box p:hover {
+.border-box>p:hover {
 color: #FFF;
 border: 3px solid #FFF;
 }
@@ -369,7 +369,7 @@ height: 0px;
 .border-box-white{
    margin-top: 10px;
 }
-.border-box-white p{
+.border-box-white>p{
 color: #fff;
 border: 3px solid #fff;
 padding: 2px;
@@ -406,7 +406,7 @@ margin-top: 10px;
    padding: 50px 0px;
 }
 
-.border-box a{
+.border-box>a{
 color: #E64C1F!important;
 border: 3px solid #E64C1F;
 padding: 2px;
@@ -415,7 +415,7 @@ font-size: 18px;
 margin-left: -15px;
 }
 
-.border-box a:hover {
+.border-box>a:hover {
 color: #FFF!important;
 border: 3px solid #FFF;
 }
@@ -512,9 +512,11 @@ display: none;
 }
 .twitter-tweet{
    margin-bottom: 80px!important;
+   font-size: 14px!important;
+   color: #000;
 }
 .twitter-tweet>*{
-   color: #E64C1F!important;
+   color: #000!important;
    display: block;
 }
 .tumblr_body{
