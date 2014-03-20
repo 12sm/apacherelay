@@ -116,15 +116,18 @@ var Roots = {
 		}
 		
 	}
-			
-	$window.resize(function(){ //if the user resizes the window...
-		Move(); //move the background images in relation to the movement of the scrollbar
-	});		
 	
-	$window.bind('scroll', function(){ //when the user is scrolling...
-		Move(); //move the background images in relation to the movement of the scrollbar
-	});
-	// End Parallax
+	enquire.register("screen and (min-width:40em)", function() {
+        $window.resize(function(){ //if the user resizes the window...
+			Move(); //move the background images in relation to the movement of the scrollbar
+		});		
+	
+		$window.bind('scroll', function(){ //when the user is scrolling...
+			Move(); //move the background images in relation to the movement of the scrollbar
+		});
+		// End Parallax
+    }, true);
+		
 	 
 	 $('.vid-feature').fancybox({
 	 	padding:0,
