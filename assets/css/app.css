@@ -24,8 +24,10 @@ body {background:#000; }
    border: 0px #FFF solid!important;
    margin: 0px!important;
    padding: 0px!important;
-   display:none;
+   text-align: center;
 }
+
+body.home .page-header {display:none;}
    
 h1{
    color: #FFFFFF;
@@ -263,9 +265,6 @@ body.store {
    background-repeat: repeat;
 }
 
-body.store {background-attachment: fixed;}
-
-body.store .wrap {padding: 50px 0px;}
 
 .store-body {padding: 5%;}
 
@@ -276,6 +275,12 @@ body.store .wrap {padding: 50px 0px;}
 .store-box p{
    font-size: 30px!important;
 }
+
+body.store {background-attachment: fixed;}
+
+body.store .wrap {padding: 50px 0px;}
+
+body.store .item {text-align:center;}
 
 /* ==========================================================================
    Tour
@@ -489,6 +494,13 @@ margin: 30px 0px 100px 0px;
 position: absolute;
 bottom: 20px;	
 }
+
+#disqus_thread {
+margin: 0px auto;
+background-color: rgba(255, 255, 255, 0.7);
+padding: 15px;	
+}
+
 /* ==========================================================================
    Tumblr
    ========================================================================== */
@@ -701,6 +713,10 @@ height: 135px;
 overflow: hidden;
 }
 
+#disqus_thread {
+width: 70%;
+}
+
 
 .navbar-brand {display:none;}
 
@@ -715,12 +731,10 @@ overflow: hidden;
    .bit-location{
    width: 23%!important;
 }
-#myModal{
-   margin-top: 3%;
-}
+
 #signup{
       transition: left 0.4s ease;
-      left: -314px;
+      left: -380px;
       position: fixed;
       z-index: 1000000;
 }
