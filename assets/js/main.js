@@ -152,10 +152,10 @@ var Roots = {
     
 
 	var highestCol = 
-		Math.max([$('.tumblr_post').each(function(){
-			$(this).height();
+		Math.max($('.tumblr_post').each(function(){
+			[$(this).height();]
 				})
-		]);
+		);
 	$('.tumblr_post').height(highestCol);
 
     }
