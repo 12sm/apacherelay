@@ -248,7 +248,8 @@ display: none;
 /* ==========================================================================
    Store
    ========================================================================== */
-.store-body{
+.store-body,
+body.store {
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-position:center;
