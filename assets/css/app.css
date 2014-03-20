@@ -411,8 +411,12 @@ body.views-template-blog {
    background-size: cover;
    background-repeat: repeat;
    background-position: center;
-   padding: 50px 0px;
 }
+
+body.category-news .wrap,
+body.views-template-blog .wrap {padding: 30px 0px;}
+
+.blog-home-body {padding: 50px 0px;}
 
 .border-box>a {
 color: #E64C1F!important;
