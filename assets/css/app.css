@@ -540,7 +540,7 @@ display: none;
    display: block;
 }
 .tumblr_body{
-   background: rgba(255,255,255, 0.4);
+   
 }
 
 .tumblr_text_post{
@@ -549,6 +549,7 @@ display: none;
     background-position: top right;
     overflow: hidden;
     background-size: 20%;
+    background: rgba(255,255,255, 0.4);
 }
 /* ==========================================================================
    Footer
