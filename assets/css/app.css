@@ -216,8 +216,9 @@ background-attachment: fixed;
 background-position: center;
 background: url(../img/tour-bg.jpg) top center repeat;
 background-size: cover;
-padding: 50px 0px;
 }
+
+body.tour .wrap {padding: 50px 0px;}
 
 body.tour .tour-page h3 {
 display: none;
