@@ -460,6 +460,10 @@ overflow: hidden;
 width: 100%;
 }
 
+.blog-post-square {
+margin-bottom:15px;
+}
+
 /* ==========================================================================
    Tumblr
    ========================================================================== */
@@ -645,8 +649,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* BLOG */
 .blog-post-square {
-max-height: 600px;
+max-height: 500px;
 min-height: 500px;
+height: 500px;
 }
 
 .blog-post-square h1 {
