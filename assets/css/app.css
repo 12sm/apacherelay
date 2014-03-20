@@ -509,9 +509,7 @@ padding:0px;
 .gallery-home-body ol li {
 display:inline-block;
 }
-.tumblr_post > * {
-width: 100%;
-}
+
 .twitter-tweet>p>a, .twitter-tweet>a, .tumblr_body>a, .twitter-tweet>p{
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 border: 0px #fff solid!important;
