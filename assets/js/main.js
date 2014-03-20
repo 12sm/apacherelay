@@ -151,21 +151,11 @@ var Roots = {
     $('.tumblr_post').addClass('col-sm-6 col-md-3');
     
 
-    //Tumblr JS
-    /*var tumblr = 'http://theapacherelay.12southmusic.com/assets/js/tumblr.js';
-var client = tumblr.createClient({
-  consumer_key: 'wOHQtd8mwKnwX4Vi9mNvwx6PFK486RjS38a4aby53lOjwJ4kbx',
-  consumer_secret: 'TgRjBvRF47f8wWv3mV3wfnmmHKIHqRZDwumNIHLkcq7olHpttv',
-  token: 'yJ4LXcBBK6803ehBB01Gx3iiBbkEYxtotv8cbjuDlUHavU7Bk5',
-  token_secret: 'gduC5zWZfL5dglRp0YreW9nsQnQRnu39mImjoYKy89jbCLhKap'
-});
+	var highestCol = $('.tumblr_post').each(function({
+		Math.max($this).height();
+	}))
+	$('.tumblr_post').height(highestCol);
 
-var jsString =client.userInfo(callback);
-console.log('$jsString')
-// Make the request
-client.userInfo(function (err, data) {
-    // ...
-});*/
     }
   },
   // About us page, note the change from about-us to about_us.
