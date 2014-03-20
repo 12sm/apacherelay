@@ -1,4 +1,4 @@
-<div class="container-fluid store-body">
+<div class="row store-page">
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
 <?php while (have_posts()) : the_post(); ?>
 <?php the_content(); ?> 
