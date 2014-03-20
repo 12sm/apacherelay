@@ -24,8 +24,10 @@ body {background:#000; }
    border: 0px #FFF solid!important;
    margin: 0px!important;
    padding: 0px!important;
-   display:none;
+   text-align: center;
 }
+
+body.home .page-header {display:none;}
    
 h1{
    color: #FFFFFF;
