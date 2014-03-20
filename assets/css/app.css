@@ -543,7 +543,7 @@ display: none;
    background: rgba(255,255,255, 0.4);
 }
 
-.tumblr_text_post>{
+.tumblr_text_post{
    background-image: url('../img/twitter.png');
     background-repeat: no-repeat;
     background-position: top right;
