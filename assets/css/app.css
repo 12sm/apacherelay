@@ -522,6 +522,9 @@ display: none;
    max-height: 188px;
    margin-bottom: 10px;
 }
+.tumblr_post blockquote{
+   padding-top: 5px!important;
+}
 .twitter-tweet{
    margin-bottom: 800px!important;
    font-size: 14px!important;
