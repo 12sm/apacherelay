@@ -211,12 +211,16 @@ line-height: 3em;
    Tour [Page]
    ========================================================================== */
 
-body.tour .tour-body {
+body.tour {
 background-attachment: fixed;
 background-position: center;
+background: url(../img/tour-bg.jpg) top center repeat;
+background-size: cover;
 }
 
-body.tour .tour-body h3 {
+body.tour .wrap {padding: 50px 0px;}
+
+body.tour .tour-page h3 {
 display: none;
 }
 
@@ -225,7 +229,6 @@ display: none;
    Primary Content
    ========================================================================== */
 
-.main { }
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -245,7 +248,8 @@ display: none;
 /* ==========================================================================
    Store
    ========================================================================== */
-.store-body{
+.store-body,
+body.store {
    background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-position:center;
@@ -405,6 +409,7 @@ body.views-template-blog {
    background-size: cover;
    background-repeat: repeat;
    background-position: center;
+   background-attachment: fixed;
 }
 
 body.category-news .wrap,
