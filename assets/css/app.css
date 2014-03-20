@@ -441,21 +441,14 @@ margin-top: 100px;
 color:#E64C1F;
 }
 
-.blog-post-square {
-padding: 6px;
-max-height: 400px;
-min-height: 400px;
-}
-
-.blog-post-square h1 {
-font-size: 31px;
-margin-bottom: -20px;
-}
-
 span.post-date {
 color: #A5A5A5;
 font-size: 11px;
 margin-top: 0;
+}
+
+.featured-image-home {
+background: transparent url(../img/news-default.jpg) top center scroll no-repeat;	
 }
 
 /* ==========================================================================
@@ -626,6 +619,21 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+
+/* BLOG */
+.blog-post-square {
+max-height: 600px;
+min-height: 500px;
+}
+
+.blog-post-square h1 {
+font-size: 31px;
+margin-bottom: -20px;
+height: 135px;
+overflow: hidden;
+}
+
 
 .navbar-brand {display:none;}
 
