@@ -145,6 +145,11 @@ var Roots = {
 	
 	$(".fancybox-outer").fitVids();
 
+		//Inject Bootstrap classes into tumblr widget
+	var tumblrText = $(".twitter-tweet").nextAll();
+		$('tumblrText').remove();
+    $('.tumblr_post').addClass('col-sm-6 col-md-3');
+
     }
   },
   // About us page, note the change from about-us to about_us.
