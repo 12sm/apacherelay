@@ -151,9 +151,8 @@ var Roots = {
     $('.tumblr_post').addClass('col-sm-6 col-md-3');
     
 
-	var highestCol = $('.tumblr_post').each(function({
-		Math.max($(this).height());
-	}))
+	var highestCol = 
+		Math.max$('.tumblr_post').each(function({$(this).height()});
 	$('.tumblr_post').height(highestCol);
 
     }
