@@ -473,8 +473,8 @@ margin: 30px 0px 100px 0px;
    Tumblr
    ========================================================================== */
 
-.gallery-home-body { 
-background: url(../img/tour-bg.jpg) top center repeat;
+.gallery-home-body {
+background: url(../img/tumblr-bg.jpg) top center repeat;
 background-size: cover;
 padding: 50px 0px;
 }
