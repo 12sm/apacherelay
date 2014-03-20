@@ -65,7 +65,7 @@ color: #FFF;
 .rotate-pos {
 transform: skewY(3deg);
 -moz-transform: skewY(3deg);
--webkit-transform: skewY(3deg);
+-webkit-transform: skewY(3deg) translate3d( 0, 0, 0);
 -o-transform: skewY(3deg);
 -ms-transform: skewY(3deg);
 }
@@ -73,7 +73,7 @@ transform: skewY(3deg);
 .rotate-neg {
 transform: skewY(-3deg);
 -moz-transform: skewY(-3deg);
--webkit-transform: skewY(-3deg);
+-webkit-transform: skewY(-3deg) translate3d( 0, 0, 0);
 -o-transform: skewY(-3deg);
 -ms-transform: skewY(-3deg);
 }
