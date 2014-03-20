@@ -19,12 +19,6 @@ body {background:#000; }
    ========================================================================== */
 
 .wrap, .main {padding:0px;}   
-
-.content img {
-width:100%;
-max-width:100%;
-height:auto;
-}
    
 h1{
    color: #FFFFFF;
@@ -414,7 +408,7 @@ body.views-template-blog {
 }
 
 body.category-news .wrap,
-body.views-template-blog .wrap {padding: 30px 0px;}
+body.views-template-blog .wrap {padding: 50px 0px;}
 
 .blog-home-body {padding: 50px 0px;}
 
@@ -468,6 +462,12 @@ background-position: 50%;
 height: 200px;
 overflow: hidden;
 width: 100%;
+}
+
+.featured-image-home img {
+width:100%;
+max-width:100%;
+height:auto;
 }
 
 .blog-post-square {
