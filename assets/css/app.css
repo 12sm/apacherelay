@@ -405,7 +405,8 @@ margin-top: 10px;
 .hentry footer {}
 
 .blog-home-body ,
-.blog-body{
+body.category-news,
+body.views-template-blog {
    background-image: url(../img/news-bg.jpg);
    background-size: cover;
    background-repeat: repeat;
