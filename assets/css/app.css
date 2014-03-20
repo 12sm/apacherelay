@@ -19,15 +19,19 @@ body {background:#000; }
    ========================================================================== */
 
 .wrap, .main {padding:0px;}   
+
+.content img {
+width:100%;
+max-width:100%;
+height:auto;
+}
    
 h1{
    color: #FFFFFF;
-   font-size: 60px;
 }
 
 h2{
    color: #FFFFFF;
-   font-size: 50px;
 }
 
 h3{
@@ -451,6 +455,9 @@ margin-top: 0;
 background: transparent url(../img/news-default.jpg);
 background-size: cover;
 background-position: 50%;
+height: 200px;
+overflow: hidden;
+width: 100%;
 }
 
 /* ==========================================================================
