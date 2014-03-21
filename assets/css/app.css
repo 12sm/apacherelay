@@ -764,6 +764,7 @@ width: 70%;
 }
 .tumblr_post{
   max-width: 49%;
+  max-height:209px; 
 }
  }
 
