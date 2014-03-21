@@ -449,7 +449,9 @@ font-size: 32px;
 color: #FFF;
 margin-top: 100px;
 }
-
+.more-blogs a:hover h3 {
+color: #E64C1F;
+}
 .blog-title, .blog-title a{
    color: #E64C1F;
 }
