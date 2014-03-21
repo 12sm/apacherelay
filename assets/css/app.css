@@ -714,9 +714,20 @@ color: #E46540!important;
       background-color: rgba(128,122,128, .33);
       height: 55px;
    }
-
-
-
+   #e2ma_signup_reset_button{
+      display: none;
+   }
+   .e2ma_signup_form_required_footnote{
+      display: none;
+   }
+   .e2ma_signup_form {
+   width: 100%;
+   }
+   #e2ma_signup_submit_button{
+      position: relative;
+      top: -40px;
+      left: 10px;
+   }
 
 /* ==========================================================================
    WordPress Generated Classes
