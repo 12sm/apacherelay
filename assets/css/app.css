@@ -560,6 +560,7 @@ display: none;
 }
 .tumblr_post> * {
 height: auto;
+width: 100%;
 }
 .tumblr_photo_post {
 padding: 0px!important;
