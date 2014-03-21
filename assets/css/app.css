@@ -394,9 +394,7 @@ background-size: cover;
 }
 
 .video-body {
-padding-bottom: 165%;
-padding-top: 7%;
-height: 0px;
+padding-bottom: 5%;
 }
 
 .border-box-white{
@@ -842,6 +840,7 @@ width: 70%;
    display: block;
 }
 .video-body{
+   height: 0px;
    padding-bottom: 68%;
 }
 .tumblr_post{
