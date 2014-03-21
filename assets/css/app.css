@@ -715,7 +715,7 @@ color: #E46540!important;
       height: 55px;
    }
    #e2ma_signup_reset_button{
-      display: none;
+      display: none!important;
    }
    .e2ma_signup_form_required_footnote{
       display: none;
@@ -723,13 +723,10 @@ color: #E46540!important;
    .e2ma_signup_form {
    width: 100%;
    }
-   #e2ma_signup_reset_button{
-      display: none;
-   }
    #e2ma_signup_submit_button{
       position: relative;
-      top: -40px;
-      left: 175px;
+      top: -20px;
+      left: 215px;
    }
    .e2ma_signup_form_row{
       width: 210px;
@@ -737,6 +734,9 @@ color: #E46540!important;
    }
    .e2ma_signup_form_label{
       display: none;
+   }
+   #id_email{
+      width: 100%;
    }
 /* ==========================================================================
    WordPress Generated Classes
