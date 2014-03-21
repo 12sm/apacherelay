@@ -827,7 +827,7 @@ width: 70%;
    z-index: 1000000;
    width: 435px;
 }
-#signup:hover, #signup:focus{
+#signup:hover, #signup:active{
    left: 0px;
 }
 #signup-button{
