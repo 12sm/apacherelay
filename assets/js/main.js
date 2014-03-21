@@ -32,7 +32,7 @@ var Roots = {
 	}, function(){
 		$('#signup').css({left: "0px"});
 	});
-	)
+	
 
     }
   },
