@@ -822,6 +822,7 @@ margin-left: 0px!important;
 @media (min-width:1200px) {
 .tumblr_text_post{
    width: 24%;
+   max-height: 180px;
    } 
 }
 
