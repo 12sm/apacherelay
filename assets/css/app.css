@@ -493,10 +493,18 @@ margin: 30px 0px 100px 0px;
 }
 
 .post-nav {
-position: absolute;
-bottom: 20px;	
+position: relative;
+bottom: 20px;
+padding: 0px 19%;	
 }
-
+.pager li>a, .pager li>span {
+display: inline-block;
+padding: 5px 14px;
+background-color: rgba(255,255,255,.4);
+border: 3px solid #E64C1F;
+border-radius: 15px;
+width: 25%;
+}
 #disqus_thread {
 margin: 0px auto;
 background-color: rgba(255, 255, 255, 0.7);
