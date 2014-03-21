@@ -83,7 +83,10 @@ transform: skewY(-3deg);
 
 /*.go-full {margin:0 -20px; padding:0 20px;}*/
 
-body .post-type-archive-music{
+.post-type-archive-music .container-fluid{
+   padding: 50px 0px;
+}
+body.post-type-archive-music{
    background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
