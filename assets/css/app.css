@@ -26,7 +26,11 @@ body {background:#000; }
    padding: 0px!important;
    text-align: center;
 }
-
+body.home{
+   background-image:url(../img/mobile-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
 body.home .page-header {display:none;}
    
 h1{
@@ -728,7 +732,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-
+body.home{
+   background-image:url(../img/backup-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
 .navbar-default {
 background: rgba(0,0,0,.50);
 }
