@@ -489,9 +489,16 @@ width:100%;
 max-width:100%;
 height:auto;
 }
-
+.border-box-white>p:hover{
+   color: #E64C1F!important;
+   border: 3px solid #E64C1F!important;
+}
 .blog-post-square {
 margin: 30px 0px 100px 0px;
+}
+.vid-icon:hover{
+   transition: color .3s ease;
+   color: #E64C1F!important;
 }
 
 .post-nav {
