@@ -25,6 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
      $(".fit-vid").fitVids();
 
+     $("#e2ma_signup_submit_button").addClass('btn btn-default');
     }
   },
   // Home page
