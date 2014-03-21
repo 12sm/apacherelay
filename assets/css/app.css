@@ -558,6 +558,9 @@ display: none;
    min-height: 218px;
    max-width: 49%;
 }
+.tumblr_post> * {
+height: auto;
+}
 .tumblr_photo_post {
 padding: 0px!important;
 }
