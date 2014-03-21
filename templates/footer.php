@@ -32,7 +32,8 @@
     </ul>
     </div>
     
-    <div id="social" class="col-xs-6 social-nav">
+    <div class="row">
+    <div id="social" class="col-sm-6 social-nav">
 		<ul id="menu-social-navigation" class="">
 	    	<li class="menu-"><a href="https://www.facebook.com/theapacherelay" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
 	        <li class="menu-"><a href="https://twitter.com/apacherelay" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -41,8 +42,8 @@
 	    </ul>
 	</div>
               
-    <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
-    
+    <div class="credits col-sm-6">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+    </div>
     </div>
   </div>
 </footer>
