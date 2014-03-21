@@ -837,7 +837,7 @@ h2{
    max-width: 24%;
 }
 
-.tour-body, .blog-home-body, .gallery-home-body, .store-body {
+#music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 margin-bottom: 50px;
 padding: 10% 0px 13% 0px;
 }
