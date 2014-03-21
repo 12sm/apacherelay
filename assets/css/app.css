@@ -581,9 +581,9 @@ line-height: 1!important;
 .twitter-tweet>p>a:hover, .twitter-tweet>a:hover, .tumblr_body>a:hover, .twitter-tweet>p:hover{
 border: 0px #fff solid!important;
 }
-.tumblr_title{
-   margin-top: 18px;
-   margin-left: 5px;
+.tumblr_title {
+margin-top: 15%;
+margin-left: 5px;
 }
 .tumblr_body {
 margin-left: 5px;
@@ -642,7 +642,7 @@ padding: 0px!important;
    ========================================================================== */
 
 .content-info {
-padding: 30px 0px;
+padding: 30px 15px;
 text-align: center;
 }
 
