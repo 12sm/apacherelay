@@ -764,7 +764,6 @@ width: 70%;
 }
 .tumblr_post{
   max-width: 49%;
-  max-height: 207px;
 }
  }
 
@@ -785,6 +784,9 @@ h2{
 }
 #myModal{
    margin-top: 1%;
+}
+.tumblr_post>img{
+   width: 105%
 }
 .tumblr_post{
    max-width: 24%;
