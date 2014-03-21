@@ -555,11 +555,14 @@ display: none;
 .tumblr_post{
    overflow: hidden;
    margin: 2px;
-   min-height: 188px;
+   min-height: 218px;
 }
 .tumblr_post> * {
 height: auto;
 width: 100%;
+}
+.tumblr_photo_post {
+padding: 0px!important;
 }
 .tumblr_post blockquote{
    display: none;
