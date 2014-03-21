@@ -723,12 +723,21 @@ color: #E46540!important;
    .e2ma_signup_form {
    width: 100%;
    }
+   #e2ma_signup_reset_button{
+      display: none;
+   }
    #e2ma_signup_submit_button{
       position: relative;
       top: -40px;
-      left: 10px;
+      left: 175px;
    }
-
+   .e2ma_signup_form_row{
+      width: 210px;
+      border: 0px solid #fff!important;
+   }
+   .e2ma_signup_form_label{
+      display: none;
+   }
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
