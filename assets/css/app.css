@@ -925,6 +925,10 @@ and (orientation : landscape) {
 .tumblr_post{
   max-width: 49%;
   max-height:209px; 
+  overflow: hidden;
+margin: 2px;
+min-height: 209px;
+width: 100%;
 }
 }
 
@@ -937,6 +941,10 @@ and (orientation : portrait) {
 .tumblr_post{
   max-width: 49%;
   max-height:209px; 
+overflow: hidden;
+margin: 2px;
+min-height: 209px;
+width: 100%;
 }
 }
 
