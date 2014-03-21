@@ -255,8 +255,12 @@ display: none;
 .music-content{
    margin-top: 4%;
 }
-.music-body{
+body.home.music-body{
    padding-top: 3%;
+   background-image: url(../img/music-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
 .content>.row{
    margin-top: 25px;
