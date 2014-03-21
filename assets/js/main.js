@@ -159,6 +159,10 @@ var Roots = {
 	var tumblrText = $(".twitter-tweet").nextAll();
 		$('tumblrText').remove();
     $('.tumblr_post').addClass('col-sm-6 col-md-3');
+    $('.tumblr_post').css( 'cursor', 'pointer' );
+    $('.tumblr_post').click(function() {
+	    document.location.href='http://apache-relay-official.tumblr.com';
+    });
 
     }
   },
