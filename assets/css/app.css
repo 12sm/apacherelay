@@ -255,11 +255,12 @@ display: none;
 .music-content{
    margin-top: 4%;
 }
-body.home.music-body{
+#music-body{
  background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
+
 }
 body.post-type-archive-music .music-body{
    padding-top: 3%;
