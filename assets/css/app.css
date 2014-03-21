@@ -585,6 +585,7 @@ width: 100%;
     background-size: 20%;
     background-color: rgba(255,255,255, 0.4);
     padding-top: 5px;
+    max-width: 400px;
 }
 /* ==========================================================================
    Footer
@@ -758,12 +759,18 @@ width: 70%;
 .video-body{
    padding-bottom: 68%;
 }
+.tumblr_post{
+   width: 49%!important;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
    .video-body {
 padding-bottom: 45%;
+}
+.tumblr_post{
+   width: inherit;
 }
 .container-fluid>*{
    margin-left: inherit;
