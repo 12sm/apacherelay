@@ -760,7 +760,7 @@ width: 70%;
    padding-bottom: 68%;
 }
 .tumblr_post{
-   width: 49%!important;
+   max-width: 49%;
 }
  }
 
@@ -821,7 +821,7 @@ margin-left: 0px!important;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
 .tumblr_text_post{
-   width: 24%;
+   max-width: 24%;
    max-height: 180px;
    } 
 }
