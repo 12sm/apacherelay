@@ -809,6 +809,7 @@ width: 70%;
 
 .bit-venue{
       display: block!important;
+      overflow: hidden;
    }
 
    footer {padding-top: initial;}
@@ -826,7 +827,7 @@ width: 70%;
    z-index: 1000000;
    width: 435px;
 }
-#signup:hover{
+#signup:hover, #signup:focus{
    left: 0px;
 }
 #signup-button{
