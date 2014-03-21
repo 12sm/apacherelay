@@ -438,7 +438,9 @@ margin-left: -15px;
 width: 100%;
 display: block;
 }
-
+.blog-post-square h1 :hover{
+   color: #fff;
+}
 .border-box>a:hover {
 color: #FFF!important;
 border: 3px solid #FFF;
