@@ -421,7 +421,7 @@ margin-top: 10px;
    color: #E64C1F!important;
 }
 .vid-text{
-   text-align: center;
+   display: none;
 }
 /* ==========================================================================
    Posts
@@ -780,7 +780,9 @@ body.home{
 .navbar-default {
 background: rgba(0,0,0,.50);
 }
-
+.vid-text{
+   display: block;
+}
 
 /* BLOG */
 .blog-post-square {
