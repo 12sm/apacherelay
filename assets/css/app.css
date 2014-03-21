@@ -744,7 +744,7 @@ width: 70%;
 
 #signup{
    transition: left 0.4s ease;
-   left: -435px;
+   left: -130px;
    position: fixed;
    z-index: 1000000;
    width: 435px;
