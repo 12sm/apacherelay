@@ -27,11 +27,11 @@ var Roots = {
      //Inject classes into #signup
      $("#e2ma_signup_submit_button").addClass('btn btn-default');
 	//click for mobile/tablet
-	/*$('#signup-button').toggle(function(){
-		$('#signup').css({left: "-310px"});
-	}, function(){
-		$('#signup').css({left: "0px"});
-	});*/
+	$('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
 	
 
     }
