@@ -723,12 +723,17 @@ color: #E46540!important;
    .e2ma_signup_form {
    margin-top: 15px;
    }
-   #e2ma_signup_submit_button{
-      position: relative;
-      top: -35px;
-      left: 215px;
-      padding:1px;
-   }
+ #e2ma_signup_submit_button {
+   position: relative;
+   top: -32px;
+   left: 215px;
+   padding: 1px;
+   font-family: "bebas";
+   background: rgba(0,0,0,0);
+   color: #E64C1F!important;
+   border: 2px solid #E64C1F!important;
+   border-radius: 0px;
+}
    .e2ma_signup_form_row{
       width: 210px;
       border: 0px solid #fff!important;
