@@ -163,7 +163,10 @@ color: rgb(111,111,111)!important;
    Content - HOME
    ========================================================================== */
 
-.content { }
+.content {
+margin-left: 0px;
+margin-right: 0px;
+}
 
 #tubular-shield{
    z-index: -10000!important;
