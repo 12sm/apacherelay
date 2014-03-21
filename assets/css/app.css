@@ -833,7 +833,7 @@ width: 70%;
    width: 435px;
 }
 #signup:hover, #signup:focus, .hover_effect{
-   left: 0px;
+   left: 0px!important;
 }
 .hover {
 -webkit-user-select: none;
