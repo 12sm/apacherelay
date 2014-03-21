@@ -256,11 +256,13 @@ display: none;
    margin-top: 4%;
 }
 body.home.music-body{
-   padding-top: 3%;
-   background-image: url(../img/music-bg.jpg);
+ background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
+}
+body.post-type-archive-music .music-body{
+   padding-top: 3%;
 }
 .content>.row{
    margin-top: 25px;
