@@ -769,9 +769,6 @@ width: 70%;
    .video-body {
 padding-bottom: 45%;
 }
-.tumblr_post{
-   width: inherit;
-}
 .container-fluid>*{
    margin-left: inherit;
    margin-right: inherit;
