@@ -580,11 +580,11 @@ line-height: 1!important;
 border: 0px #fff solid!important;
 }
 .tumblr_title{
-   
+   margin-top: 18px;
+   margin-left: 5px;
 }
-.tumblr_body> * {
-display: block;
-
+.tumblr_body {
+margin-left: 5px;
 }
 .tumblr_caption {
 display: none!important;
@@ -699,7 +699,6 @@ color: #E46540!important;
    ========================================================================== */
    #signup-button{
       height: 55px;
-      display: none;
    }
    #signup-button > h3 {
       font-size: 18px;
