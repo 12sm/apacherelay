@@ -231,8 +231,8 @@ line-height: 3em;
    ========================================================================== */
 
 body.tour {
-background-attachment: fixed;
-background-position: center;
+background-attachment: fixed!important;
+background-position: center!important;
 background: url(../img/tour-bg.jpg) top center repeat;
 background-size: cover;
 }
