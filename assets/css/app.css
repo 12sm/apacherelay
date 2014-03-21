@@ -923,8 +923,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) { 
 .tumblr_post{
-  max-width: 49%;
-  max-height:209px; 
+  width: 49%;
+  height:209px; 
 }
 }
 
@@ -935,8 +935,8 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
 
 .tumblr_post{
-  max-width: 49%;
-  max-height:209px; 
+  width: 49%;
+  height:209px; 
 }
 }
 
