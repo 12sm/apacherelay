@@ -734,6 +734,10 @@ color: #E46540!important;
    border: 2px solid #E64C1F!important;
    border-radius: 0px;
 }
+#e2ma_signup_submit_button :hover{
+   color: #fff!important;
+   border: 2px solid #fff!important;
+}
    .e2ma_signup_form_row{
       width: 210px;
       border: 0px solid #fff!important;
