@@ -208,7 +208,9 @@ max-width: 225px!important;
 #bit-events tr {
 line-height: 3em;
 }
-
+td a {
+font-size: 12px!important;
+}
    
 /* =======================
    News Section [Home]
@@ -421,6 +423,7 @@ margin-top: 10px;
    color: #E64C1F!important;
 }
 .vid-text{
+   text-align: center;
    display: none;
 }
 /* ==========================================================================
@@ -776,6 +779,9 @@ body.home{
    background-image:url(../img/backup-bg.jpg);
    background-size: cover;
    background-repeat: no-repeat; 
+}
+td a {
+font-size: initial!important;
 }
 .navbar-default {
 background: rgba(0,0,0,.50);
