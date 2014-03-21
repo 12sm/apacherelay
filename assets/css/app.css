@@ -438,7 +438,7 @@ margin-left: -15px;
 width: 100%;
 display: block;
 }
-.blog-post-square h1 :hover{
+.blog-post-square h1:hover{
    color: #E64C1F!important;
 }
 .border-box>a:hover {
