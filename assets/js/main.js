@@ -31,8 +31,6 @@ var Roots = {
         e.preventDefault();
         $(this).toggleClass('hover_effect');
     });
-});
-	
 
     }
   },
