@@ -926,6 +926,13 @@ and (orientation : landscape) {
   max-height:209px;
   padding:5px; 
 }
+.tumblr_title{
+   margin-top: 18px;
+   margin-left: 5px;
+}
+.tumblr_body {
+margin-left: 5px;
+}
 }
 
 /*Ipad Portrait*/
@@ -938,6 +945,13 @@ and (orientation : portrait) {
   max-width: 49%;
   max-height:209px; 
    padding:5px; 
+}
+.tumblr_title{
+   margin-top: 18px;
+   margin-left: 5px;
+}
+.tumblr_body {
+margin-left: 5px;
 }
 }
 
