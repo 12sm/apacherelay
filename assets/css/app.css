@@ -408,6 +408,7 @@ font-size: 18px;
 }
 
 .vid-icon {
+   transition: color .3s ease;
 text-align: center;
 color: #fff;
 position: static;
@@ -734,7 +735,7 @@ color: #E46540!important;
    border: 2px solid #E64C1F!important;
    border-radius: 0px;
 }
-#e2ma_signup_submit_button :hover{
+#e2ma_signup_submit_button:hover{
    color: #fff!important;
    border: 2px solid #fff!important;
 }
