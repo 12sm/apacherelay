@@ -414,7 +414,10 @@ color: #fff;
 position: static;
 margin-top: 10px;
 }
-
+.vid-icon:hover{
+   transition: color .3s ease;
+   color: #E64C1F!important;
+}
 .vid-text{
    text-align: center;
 }
@@ -513,10 +516,7 @@ height:auto;
 .blog-post-square {
 margin: 30px 0px 100px 0px;
 }
-.vid-icon:hover{
-   transition: color .3s ease;
-   color: #E64C1F!important;
-}
+
 
 .post-nav {
 position: relative;
