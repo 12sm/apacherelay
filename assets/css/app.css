@@ -775,10 +775,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-body.home{
-   background-image:url(../img/backup-bg.jpg);
-   background-size: cover;
-   background-repeat: no-repeat; 
+body.home {
+background-image: url(../img/backup-bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 td a {
 font-size: initial!important;
