@@ -940,6 +940,9 @@ and (orientation : landscape) {
 .tumblr_body {
 margin-left: 5px;
 }
+#signup:hover, #signup:focus, .hover_effect{
+   left: 0px!important;
+}
 }
 
 /*Ipad Portrait*/
@@ -959,6 +962,9 @@ and (orientation : portrait) {
 }
 .tumblr_body {
 margin-left: 5px;
+}
+#signup:hover, #signup:focus, .hover_effect{
+   left: 0px!important;
 }
 }
 
