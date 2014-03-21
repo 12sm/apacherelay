@@ -14,7 +14,7 @@
       	<div id="signup">
       		<div class="row">
 	        	<div class="col-sm-8 topspin-signup">
-		        	<script type="text/javascript" src="//cf.topspin.net/javascripts/topspin_core.js?aId=2335&timestamp=1395242287"></script><div class="topspin-widget topspin-widget-email-for-media"><object type="application/x-shockwave-flash" width="300" height="55" id="TSWidget223475" data="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" bgColor="#ffffff">  <param value="always" name="allowScriptAccess" /> <param value="transparent" name="wmode">  <param name="allowfullscreen" value="true" />  <param name="quality" value="high" />  <param name="movie" value="//cf.topspin.net/widgets/email2/swf/TSEmailMediaWidget.swf?timestamp=1395242287" />  <param name="flashvars" value="widget_id=https://cf.topspin.net/api/v1/artist/2335/email_for_media/223475?timestamp=1395242287&amp;bgalpha=0&amp;theme=white&amp;highlightColor=0xE64C1F" /></object></div>   
+		        	<link href="https://app.e2ma.net/css/signup.sml.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1759284/e15c36343b7c077c709fb8a2575da8a3/1735855/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1759284/1735855/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
 		        </div>
 		        <div class="col-sm-4 topspin-signup" id="signup-button">
 		        	<h3>Email Signup</h3>
