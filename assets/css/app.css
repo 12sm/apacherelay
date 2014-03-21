@@ -734,10 +734,12 @@ color: #E46540!important;
    color: #E64C1F!important;
    border: 2px solid #E64C1F!important;
    border-radius: 0px;
+   border-color: #E64C1F!important;
 }
 #e2ma_signup_submit_button:hover{
    color: #fff!important;
    border: 2px solid #fff!important;
+   border-color: #fff!important;
 }
    .e2ma_signup_form_row{
       width: 210px;
