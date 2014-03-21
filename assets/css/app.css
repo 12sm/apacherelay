@@ -259,7 +259,6 @@ display: none;
  background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
-   background-attachment: fixed;
    padding-bottom: 5%;
 
 }
