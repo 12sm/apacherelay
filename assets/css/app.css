@@ -90,6 +90,7 @@ body.post-type-archive-music{
    background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
+   background-attachment: fixed;
 }
 
 .container-fluid>*{
