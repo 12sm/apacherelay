@@ -394,7 +394,8 @@ background-size: cover;
 }
 
 .video-body {
-padding-bottom: 5%;
+   padding-bottom: 5%;
+padding-top: 7%;
 }
 
 .border-box-white{
