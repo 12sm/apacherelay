@@ -509,6 +509,7 @@ color: #E64C1F!important;
 .pager li>a:hover, .pager li>a:focus{
 background-color: rgba(255,255,255,0);
 color: #fff!important;
+border: 3px solid #fff;
 }
 #disqus_thread {
 margin: 0px auto;
