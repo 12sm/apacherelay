@@ -786,7 +786,8 @@ h2{
    margin-top: 1%;
 }
 .tumblr_post>img{
-   width: 105%
+   width: 105%;
+   max-height: 207px;
 }
 .tumblr_post{
    max-width: 24%;
