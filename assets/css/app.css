@@ -140,7 +140,7 @@ body.post-type-archive-music{
 }
 
 .navbar-default {
-background: rgba(0,0,0,0.8);
+background: rgba(0,0,0,1);
 border: none!important;
 position: fixed;
 width: 100%;
@@ -790,7 +790,9 @@ background: rgba(0,0,0,.50);
 .vid-text{
    display: block;
 }
-
+.navbar-default {
+background: rgba(0,0,0,0.8);
+}
 /* BLOG */
 .blog-post-square {
 max-height: 500px;
