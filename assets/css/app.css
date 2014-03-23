@@ -399,7 +399,7 @@ background-size: cover;
 
 .video-body {
    padding-bottom: 5%;
-padding-top: 7%;
+padding-top: 15%;
 }
 
 .border-box-white{
@@ -864,6 +864,7 @@ font-size: 14px;
 .video-body{
    height: 0px;
    padding-bottom: 68%;
+   padding-top: 7%;
 }
 .tumblr_post{
   max-width: 49%;
