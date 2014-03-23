@@ -698,13 +698,15 @@ color: #E46540!important;
    Email Signup
    ========================================================================== */
    #signup-button{
-      height: 55px;
+      height: 30px;
+      display: block;
    }
    #signup-button > h3 {
       font-size: 18px;
       text-align: center;
       margin-top: 18px;
       color: #fff;
+      padding-top: 5px;
    }
    #signup{
       left: 0px;
@@ -832,15 +834,18 @@ width: 70%;
    z-index: 1000000;
    width: 435px;
 }
+ #signup-button{
+      height: 55px;
+      }
+      #signup-button > h3 {
+         padding-top: 0px;
+      }
 #signup:hover, #signup:focus, .hover_effect{
    left: 0px!important;
 }
 .hover {
 -webkit-user-select: none;
 -webkit-touch-callout: none;        
-}
-#signup-button{
-   display: block;
 }
 #menu-social-navigation{
    display: none;
