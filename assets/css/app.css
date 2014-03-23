@@ -678,6 +678,7 @@ color: #E46540!important;
 #social-float>#menu-social-navigation>li{
    float: left;
    margin-right: 22px;
+   color: #fff;
 }
 #social-float>ul{
    float: right;
