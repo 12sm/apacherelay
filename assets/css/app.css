@@ -717,16 +717,13 @@ color: #E46540!important;
       }
    .topspin-signup{
       background-color: rgba(128,122,128, .33);
-      height: 55px;
+      height: 40px;
    }
    #e2ma_signup_reset_button{
       display: none!important;
    }
    .e2ma_signup_form_required_footnote{
       display: none;
-   }
-   .e2ma_signup_form {
-   margin-top: 15px;
    }
  #e2ma_signup_submit_button {
    position: relative;
@@ -826,7 +823,9 @@ width: 70%;
    .bit-location{
    width: 23%!important;
 }
-
+.topspin-signup{
+      height: 55px;
+   }
 #signup{
    transition: left 0.4s ease;
    left: -310px;
@@ -834,6 +833,9 @@ width: 70%;
    z-index: 1000000;
    width: 435px;
 }
+.e2ma_signup_form {
+   margin-top: 15px;
+   }
  #signup-button{
       height: 55px;
       }
