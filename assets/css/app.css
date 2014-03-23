@@ -136,6 +136,7 @@ body.post-type-archive-music{
 .navbar-nav li{
    width: 16.66666%;
    text-align: center;
+   height: 50px;
 }
 
 .navbar-default {
