@@ -40,11 +40,11 @@ var Roots = {
       // JavaScript to be fired on the home page
       
       // execute tubular first
-     $('#vid-content').tubular({
-     	videoId: $videoID,
-        repeat: true,
-        wrapperZIndex: -10000
-     });
+     //$('#vid-content').tubular({
+     //	videoId: $videoID,
+     //   repeat: true,
+     //   wrapperZIndex: -10000
+     //});
       
       //Smooth Scroll
       $(function() {
