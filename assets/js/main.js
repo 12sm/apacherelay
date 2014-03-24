@@ -155,11 +155,11 @@ var Roots = {
 			media : {}
 		},
 		beforeLoad : function() {
-        	('.mbYTPMovie').pauseYTP();
+        	$('#bgndVideo1').pauseYTP();
         return;
         },
 		afterClose : function() {
-        	('.mbYTPMovie').playYTP();
+        	$('#bgndVideo1').playYTP();
         return;
         }
 	});
