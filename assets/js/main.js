@@ -40,13 +40,11 @@ var Roots = {
       // JavaScript to be fired on the home page
       
       // execute tubular first
-     //$('#vid-content').tubular({
-     //	videoId: $videoID,
-     //   repeat: true,
-     //   wrapperZIndex: -10000
-     //});
-     
-     $(".player").mb_YTPlayer();
+     $('#vid-content').tubular({
+     	videoId: $videoID,
+        repeat: true,
+        wrapperZIndex: -10000
+     });
       
       //Smooth Scroll
       $(function() {
@@ -205,8 +203,6 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
-
-
 
 
 
