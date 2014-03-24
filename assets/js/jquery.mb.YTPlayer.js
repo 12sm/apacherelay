@@ -167,9 +167,9 @@ function onYouTubePlayerAPIReady() {
 					property = $YTPlayer.metadata();
 				}
 
-				if (jQuery.isEmptyObject(property))
+				/* if (jQuery.isEmptyObject(property))
 					property = $YTPlayer.data("property") && typeof $YTPlayer.data("property") == "string" ? eval('(' + $YTPlayer.data("property") + ')') : $YTPlayer.data("property");
-
+				*/
 				jQuery.extend(YTPlayer.opt, jQuery.mbYTPlayer.defaults, options, property);
 
 				var canGoFullscreen = !(jQuery.browser.msie || jQuery.browser.opera || self.location.href != top.location.href);
