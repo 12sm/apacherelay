@@ -170,8 +170,6 @@ var Roots = {
     $('.tumblr_post').click(function() {
 	    document.location.href='http://apache-relay-official.tumblr.com';
     });
-    
-    $(".player").mb_YTPlayer(); 
 
     }
   },
