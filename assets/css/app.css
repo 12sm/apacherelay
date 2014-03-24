@@ -833,12 +833,12 @@ font-size: 14px;
 .topspin-signup{
       height: 55px;
    }
-#signup{
-   transition: left 0.4s ease;
-   left: -310px;
-   position: fixed;
-   z-index: 1000000;
-   width: 435px;
+#signup {
+transition: left 0.4s ease;
+left: -240px;
+position: fixed;
+z-index: 1000000;
+width: 435px;
 }
 .e2ma_signup_form {
    margin-top: 15px;

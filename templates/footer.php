@@ -13,10 +13,10 @@
     <div class="row signup-row">
       	<div id="signup">
       		<div class="row">
-	        	<div class="col-sm-4 col-sm-push-8 topspin-signup" id="signup-button">
+	        	<div class="col-sm-6 col-sm-push-6 topspin-signup" id="signup-button">
 		        	<h3>Join Mailinglist</h3>
 		        </div>
-	        	<div class="col-sm-8 col-sm-pull-4 topspin-signup">
+	        	<div class="col-sm-6 col-sm-pull-6 topspin-signup">
 		        	<link href="https://app.e2ma.net/css/signup.sml.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1759284/e15c36343b7c077c709fb8a2575da8a3/1735855/?v=a"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1759284/1735855/?v=a"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
 		        </div>
 		    </div>
