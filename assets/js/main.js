@@ -154,8 +154,12 @@ var Roots = {
 		helpers : {
 			media : {}
 		},
+		beforeLoad : function() {
+        	('.player').pauseYTP();
+        return;
+        },
 		afterClose : function() {
-        	player.playVideo();
+        	('.player').playYTP();
         return;
         }
 	});
