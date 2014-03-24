@@ -45,8 +45,6 @@ var Roots = {
      //   repeat: true,
      //   wrapperZIndex: -10000
      //});
-     
-     $(".player").mb_YTPlayer();
       
       //Smooth Scroll
       $(function() {
@@ -171,7 +169,9 @@ var Roots = {
     $('.tumblr_post').css( 'cursor', 'pointer' );
     $('.tumblr_post').click(function() {
 	    document.location.href='http://apache-relay-official.tumblr.com';
-    }); 
+    });
+    
+    $(".player").mb_YTPlayer(); 
 
     }
   },
