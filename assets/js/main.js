@@ -39,6 +39,13 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
       
+      // execute tubular first
+     $('#vid-content').tubular({
+     	videoId: $videoID,
+        repeat: true,
+        wrapperZIndex: -10000
+     });
+      
       //Smooth Scroll
       $(function() {
 	      $('a[href*=#]:not([href=#])').click(function() {
@@ -162,13 +169,7 @@ var Roots = {
     $('.tumblr_post').css( 'cursor', 'pointer' );
     $('.tumblr_post').click(function() {
 	    document.location.href='http://apache-relay-official.tumblr.com';
-    });
-    
-     $('#vid-content').tubular({
-            videoId: $videoID,
-            repeat: true,
-            wrapperZIndex: -10000
-         });
+    }); 
 
     }
   },
