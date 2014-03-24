@@ -758,7 +758,7 @@ color: #E46540!important;
    
 #e2ma_signup .e2ma_signup_form_row {display:none;}
    
-#e2ma_signup .e2ma_signup_form_row:nth-child(1) {display:block;}   
+#e2ma_signup div:nth-child(1) {display:block!important;}   
 
 
 /* ==========================================================================
