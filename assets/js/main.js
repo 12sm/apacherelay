@@ -154,10 +154,6 @@ var Roots = {
 		helpers : {
 			media : {}
 		},
-		beforeLoad : function() {
-        	('.player').pauseYTP();
-        return;
-        },
 		afterClose : function() {
         	('.player').playYTP();
         return;
