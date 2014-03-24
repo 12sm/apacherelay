@@ -164,6 +164,13 @@ var Roots = {
     });
 
     }
+    
+    // load bg vid
+     $('#vid-content').tubular({
+            videoId: $videoID,
+            repeat: true,
+            wrapperZIndex: -10000
+      });
   },
   // About us page, note the change from about-us to about_us.
   about_us: {
