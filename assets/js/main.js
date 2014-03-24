@@ -46,8 +46,7 @@ var Roots = {
      //   wrapperZIndex: -10000
      //});
      
-     jQuery(".player").mb_YTPlayer();
-		});
+     $(".player").mb_YTPlayer();
       
       //Smooth Scroll
       $(function() {
