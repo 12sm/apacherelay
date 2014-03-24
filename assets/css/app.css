@@ -756,8 +756,8 @@ color: #E46540!important;
       width: 100%;
    }
    
-#e2ma_signup .e2ma_signup_form_row:nth-child(2) {display:none;}   
-#e2ma_signup .e2ma_signup_form_row:nth-child(3) {display:none;}
+#e2ma_signup div:nth-of-type(2) {display:none;}   
+#e2ma_signup div:nth-of-type(3) {display:none;}
 
 
 
