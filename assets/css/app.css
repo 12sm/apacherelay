@@ -835,10 +835,10 @@ font-size: 14px;
    }
 #signup {
 transition: left 0.4s ease;
-left: -240px;
+left: -280px;
 position: fixed;
 z-index: 1000000;
-width: 435px;
+width: 530px;
 }
 .e2ma_signup_form {
    margin-top: 15px;
