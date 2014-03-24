@@ -45,6 +45,8 @@ var Roots = {
      //   repeat: true,
      //   wrapperZIndex: -10000
      //});
+     
+     $(".player").mb_YTPlayer();
       
       //Smooth Scroll
       $(function() {
@@ -203,6 +205,3 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
-
-
-
