@@ -755,6 +755,12 @@ color: #E46540!important;
    #id_email{
       width: 100%;
    }
+   
+#e2ma_signup .e2ma_signup_form_row {display:none;}
+   
+#e2ma_signup .e2ma_signup_form_row:nth-child(1) {display:block;}   
+
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
