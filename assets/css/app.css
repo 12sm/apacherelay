@@ -848,9 +848,7 @@ width: 530px;
       }
       #signup-button > h3 {
          padding-top: 0px;
-         margin-left: 45px;
       }
-
 #signup:hover, #signup:focus, .hover_effect{
    left: 0px!important;
 }
