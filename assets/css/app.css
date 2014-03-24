@@ -757,7 +757,8 @@ border-color: #E64C1F!important;
    }
    
 #id_member_field_postal_code,
-#id_member_field_first_name {display:none;}   
+#id_member_field_first_name,
+#e2ma_signup_image_container {display:none;}   
 
 
 
