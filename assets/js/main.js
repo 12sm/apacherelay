@@ -131,7 +131,7 @@ var Roots = {
 		
 	}
 	
-	enquire.register("screen and (min-width:50em)", function() {
+	enquire.register("screen and (min-width:55em)", function() {
         $window.resize(function(){ //if the user resizes the window...
 			Move(); //move the background images in relation to the movement of the scrollbar
 		});		
