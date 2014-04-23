@@ -184,6 +184,13 @@ margin: 0 auto;
    Music Section [Home]
    ======================= */
 
+#outerWidgetContainer{
+   height: 60%;
+}
+.music-content iframe {
+width: 100%;
+}
+
 /* =======================
    Tour Section [Home]
    ======================= */
