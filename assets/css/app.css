@@ -793,7 +793,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:768px) {
 body.home {
 background-image: url(../img/backup-bg.jpg);
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
