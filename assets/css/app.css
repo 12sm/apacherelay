@@ -184,11 +184,14 @@ margin: 0 auto;
    Music Section [Home]
    ======================= */
 
-#outerWidgetContainer{
+ #outerWidgetContainer{
    height: 60%!important;
 }
 .music-content iframe {
 width: 100%!important;
+}
+div#widgetContainer {
+height: 60%!important;
 }
 
 /* =======================
