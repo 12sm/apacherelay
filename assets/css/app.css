@@ -185,10 +185,10 @@ margin: 0 auto;
    ======================= */
 
 #outerWidgetContainer{
-   height: 60%;
+   height: 60%!important;
 }
 .music-content iframe {
-width: 100%;
+width: 100%!important;
 }
 
 /* =======================
