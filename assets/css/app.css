@@ -179,6 +179,10 @@ margin-right: 0px;
 .vid-store-banner {
 margin: 0 auto;
 }
+.vid-icon a {
+background-size: contain;
+width: 100%;
+}
 
 /* =======================
    Music Section [Home]
