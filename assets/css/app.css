@@ -190,6 +190,7 @@ width: 100%;
 
  #outerWidgetContainer{
    height: 60%!important;
+   margin: 0!important;
 }
 .music-content iframe {
 width: 100%!important;
