@@ -198,6 +198,9 @@ width: 100%!important;
 div#widgetContainer {
 height: 60%!important;
 }
+.spot-img{
+   max-height: 500px;
+}
 
 /* =======================
    Tour Section [Home]
