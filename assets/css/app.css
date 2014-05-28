@@ -243,6 +243,8 @@ font-size: 12px!important;
  .contact{
    background: url(../img/news-bg.jpg);
    background-size: cover;
+   background-attachment: fixed;
+   background-position: 0%;
  }  
 /* =======================
    News Section [Home]
