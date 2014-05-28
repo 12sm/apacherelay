@@ -46,6 +46,12 @@ h3{
    font-size: 36px;
    color: #646464;
 }
+h5{
+font-size: 28px;
+color: #fff;
+font-family: "bebas";
+line-height: 150%;
+}
 h1, h2, h3, a {
    font-family: "bebas"!important;
    word-spacing: 2px;
