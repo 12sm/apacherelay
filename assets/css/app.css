@@ -245,7 +245,10 @@ font-size: 12px!important;
    background-size: cover;
    background-attachment: fixed;
    background-position: 0%;
- }  
+ }
+ .contact-page{
+   margin-top: 5%;
+ }
 /* =======================
    News Section [Home]
    ======================= */
