@@ -233,7 +233,17 @@ line-height: 3em;
 td a {
 font-size: 12px!important;
 }
-   
+/* =======================
+   Contact
+   ======================= */
+ .contact h1{
+   text-align: center;
+   margin-top: 6%;
+ }
+ .contact{
+   background: url(../img/news-bg.jpg);
+   background-size: cover;
+ }  
 /* =======================
    News Section [Home]
    ======================= */
