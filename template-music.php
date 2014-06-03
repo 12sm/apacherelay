@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Store Template
+Template Name: Music Template
 */
 ?>
 
