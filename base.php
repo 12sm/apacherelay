@@ -8,20 +8,14 @@
   <![endif]-->
 
   <?php
+   if (!is_page(1259)) {
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
       get_template_part('templates/header-top-navbar');
     } else {
       get_template_part('templates/header');
-    }
-  ?>
-<?php if (!is_page(1259)) {
-  echo '<div class="hide">Not 1259</div>';
-}
-
- if (is_page(1259)) {
-  echo '<!--is Katie Queen-->';
+    } 
 } ?>
   <div class="wrap container-fluid" role="document">
     <div class="content row">
