@@ -18,7 +18,7 @@
   ?>
 <?php 
  if (is_page(1259)) {
-  echo 'is Katie Queen';
+  echo '<!--is Katie Queen-->';
 } ?>
 
   <div class="wrap container-fluid" role="document">
