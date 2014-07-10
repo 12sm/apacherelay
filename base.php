@@ -17,11 +17,11 @@
     }
   ?>
 <?php if (!is_page('1259')) {
-  echo'<!--Not 1259-->';
+  echo '<!--Not 1259-->';
 }
 ?>
 <?php if (is_page('1259')) {
-  echo'<!--is Katie Queen-->';
+  echo '<!--is Katie Queen-->';
 }?>
   <div class="wrap container-fluid" role="document">
     <div class="content row">
