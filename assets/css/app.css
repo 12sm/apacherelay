@@ -126,6 +126,25 @@ body.post-type-archive-music{
 }
 
 
+
+
+/* ==========================================================================
+   Splash
+   ========================================================================== */
+.katie-wrapper p {
+width: 500px;
+margin: 0 auto;
+}
+
+#wrapper_mbYTP_bgndVideo1 {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: gray;
+filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+opacity: 0.3!important;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
