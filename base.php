@@ -16,11 +16,11 @@
       get_template_part('templates/header');
     }
   ?>
-<?php if (!is_page('1259')) {
+<?php if (!is_page(1259)) {
   echo '<!--Not 1259-->';
 }
 ?>
-<?php if (is_page('1259')) {
+<?php if (is_page(1259)) {
   echo '<!--is Katie Queen-->';
 }?>
   <div class="wrap container-fluid" role="document">
