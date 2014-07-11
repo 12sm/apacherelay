@@ -168,7 +168,7 @@ margin: 0 auto;
 }
 
 .katiequeenoftennessee h3 {
-text-align: left;
+text-align: center;
 margin: 0px auto;
 font-size: 30px;
 }
@@ -195,6 +195,8 @@ margin-top: 25px;
 .katiequeenoftennessee .gallery-home-body{
 background: transparent;
 }
+
+.katiequeenoftennessee #question_text {font-size:20px; color:#999;padding:15px;}
 
 .katiequeenoftennessee #question_text,
 .katiequeenoftennessee #talk_btn {width:100%;}
