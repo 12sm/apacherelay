@@ -153,7 +153,9 @@ text-align: center;
 max-width: 35%;
 margin: 0 auto;
 }
-
+.katiequeenoftennessee h1{
+   text-align: center;
+}
 .vc_responsive .wpb_row .vc_span12 {
 padding-left: 0px;
 padding-right: 0px;
@@ -162,6 +164,12 @@ padding-right: 0px;
 .wpb_row {
 margin-left: 0px;
 margin-right: 0px;
+}
+
+.katiequeenoftennessee .wpb_image_grid_ul.isotope {
+width: 90%;
+margin: 0 auto;
+margin-top: 25px;
 }
 
 /* ==========================================================================
