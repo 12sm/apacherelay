@@ -188,7 +188,7 @@ margin-right: 0px;
 }
 
 .katiequeenoftennessee .wpb_image_grid_ul.isotope {
-width: 90%;
+max-width: 90%;
 margin: 0 auto;
 margin-top: 25px;
 }
@@ -204,12 +204,6 @@ background: transparent;
 .addthis_sharing_toolbox {width:180px; margin:0px auto;}
 
 .wpb_image_grid .wpb_image_grid_ul .wpb_image_grid .wpb_image_grid_ul .isotope-item {
-list-style: none;
-margin: 0 1px 1px 0;
-max-width: 100%;
-float: left;
-width: 33%;
-} {
 list-style: none;
 margin: 0 1px 1px 0;
 max-width: 100%;
@@ -1018,7 +1012,7 @@ width: 530px;
   max-height:209px; 
 }
 .katiequeenoftennessee .wpb_image_grid_ul.isotope {
-width: 60%;
+max-width: 90%;
 }
 
  }
@@ -1079,7 +1073,7 @@ font-size: 18px;
 margin-left: 0px!important;
 }
 .katiequeenoftennessee .wpb_image_grid_ul.isotope {
-width: 89%;
+max-width: 90;
 margin: 0 auto;
 }
 
