@@ -163,7 +163,10 @@ padding-right: 0px;
 margin-left: 0px;
 margin-right: 0px;
 }
-
+.katiequeenoftennessee .wpb_image_grid_ul.isotope {
+width: 80%;
+margin: 0 auto;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -981,7 +984,7 @@ margin: 0% -10%;
    max-width: 24%;
 }
 
-#music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
+#music-body, .katie-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 margin-bottom: 50px;
 padding: 10% 0px 13% 0px;
 }
