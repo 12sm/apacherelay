@@ -335,7 +335,7 @@ display: none;
 .music-content{
    margin-top: 4%;
 }
-#music-body{
+#music-body, .katie-body{
  background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
