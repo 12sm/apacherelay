@@ -173,7 +173,9 @@ margin: 0px auto;
 font-size: 30px;
 }
 
-.katiequeenoftennessee h4 {color:#fff; font-size:26px;text-align:center;font-family: "bebas"!important;}
+.katiequeenoftennessee .share h3 {text-align:center;} 
+
+.katiequeenoftennessee h4 {color:#fff; font-size:26px;text-align:center;font-family: "bebas"!important;letter-spacing: 3px;}
 
 .vc_responsive .wpb_row .vc_span12 {
 padding-left: 0px;
@@ -193,6 +195,10 @@ margin-top: 25px;
 .katiequeenoftennessee .gallery-home-body{
 background: transparent;
 }
+
+.katiequeenoftennessee #question_text,
+.katiequeenoftennessee #talk_btn {width:100%;}
+
 /* ==========================================================================
    Header
    ========================================================================== */
