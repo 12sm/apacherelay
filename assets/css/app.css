@@ -131,9 +131,16 @@ body.post-type-archive-music{
 /* ==========================================================================
    Splash
    ========================================================================== */
+body..katiequeenoftennessee {background: #999;}
+
 .katie-wrapper p {
 width: 500px;
 margin: 0 auto;
+}
+
+.katiequeenoftennessee .vc_row-fluid {
+max-width: 1100px;
+margin: 0px auto;	
 }
 
 #wrapper_mbYTP_bgndVideo1 {
@@ -150,12 +157,20 @@ text-align: center;
 }
 
 .katiequeenoftennessee .fit-vid {
-max-width: 35%;
+max-width: 1100px;
 margin: 0 auto;
 }
 
+.katiequeenoftennessee .splash-header {font-size:80px; margin-bottom:0px;}
+
 .katiequeenoftennessee h1{
    text-align: center;
+}
+
+.katiequeenoftennessee h3 {
+text-align: center;
+margin: 0px auto;
+font-size: 30px;
 }
 
 .vc_responsive .wpb_row .vc_span12 {
