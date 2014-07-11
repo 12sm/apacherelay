@@ -201,6 +201,8 @@ background: transparent;
 .katiequeenoftennessee #question_text,
 .katiequeenoftennessee #talk_btn {width:100%;}
 
+.addthis_sharing_toolbox {width:180px; margin:0px auto;}
+
 /* ==========================================================================
    Header
    ========================================================================== */
