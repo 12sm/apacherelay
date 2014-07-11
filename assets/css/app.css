@@ -161,7 +161,10 @@ max-width: 1100px;
 margin: 0 auto;
 }
 
-.katiequeenoftennessee .splash-header {font-size:80px; margin-bottom:0px;}
+.katiequeenoftennessee .splash-header {
+font-size: 40px;
+margin-bottom: 0px;
+}
 
 .katiequeenoftennessee h1{
    text-align: center;
@@ -907,6 +910,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.katiequeenoftennessee .splash-header {font-size:80px; margin-bottom:0px;}
 
 .wpb_image_grid .wpb_image_grid_ul .isotope-item {
 list-style: none;
