@@ -154,9 +154,14 @@ max-width: 35%;
 margin: 0 auto;
 }
 
-.katiequeenoftennessee .wrap {
-padding-left: 15px;
-padding-right: 15px;
+.vc_responsive .wpb_row .vc_span12 {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.wpb_row {
+margin-left: 0px;
+margin-right: 0px;
 }
 
 /* ==========================================================================
