@@ -163,10 +163,7 @@ padding-right: 0px;
 margin-left: 0px;
 margin-right: 0px;
 }
-.katiequeenoftennessee .wpb_image_grid_ul.isotope {
-width: 89%;
-margin: 0 auto;
-}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -956,6 +953,10 @@ width: 530px;
   max-width: 49%;
   max-height:209px; 
 }
+.katiequeenoftennessee .wpb_image_grid_ul.isotope {
+width: 60%;
+}
+
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1012,6 +1013,10 @@ padding: 2px;
 text-align: center;
 font-size: 18px;
 margin-left: 0px!important;
+}
+.katiequeenoftennessee .wpb_image_grid_ul.isotope {
+width: 89%;
+margin: 0 auto;
 }
 
  }
