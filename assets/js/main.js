@@ -49,6 +49,11 @@ var Roots = {
 	  		t=""+twitter_url+"?hashtags="+hashtags+"&text="+e;return $talkbtn.attr("href",t)};
 	  		$question.on("keyup",function(e){return update_widgets()});
 	  		$talkbtn.on("click ",function(e){e.preventDefault();update_widgets();return!0});
+	  		
+	  $(function(){
+          $.okvideo({ source: 'http://youtu.be/kRqk4M3hn-c' }) 
+        });
+	  		
 	  }
   },
   // Home page
