@@ -51,7 +51,7 @@ var Roots = {
 	  		$talkbtn.on("click ",function(e){e.preventDefault();update_widgets();return!0});
 	  		
 	  $(function(){
-          $.okvideo({ source: 'http://www.youtube.com/watch?v=kRqk4M3hn-c' }) 
+          $.okvideo({ source: 'http://vimeo.com/100718122', volume: 0 }) 
         });
 	  		
 	  }
