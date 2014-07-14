@@ -53,8 +53,44 @@ var Roots = {
 	  $(function(){
           $.okvideo({ source: 'http://vimeo.com/100718122', volume: 0, adproof: true }) 
         });
+        
+      $(function () {
+
+		var YTPlayer = this.get(0);
+		var data = YTPlayer.opt;
+		var playerBox = jQuery(YTPlayer.playerEl);
+		var win = {};
+		var el = YTPlayer.wrapper;
+
+		win.width = el.outerWidth();
+		win.height = el.outerHeight();
+
+		var margin = 24;
+		var overprint = 100;
+		var vid = {};
+		vid.width = win.width + ((win.width * margin) / 100);
+		vid.height = data.ratio == "16/9" ? Math.ceil((9 * win.width) / 16) : Math.ceil((3 * win.width) / 4);
+		vid.marginTop = -((vid.height - win.height) / 2);
+		vid.marginLeft = -((win.width * (margin / 2)) / 100);
+
+		if (vid.height < win.height) {
+			vid.height = win.height + ((win.height * margin) / 100);
+			vid.width = data.ratio == "16/9" ? Math.floor((16 * win.height) / 9) : Math.floor((4 * win.height) / 3);
+			vid.marginTop = -((win.height * (margin / 2)) / 100);
+			vid.marginLeft = -((vid.width - win.width) / 2);
+		}
+
+		vid.width += overprint;
+		vid.height += overprint;
+		vid.marginTop -= overprint / 2;
+		vid.marginLeft -= overprint / 2;
+
+		playerBox.css({width: vid.width, height: vid.height, marginTop: vid.marginTop, marginLeft: vid.marginLeft});
+	});  
 	  		
-	  }
+	}
+	  
+	  
   },
   // Home page
   home: {

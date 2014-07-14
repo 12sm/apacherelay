@@ -133,6 +133,8 @@ body.post-type-archive-music{
    ========================================================================== */
 body.katiequeenoftennessee {background: #999;}
 
+#okplayer {display:none!important;}
+
 .katie-wrapper p {
 width: 500px;
 margin: 0 auto;
@@ -1024,7 +1026,10 @@ max-width: 90%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-   .video-body {
+
+#okplayer {display:block!important;}
+
+.video-body {
 padding-bottom: 45%;
 }
 .container-fluid>*{
