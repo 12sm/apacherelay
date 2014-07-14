@@ -131,7 +131,7 @@ body.post-type-archive-music{
 /* ==========================================================================
    Splash
    ========================================================================== */
-body.katiequeenoftennessee {background: #999;}
+body.katiequeenoftennessee {background: #999 url(../img/ktqueen_back.jpg) top center fixed; background-size:cover;}
 
 #okplayer {display:none!important;}
 
@@ -1022,7 +1022,8 @@ width: 530px;
 max-width: 90%;
 }
 
- }
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
@@ -1088,6 +1089,16 @@ margin: 0 auto;
 }
 
  }
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+#okplayer {display:none!important;}
+
+} 
+ 
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
