@@ -131,6 +131,14 @@ body.post-type-archive-music{
 /* ==========================================================================
    Splash
    ========================================================================== */
+
+.wpb_call_to_action {
+background: #999;
+margin: 30px auto;
+padding: 15px;
+width: auto;	
+}  
+   
 body.katiequeenoftennessee {background: #999 url(../img/ktqueen_back.jpg) top center fixed; background-size:cover;}
 
 #okplayer {display:none!important;}
@@ -912,6 +920,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.wpb_call_to_action {
+width: 768px;	
+}  
 
 .katiequeenoftennessee .splash-header {font-size:80px; margin-bottom:0px;}
 
