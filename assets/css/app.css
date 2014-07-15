@@ -133,9 +133,9 @@ body.post-type-archive-music{
    ========================================================================== */
 
 .wpb_call_to_action {
-background: #999;
+background: #999!important;
 margin: 30px auto;
-padding: 15px;
+padding: 15px!important;
 width: auto;	
 }  
    
@@ -922,7 +922,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:768px) {
 
 .wpb_call_to_action {
-width: 768px;	
+width: 768px!important;	
 }  
 
 .katiequeenoftennessee .splash-header {font-size:80px; margin-bottom:0px;}
