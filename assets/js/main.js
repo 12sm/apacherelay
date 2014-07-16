@@ -169,8 +169,8 @@ var Roots = {
 	 
 	 $('.vid-feature').colorbox({
 	 	iframe: true,
-		innerWidth : 1080,
-		innerHeight : 720
+		innerWidth : 1280,
+		innerHeight : 670
 	});
 	
 	$("#cboxLoadedContent").fitVids();
