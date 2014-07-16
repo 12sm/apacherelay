@@ -173,7 +173,7 @@ var Roots = {
 		innerHeight : 720
 	});
 	
-	$(".fancybox-outer").fitVids();
+	$("#cboxLoadedContent").fitVids();
 
 		//Inject Bootstrap classes into tumblr widget
 	var tumblrText = $(".twitter-tweet").nextAll();
