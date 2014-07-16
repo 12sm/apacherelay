@@ -168,9 +168,6 @@ var Roots = {
 		
 	 
 	 $('.vid-feature').colorbox({
-	 	padding:0,
-		openEffect  : 'none',
-		closeEffect : 'none',
 		innerWidth : 1280,
 		innerHeight : 720,
 		onOpen : function() {
