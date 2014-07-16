@@ -167,22 +167,17 @@ var Roots = {
     }, true);
 		
 	 
-	 $('.vid-feature').fancybox({
+	 $('.vid-feature').colorbox({
 	 	padding:0,
 		openEffect  : 'none',
 		closeEffect : 'none',
-		width : 1280,
-		height : 720,
-		aspectRatio : true,
-		scrolling   : 'no',
-		helpers : {
-			media : {}
-		},
-		beforeLoad : function() {
+		innerWidth : 1280,
+		innerHeight : 720,
+		onOpen : function() {
         	$('#bgndVideo1').pauseYTP();
         return;
         },
-		afterClose : function() {
+		onCleanup : function() {
         	$('#bgndVideo1').playYTP();
         return;
         }
