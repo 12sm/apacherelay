@@ -169,15 +169,7 @@ var Roots = {
 	 
 	 $('.vid-feature').colorbox({
 		innerWidth : 1280,
-		innerHeight : 720,
-		onOpen : function() {
-        	$('#bgndVideo1').pauseYTP();
-        return;
-        },
-		onCleanup : function() {
-        	$('#bgndVideo1').playYTP();
-        return;
-        }
+		innerHeight : 720
 	});
 	
 	$(".fancybox-outer").fitVids();
