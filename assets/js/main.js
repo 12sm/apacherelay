@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-     $(".fit-vid").fitVids();
+     $(".main").fitVids();
      //Inject classes into #signup
      $("#e2ma_signup_submit_button").addClass('btn btn-default');
 	//click for mobile/tablet
