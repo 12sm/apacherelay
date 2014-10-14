@@ -227,7 +227,7 @@ var Roots = {
   var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
-  $('.music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body').bind('inview', function (event, visible) {
+  $('.music-body, .tour-bg, .blog-home-body, .gallery-home-body, .store-body').bind('inview', function (event, visible) {
       if (visible == true) {
       $(this).addClass("inview");
       } else {
