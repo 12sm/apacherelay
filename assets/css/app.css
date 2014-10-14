@@ -23,16 +23,10 @@ background-repeat: no-repeat;
 background-size: 150%;
 }
 
-.test .sepia{
+.test .sepia::before{
    -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
 }
-.test .black-white{
-   -webkit-filter: grayscale(1);
-}
-.test .sepia{
-   -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
-}
-.test .black-white{
+.test .black-white::before{
    -webkit-filter: grayscale(1);
 }
 .test .no-filter{
