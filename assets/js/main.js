@@ -255,31 +255,31 @@ var Roots = {
     //if the first section is in view...
     if($firstBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, -1000, -0.1)}); 
+      $firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, 0, -0.1)}); 
     }
     
     //if the second section is in view...
     if($secondBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.5)});
+      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.1)});
     }
     
     //if the third section is in view...
     if($thirdBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, -0.2)});
+      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.2)});
     }
     
     //if the fourth section is in view...
     if($fourthBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2000, -0.5)});   
+      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.2)});   
     }
     
     //if the fifth section is in view...
     if($fifthBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2400, -0.5)});
+      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.1)});
     }
     
   }

@@ -21,6 +21,10 @@ body {background:#000; }
 .test .bg-img {
 background-repeat: no-repeat;
 }
+.test .tour-body {
+-webkit-filter: hue-rotate(360deg) sepia(1);
+}
+
 /* ==========================================================================
    Base
    ========================================================================== */
