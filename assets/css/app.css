@@ -20,7 +20,7 @@ body {background:#000; }
    ========================================================================== */
 .test .bg-img {
 background-repeat: no-repeat;
-background-size: cover;
+background-size: initial;
 }
 .test .tour-body {
 -webkit-filter: hue-rotate(360deg) sepia(1);
