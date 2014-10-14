@@ -242,7 +242,7 @@ var Roots = {
     inertia = how fast the background moves in relation to scrolling
   */
   function newPos(x, windowHeight, pos, adjuster, inertia){
-    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "%";
   }
   
   //function to be called whenever the window is scrolled or resized
@@ -259,7 +259,7 @@ var Roots = {
     //if the second section is in view...
     if($secondBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 100, -0.5)});
+      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.5)});
     }
     
     //if the third section is in view...
