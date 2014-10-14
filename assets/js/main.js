@@ -209,7 +209,7 @@ var Roots = {
   },
     test: {
     init: function() {
-      $('.bg-img').BgImg();
+      $('.bg-img').bgImg();
     }
   }
 };
