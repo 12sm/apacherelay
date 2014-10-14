@@ -21,12 +21,21 @@ body {background:#000; }
 .test .bg-img {
 background-repeat: no-repeat;
 background-size: 150%;
+width: 100%;
+height: inherit;
+padding: inherit;
+z-index: 0;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
 }
 
-.test .sepia::before{
+.test .sepia{
    -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
 }
-.test .black-white::before{
+.test .black-white{
    -webkit-filter: grayscale(1);
 }
 .test .no-filter{

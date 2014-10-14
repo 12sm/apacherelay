@@ -219,7 +219,7 @@ var Roots = {
 //Begin Parallax
   var $window = $(window);
   var $firstBG = $('.music-body');
-  var $secondBG = $('.tour-body');
+  var $secondBG = $('.tour-bg');
   var $thirdBG = $('.blog-home-body');
   var $fourthBG = $('.gallery-home-body');
   var $fifthBG = $('.store-body');
