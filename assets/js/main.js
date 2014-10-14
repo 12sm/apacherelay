@@ -244,7 +244,7 @@ var Roots = {
     inertia = how fast the background moves in relation to scrolling
   */
   function newPos(x, windowHeight, pos, adjuster, inertia){
-    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "%";
+    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
   }
   
   //function to be called whenever the window is scrolled or resized
