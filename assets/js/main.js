@@ -15,8 +15,8 @@
  * ======================================================================== */
 
 (function($) {
-  
-  function BgImg(){
+
+  function bgImg(){
     $imgBoxCont = $(this)
     $img = $('img:first',$imgBoxCont);
       if ($imgBoxCont.css('background-image').indexOf(encodeURI($img.attr('src'))) === -1) {
@@ -24,7 +24,7 @@
       $imgBoxCont.css({'background-image': 'url("' + encodeURI($img.attr('src')) + '")'});
     }
     if (!$img.length) {console.log('No image found');} 
-  };
+  }
 
 // Use this variable to set up the common and page specific functions. If you 
 // rename this variable, you will also need to rename the namespace below.
