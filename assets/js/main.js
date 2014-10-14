@@ -22,6 +22,19 @@ var Roots = {
   // All pages
   common: {
     init: function() {
+      //begining of img function
+      function BgImg(){
+        $imgBoxCont = $(this)
+        $img = $('img:first',$imgBoxCont);
+          if ($imgBoxCont.css('background-image').indexOf(encodeURI($img.attr('src'))) === -1) {
+          // Change
+          $imgBoxCont.css({'background-image': 'url("' + encodeURI($img.attr('src')) + '")'});
+        }
+        if (!$img.length) {console.log('No image found');}) {};
+      }
+      
+
+
       // JavaScript to be fired on all pages
      $(".main").fitVids();
      //Inject classes into #signup
@@ -34,7 +47,7 @@ var Roots = {
 
     }
   },
-  
+ 
   katiequeenoftennessee: {
 	  init: function() {
 	  
@@ -190,6 +203,11 @@ var Roots = {
   about_us: {
     init: function() {
       // JavaScript to be fired on the about us page
+    }
+  },
+    test: {
+    init: function() {
+      $('.bg-img').BgImg();
     }
   }
 };
