@@ -218,16 +218,16 @@ var Roots = {
    
 //Begin Parallax
   var $window = $(window);
-  var $firstBG = $('.music-body');
+  var $firstBG = $('.music-bg');
   var $secondBG = $('.tour-bg');
-  var $thirdBG = $('.blog-home-body');
-  var $fourthBG = $('.gallery-home-body');
-  var $fifthBG = $('.store-body');
+  var $thirdBG = $('.blog-home-bg');
+  var $fourthBG = $('.gallery-home-bg');
+  var $fifthBG = $('.store-bg');
   
   var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
-  $('.music-body, .tour-bg, .blog-home-body, .gallery-home-body, .store-body').bind('inview', function (event, visible) {
+  $('.music-bg, .tour-bg, .blog-home-bg, .gallery-home-bg, .store-bg').bind('inview', function (event, visible) {
       if (visible == true) {
       $(this).addClass("inview");
       } else {
