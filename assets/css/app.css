@@ -19,7 +19,8 @@ body {background:#000; }
    Styles for new Home BGs
    ========================================================================== */
 .test .blog-home-body {
-background-size: 125%;
+background-size: 145%;
+background-repeat: no-repeat;
 }
 /* ==========================================================================
    Base
