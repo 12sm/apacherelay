@@ -273,13 +273,13 @@ var Roots = {
     //if the fourth section is in view...
     if($fourthBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 3600, -0.4)});   
+      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 4600, -0.4)});   
     }
     
     //if the fifth section is in view...
     if($fifthBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 5100, -0.4)});
+      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 6100, -0.4)});
     }
     
   }
