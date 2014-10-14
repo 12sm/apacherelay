@@ -30,8 +30,8 @@ var Roots = {
           // Change
           $imgBoxCont.css({'background-image': 'url("' + encodeURI($img.attr('src')) + '")'});
         }
-        if (!$img.length) {console.log('No image found');}) {};
-      }
+        if (!$img.length) {console.log('No image found');} 
+      };
       
 
 
