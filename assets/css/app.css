@@ -18,7 +18,7 @@ body {background:#000; }
 /* ==========================================================================
    Styles for new Home BGs
    ========================================================================== */
-.test .bg-img {
+.test .tour-bg .bg-img {
 background-repeat: no-repeat;
 background-size: 150%;
 width: 100%;
