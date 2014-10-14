@@ -25,10 +25,10 @@ background-size: 150%;
 .test .tour-body {
 -webkit-filter: hue-rotate(360deg) sepia(1);
 }
-.sepia{
+.test .sepia{
    -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
 }
-.black-white{
+.test .black-white{
    -webkit-filter: grayscale(1);
 }
 /* ==========================================================================
