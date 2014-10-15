@@ -3,6 +3,8 @@
   
 <?php
 
+echo do_shortcode('[wpv-view name="Home-video"]');
+
 echo do_shortcode('[wpv-view name="blog-home"]');
 
 echo do_shortcode('[wpv-view name="Tour"]');
