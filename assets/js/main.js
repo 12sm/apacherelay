@@ -201,6 +201,21 @@ var Roots = {
   },
     test: {
     init: function() {
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+             }, 1000);
+             return false;
+        }
+      }
+       });
+    });
+
       $.fn.extend({
         bgImg: function () {
           return this.each(function(){
@@ -229,9 +244,9 @@ var Roots = {
   //apply the class "inview" to a section that is in the viewport
   $('.music-bg, .tour-bg, .blog-home-bg, .gallery-home-bg, .store-bg').bind('inview', function (event, visible) {
       if (visible == true) {
-      $(this).addClass("inview");
+        $(this).addClass("inview");
       } else {
-      $(this).removeClass("inview");
+        $(this).removeClass("inview");
       }
     });
   
