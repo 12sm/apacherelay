@@ -1169,10 +1169,11 @@ and (orientation : landscape) {
   max-width: 49%;
   max-height:209px;
   padding:5px;
+}
   .test .bg-img {
 background-size: cover;
 } 
-}
+
 .tumblr_title{
    margin-top: 18px;
    margin-left: 5px;
