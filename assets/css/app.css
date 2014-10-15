@@ -18,7 +18,7 @@ body {background:#000; }
 /* ==========================================================================
    Styles for new Home BGs
    ========================================================================== */
-.test .bg-img {
+.bg-img {
 background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
@@ -34,16 +34,16 @@ margin-left: 0px;
 margin-right: 0px;
 }
 
-.test .sepia{
+.sepia{
    -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
 }
-.test .black-white{
+.black-white{
    -webkit-filter: grayscale(1);
 }
-.test .no-filter{
+.no-filter{
    -webkit-filter: none;
 }
-.test #music-body, .test .tour-body, .test .blog-home-body, .test .gallery-home-body, .test .store-body {
+#music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 overflow: hidden;
 }
 /* ==========================================================================
@@ -1075,10 +1075,10 @@ max-width: 90%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-.test .bg-img {
+.bg-img {
 background-size: 175%;
 }
-.test .bg-img.blog-home-bg {
+.bg-img.blog-home-bg {
 top: -450px;
 }
 #okplayer {display:block!important;}
@@ -1147,7 +1147,7 @@ margin: 0 auto;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-.test .bg-img {
+.bg-img {
 background-size: cover;
 }
 #okplayer {display:none!important;}
@@ -1173,7 +1173,7 @@ and (orientation : landscape) {
   max-height:209px;
   padding:5px;
 }
-  .test .bg-img {
+  .bg-img {
 background-size: cover !important;
 } 
 
