@@ -20,7 +20,7 @@ body {background:#000; }
    ========================================================================== */
 .test .bg-img {
 background-repeat: no-repeat;
-background-size: 150%;
+background-size: cover;
 width: 100%;
 height: inherit;
 padding: inherit;
@@ -950,7 +950,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-
+.test .bg-img {
+background-size: 150%;
+}
 .wpb_call_to_action {
 width: 768px!important;	
 }  
