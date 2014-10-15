@@ -41,6 +41,9 @@ right: 0;
 .test .no-filter{
    -webkit-filter: none;
 }
+.test #music-body, .test .tour-body, .test .blog-home-body, .test .gallery-home-body, .test .store-body {
+overflow: hidden;
+}
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -1096,7 +1099,6 @@ margin: 0% -10%;
 #music-body, .katie-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 margin-bottom: 50px;
 padding: 10% 0px 13% 0px;
-overflow: hidden;
 }
 
 .featured-image-home {
