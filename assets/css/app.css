@@ -26,7 +26,7 @@ height: inherit;
 padding: inherit;
 z-index: 0;
 position: absolute;
-top: -160px;
+top: -250px;
 bottom: 0;
 left: 0;
 right: 0;
@@ -953,6 +953,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .test .bg-img {
 background-size: 150%;
 }
+
 .wpb_call_to_action {
 width: 768px!important;	
 }  
