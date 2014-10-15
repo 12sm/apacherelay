@@ -127,7 +127,6 @@ transform: skewY(-3deg);
    padding: 50px 0px;
 }
 body.post-type-archive-music{
-   background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -373,7 +372,6 @@ font-size: 12px!important;
    margin-top: 6%;
  }
  .contact{
-   background: url(../img/news-bg.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-position: 0%;
@@ -430,7 +428,6 @@ display: none;
    margin-top: 4%;
 }
 #music-body{
- background-image: url(../img/music-bg.jpg);
    background-size: cover;
    background-position: center;
    padding-bottom: 5%;
@@ -452,7 +449,6 @@ background-image: none;
    ========================================================================== */
 .store-body,
 body.store {
-   background-image: url(../img/store-bg.jpg);
    background-size: cover;
    background-position:center;
    background-repeat: repeat;
@@ -479,7 +475,6 @@ body.store .item {text-align:center;}
    Tour
    ========================================================================== */
 .tour-body{
-      background: url(../img/tour-bg.jpg) top center repeat;
       background-size: cover;
 	  padding: 50px 0px;
 }
@@ -726,7 +721,6 @@ padding: 15px;
    ========================================================================== */
 
 .gallery-home-body {
-background: url(../img/tumblr-bg.jpg) top center repeat;
 background-size: cover;
 padding: 50px 0px;
 }
