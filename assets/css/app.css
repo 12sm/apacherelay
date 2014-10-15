@@ -442,7 +442,10 @@ body.post-type-archive-music .music-body{
 .content>.row{
    margin-top: 25px;
 }
-
+.post-type-archive-music .music-body#music-body {
+background: none;
+background-image: none;
+}
 
 /* ==========================================================================
    Store
