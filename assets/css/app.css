@@ -1171,7 +1171,7 @@ and (orientation : landscape) {
   padding:5px;
 }
   .test .bg-img {
-background-size: cover;
+background-size: cover!important;
 } 
 
 .tumblr_title{
