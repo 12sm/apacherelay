@@ -1144,7 +1144,9 @@ margin: 0 auto;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-
+.test .bg-img {
+background-size: cover;
+}
 #okplayer {display:none!important;}
 
 } 
@@ -1166,7 +1168,10 @@ and (orientation : landscape) {
 .tumblr_post{
   max-width: 49%;
   max-height:209px;
-  padding:5px; 
+  padding:5px;
+  .test .bg-img {
+background-size: cover;
+} 
 }
 .tumblr_title{
    margin-top: 18px;
