@@ -955,9 +955,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-.test .bg-img {
-background-size: 175%;
-}
+
 
 .wpb_call_to_action {
 width: 768px!important;	
@@ -1077,7 +1075,9 @@ max-width: 90%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-
+.test .bg-img {
+background-size: 175%;
+}
 #okplayer {display:block!important;}
 
 .video-body {
