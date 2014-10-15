@@ -1078,6 +1078,9 @@ max-width: 90%;
 .test .bg-img {
 background-size: 175%;
 }
+.test .bg-img.blog-home-bg {
+top: -450px;
+}
 #okplayer {display:block!important;}
 
 .video-body {
@@ -1171,7 +1174,7 @@ and (orientation : landscape) {
   padding:5px;
 }
   .test .bg-img {
-background-size: cover!important;
+background-size: cover !important;
 } 
 
 .tumblr_title{
