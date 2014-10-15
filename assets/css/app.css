@@ -30,8 +30,8 @@ top: -250px;
 bottom: 0;
 left: 0;
 right: 0;
-margin-left: 0px;
-margin-right: 0px;
+margin-left: 0px!important;
+margin-right: 0px!important;
 }
 
 .sepia{
