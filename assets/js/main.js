@@ -299,7 +299,7 @@ var Roots = {
     
   }
   
-  enquire.register("(min-width : 992px) and (orientation : landscape)", function() {
+  enquire.register("(min-width : 992px) and (orientation : portrait)", function() {
     console.log('enquire is firing');
         $window.resize(function(){ //if the user resizes the window...
       Move(); //move the background images in relation to the movement of the scrollbar
