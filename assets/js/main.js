@@ -145,7 +145,7 @@ var Roots = {
     //if the third section is in view...
     if($thirdBG.hasClass("inview")){
       //call the newPos function and change the background position
-      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2100, -0.4)});
+      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 3100, -0.4)});
     }
     
     //if the fourth section is in view...
@@ -222,121 +222,8 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the about us page
     }
-  },
-    test: {
-    init: function() {
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-             }, 1000);
-             return false;
-        }
-      }
-       });
-    });
-
-      $.fn.extend({
-        bgImg: function () {
-          return this.each(function(){
-            $imgBoxCont = $(this)
-            $img = $('img:first',$imgBoxCont);
-              if ($imgBoxCont.css('background-image').indexOf(encodeURI($img.attr('src'))) === -1) {
-              // Change
-              $imgBoxCont.css({'background-image': 'url("' + encodeURI($img.attr('src')) + '")'});
-            }
-            if (!$img.length) {console.log('No image found');} 
-          });
-        }
-      });
-      $('.bg-img').bgImg();
-   
-//Begin Parallax
-  var $window = $(window);
-  var $firstBG = $('.music-bg');
-  var $secondBG = $('.tour-bg');
-  var $thirdBG = $('.blog-home-bg');
-  var $fourthBG = $('.gallery-home-bg');
-  var $fifthBG = $('.store-bg');
-  
-  var windowHeight = $window.height(); //get the height of the window
-    
-  //apply the class "inview" to a section that is in the viewport
-  $('.music-bg, .tour-bg, .blog-home-bg, .gallery-home-bg, .store-bg').bind('inview', function (event, visible) {
-      if (visible == true) {
-        $(this).addClass("inview");
-      } else {
-        $(this).removeClass("inview");
-      }
-    });
-  
-  //function that is called for every pixel the user scrolls. Determines the position of the background
-  /*arguments: 
-    x = horizontal position of background
-    windowHeight = height of the viewport
-    pos = position of the scrollbar
-    adjuster = adjust the position of the background
-    inertia = how fast the background moves in relation to scrolling
-  */
-  function newPos(x, windowHeight, pos, adjuster, inertia){
-    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
   }
-  
-  //function to be called whenever the window is scrolled or resized
-  function Move(){ 
-    var pos = $window.scrollTop(); //position of the scrollbar
-
-
-    //if the first section is in view...
-    if($firstBG.hasClass("inview")){
-      //call the newPos function and change the background position
-      $firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, 4150, -0.4)}); 
-    }
-     
-    //if the second section is in view...
-    if($secondBG.hasClass("inview")){
-      //call the newPos function and change the background position
-      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2600, -0.4)});
-    }
     
-    //if the third section is in view...
-    if($thirdBG.hasClass("inview")){
-      //call the newPos function and change the background position
-      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 600, -0.4)});
-    }
-    
-    //if the fourth section is in view...
-    if($fourthBG.hasClass("inview")){
-      //call the newPos function and change the background position
-      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 5600, -0.4)});   
-    }
-    
-    //if the fifth section is in view...
-    if($fifthBG.hasClass("inview")){
-      //call the newPos function and change the background position
-      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 6600, -0.4)});
-    }
-    
-  }
-  
-  enquire.register("not (max-width : 992px) and (orientation : landscape)", function() {
-    console.log('enquire is firing');
-        $window.resize(function(){ //if the user resizes the window...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });   
-  
-    $window.bind('scroll', function(){ //when the user is scrolling...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });
-    // End Parallax
-    }, true);
-
-    }
-  }
 };
 
 // The routing fires all common scripts, followed by the page specific scripts.
