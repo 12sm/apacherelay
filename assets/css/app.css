@@ -60,7 +60,6 @@ overflow: hidden;
    text-align: center;
 }
 body.home, body.test{
-   background-image:url(../img/mobile-bg.jpg);
    background-size: cover;
    background-repeat: no-repeat; 
 }
@@ -403,7 +402,6 @@ font-size: 12px!important;
 body.tour {
 background-attachment: fixed!important;
 background-position: center!important;
-background: url(../img/tour-bg.jpg) top center repeat;
 background-size: cover;
 }
 
@@ -967,7 +965,6 @@ width: 33%!important;
 }
 
 body.home {
-background-image: url(../img/ktqueen_back.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
