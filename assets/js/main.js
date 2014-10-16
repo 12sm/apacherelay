@@ -174,6 +174,9 @@ var Roots = {
     },
     unmatch: function() {
       console.log('unmatch');
+      $window.unbind('scroll', function(){ 
+        Move();
+      });
     },
     setup : function() {
       
