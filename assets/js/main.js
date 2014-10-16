@@ -165,19 +165,9 @@ var Roots = {
   enquire.register("only screen and (max-width : 992px) and (orientation : landscape)", {
     match: function() {
       console.log('match');
-      $window.unbind('scroll', function(){ 
-        Move();
-      });
     },
     unmatch: function() {
       console.log('unmatch');
-      $window.resize(function(){ //if the user resizes the window...
-        Move(); //move the background images in relation to the movement of the scrollbar
-      });   
-    
-      $window.bind('scroll', function(){ //when the user is scrolling...
-        Move(); //move the background images in relation to the movement of the scrollbar
-      });
     },
     setup : function() {
     },
