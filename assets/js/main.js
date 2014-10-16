@@ -223,7 +223,7 @@ function unBind(){
   function fixedBGs(){
 		$(window).scroll(function() {
     var scrolledY = $(window).scrollTop();
-    $('.img-bg').css('background-position', 'top ' + ((scrolledY)) + 'px');
+    $('.bg-img').css('background-position', 'top ' + ((scrolledY)) + 'px');
     });
   }	 
 	 $('.vid-feature').colorbox({
