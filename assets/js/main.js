@@ -163,7 +163,7 @@ var Roots = {
   }
   
   enquire.register("not (max-width : 992px) and (orientation : landscape)", function() {
-        $window.resize(function(){ //if the user resizes the window...
+    $window.resize(function(){ //if the user resizes the window...
       Move(); //move the background images in relation to the movement of the scrollbar
     });   
   
