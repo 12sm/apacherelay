@@ -173,10 +173,10 @@ var Roots = {
       });
     },
     unmatch: function() {
-      inquirer();
+
     },
     setup : function() {
-      theSetup();
+      
     },
     
     // End Parallax
