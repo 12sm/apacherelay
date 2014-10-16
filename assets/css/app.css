@@ -51,7 +51,7 @@ opacity: .7;
 overflow: hidden;
 }
 
-.backstretch {opacity:0.6;}
+.backstretch {opacity:0.5;}
 body.home .backstretch {opacity:1;}
 
 /* ==========================================================================
