@@ -184,7 +184,7 @@ var Roots = {
     };
   }
 
-  enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape)", {
+  enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px) ", {
     match: function() {
       noLax();
     },
