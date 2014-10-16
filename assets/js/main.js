@@ -162,7 +162,7 @@ var Roots = {
     
   }
   
-  enquire.register("not (max-width : 992px) and (orientation : landscape)", {
+  enquire.register("only screen(max-width : 992px) and (orientation : landscape)", {
     match: function() {
       console.log('match');
       $window.unbind('scroll', function(){ 
