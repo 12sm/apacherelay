@@ -138,7 +138,7 @@ body.post-type-archive-music{
    margin-right: 10px;
 }
 .container-fluid{
-   background-color: #000;
+   background-color: rgba(0,0,0,1);
 }
 .marg-top-sm{
    margin-top: 15px;
