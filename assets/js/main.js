@@ -181,10 +181,10 @@ var Roots = {
 
   enquire.register("only screen and (max-width : 992px) and (orientation : landscape)", {
     match: function() {
-      pLax();
+      noLax();
     },
     unmatch: function() {
-      noLax();
+      pLax();
     },
     setup : function() {
       pLax();
