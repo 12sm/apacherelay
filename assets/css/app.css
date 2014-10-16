@@ -51,7 +51,7 @@ opacity: .3;
 overflow: hidden;
 }
 
-.backstretch {opacity:0.5;}
+.backstretch {opacity:0.3;}
 body.home .backstretch {opacity:1;}
 
 /* ==========================================================================
@@ -146,7 +146,7 @@ body.post-type-archive-music{
 .blog-home-body,  .music-body, .store-body{
    background-color: rgba(0,0,0,1);
 }
-.tour-body,.gallery-home-body {
+.tour-body,.gallery-home-body, body.tour {
   background-color: rgba(200,200,200,1);
 }
 
