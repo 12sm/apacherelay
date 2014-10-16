@@ -197,8 +197,32 @@ var Roots = {
     
     // End Parallax
     });
-		
-	 
+enquire.register("(max-device-width: 778px)", {
+    match: function() {
+      fixedBGs();
+    },
+    unmatch: function() {
+      $window.unbind('scroll'); //move the background images in relation to the movement of the scrollbar
+      $(window).bind('scroll', function(e){return true});
+    },
+    setup : function() {
+      fixedSetup();
+    },
+    
+    // End Parallax
+    });
+  function fixedSetup(){
+    var wid = window.innerWidth;
+    if (wid < 778 ){
+      fixedBGs();
+    };
+  }
+  function fixedBGs(){
+		$(window).scroll(function() {
+    var scrolledY = $(window).scrollTop();
+    $('#container').css('background-position', 'left ' + ((scrolledY)) + 'px');
+    });
+  }	 
 	 $('.vid-feature').colorbox({
 	 	iframe: true,
 		innerWidth : 1280,
