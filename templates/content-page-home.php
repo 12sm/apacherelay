@@ -18,7 +18,7 @@ echo do_shortcode('[wpv-view name="Store"]');
 ?>
 <style type="text/css">
   .bg-img.tour-bg{
-    background:url(<?php echo do_shortcode('[wpv-view name="background-image-raw" ids='1439']')?>);
+    background:url();
   }
 </style>
 
