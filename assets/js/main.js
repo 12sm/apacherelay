@@ -202,8 +202,7 @@ enquire.register("(max-device-width: 778px)", {
       fixedBGs();
     },
     unmatch: function() {
-      $window.unbind('scroll'); //move the background images in relation to the movement of the scrollbar
-      $(window).bind('scroll', function(e){return true});
+      unBind();
     },
     setup : function() {
       fixedSetup();
@@ -211,6 +210,10 @@ enquire.register("(max-device-width: 778px)", {
     
     // End Parallax
     });
+function unBind(){
+  $window.unbind('scroll'); //move the background images in relation to the movement of the scrollbar
+  $(window).bind('scroll', function(e){return true});
+}
   function fixedSetup(){
     var wid = window.innerWidth;
     if (wid < 778 ){
@@ -220,7 +223,7 @@ enquire.register("(max-device-width: 778px)", {
   function fixedBGs(){
 		$(window).scroll(function() {
     var scrolledY = $(window).scrollTop();
-    $('.img-bg').css('background-position', 'left ' + ((scrolledY)) + 'px');
+    $('.img-bg').css('background-position', 'top ' + ((scrolledY)) + 'px');
     });
   }	 
 	 $('.vid-feature').colorbox({
