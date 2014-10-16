@@ -371,9 +371,10 @@ height: 60%!important;
 	padding:10px 0px;
 }
 
+#bit-events {background:rgba(255,255,255,0.5)}
+
 #bit-events tr {
 line-height: 3em;
-background: rgba(255,255,255,0.5);
 }
 
 #bit-events tr:hover {
@@ -817,7 +818,7 @@ padding: 0px!important;
     background-position: top right;
     overflow: hidden;
     background-size: 20%;
-    background-color: rgba(255,255,255, 0.4);
+    background-color: rgba(255,255,255, 0.8);
     padding-top: 5px;
 }
 /* ==========================================================================
