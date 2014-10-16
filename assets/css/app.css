@@ -33,7 +33,7 @@ right: 0;
 margin-left: 0px!important;
 margin-right: 0px!important;
 background-position: 50% 0;
-opacity: .7;
+opacity: .3;
 }
 .bg-img:before{
    display: block;
@@ -143,9 +143,13 @@ body.post-type-archive-music{
    margin-left: 10px;
    margin-right: 10px;
 }
-.blog-home-body, .tour-body, .music-body, .gallery-home-body,.store-body{
+.blog-home-body,  .music-body, .store-body{
    background-color: rgba(0,0,0,1);
 }
+.tour-body,.gallery-home-body {
+  background-color: rgba(200,200,200,1);
+}
+
 .marg-top-sm{
    margin-top: 15px;
 }
@@ -157,7 +161,6 @@ body.post-type-archive-music{
 }
 
 .gallery-home-body{
-   background-color: gray;
    padding: 10%;
 }
 
@@ -1077,7 +1080,7 @@ max-width: 90%;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 .bg-img {
-background-size: 175%;
+/*background-size: 175%;*/
 }
 .bg-img.blog-home-bg {
 /*top: -450px; */
