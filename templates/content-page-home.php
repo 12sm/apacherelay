@@ -15,12 +15,10 @@ echo do_shortcode('[wpv-view name="Gallery-home"]');
 
 echo do_shortcode('[wpv-view name="Store"]');
 
+echo do_shortcode('[wpv-view name="HOME | BACKGROUND STYLES"]');
+
 ?>
-<style type="text/css">
-  .bg-img.tour-bg{
-    background:url();
-  }
-</style>
+
 
   <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
 <?php endwhile; ?>
