@@ -222,9 +222,9 @@ function unBind(){
   function fixedBGs(){
     console.log('fixedbgs firing');
 		$(window).scroll(function() {
-      console.log('scroll');
-    var scrolledY = $(window).scrollTop();
-    $('.bg-img').css('background-position', 'top ' + scrolledY + 'px');
+      var scrolledY = $(window).scrollTop();
+      console.log(scrolledY);
+      $('.bg-img').css('background-position', 'top ' + scrolledY + 'px');
     });
   }	 
 	 $('.vid-feature').colorbox({
