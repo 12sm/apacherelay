@@ -164,13 +164,14 @@ var Roots = {
   
   enquire.register("only screen (max-width : 992px) and (orientation : landscape)", {
     match: function() {
-      console.log('unmatch');
+      console.log('match');
       $window.unbind('scroll', function(){ 
         Move();
       });
     },
     unmatch: function() {
       $window.resize(function(){ //if the user resizes the window...
+              console.log('unmatch');
         Move(); //move the background images in relation to the movement of the scrollbar
       });   
     
