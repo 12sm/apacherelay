@@ -178,6 +178,12 @@ var Roots = {
         Move(); //move the background images in relation to the movement of the scrollbar
       });
     }
+    function theSetup(){
+    var wid = window.innerWidth;
+    if (wid > 992 ){
+      pLax();
+    };
+  }
 
   enquire.register("only screen and (max-width : 992px) and (orientation : landscape)", {
     match: function() {
@@ -187,7 +193,7 @@ var Roots = {
       pLax();
     },
     setup : function() {
-      pLax();
+      theSetup();
     },
     
     // End Parallax
