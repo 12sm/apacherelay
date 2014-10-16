@@ -163,13 +163,22 @@ var Roots = {
   }
   
   enquire.register("not (max-width : 992px) and (orientation : landscape)", function() {
-    $window.resize(function(){ //if the user resizes the window...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });   
-  
-    $window.bind('scroll', function(){ //when the user is scrolling...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });
+    match: function() {
+      $window.resize(function(){ //if the user resizes the window...
+        Move(); //move the background images in relation to the movement of the scrollbar
+      });   
+    
+      $window.bind('scroll', function(){ //when the user is scrolling...
+        Move(); //move the background images in relation to the movement of the scrollbar
+      });
+    },
+    unmatch: function() {
+      inquirer();
+    },
+    setup : function() {
+      theSetup();
+    },
+    
     // End Parallax
     }, true);
 		
