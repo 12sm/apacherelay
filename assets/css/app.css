@@ -373,6 +373,11 @@ height: 60%!important;
 
 #bit-events tr {
 line-height: 3em;
+background: rgba(255,255,255,0.5);
+}
+
+#bit-events tr:hover {
+ background: rgba(255,255,255,0.8); 
 }
 td a {
 font-size: 12px!important;
