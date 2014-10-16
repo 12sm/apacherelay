@@ -50,6 +50,10 @@ opacity: .7;
 #music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body {
 overflow: hidden;
 }
+
+.backstretch {opacity:0.6;}
+body.home .backstretch {opacity:1;}
+
 /* ==========================================================================
    Base
    ========================================================================== */
