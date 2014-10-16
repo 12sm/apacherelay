@@ -175,7 +175,7 @@ var Roots = {
     function noLax(){
       console.log('match');
       $window.unbind('scroll', function(){ //when the user is scrolling...
-      Move(); //move the background images in relation to the movement of the scrollbar
+        Move(); //move the background images in relation to the movement of the scrollbar
       }); //move the background images in relation to the movement of the scrollbar
     }
     function theSetup(){
