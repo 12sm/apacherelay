@@ -221,6 +221,7 @@ function unBind(){
     };
   }
   function fixedBGs(){
+    console.log('fixedbgs firing');
 		$(window).scroll(function() {
     var scrolledY = $(window).scrollTop();
     $('.bg-img').css('background-position', 'top ' + ((scrolledY)) + 'px');
