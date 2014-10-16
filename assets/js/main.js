@@ -166,12 +166,12 @@ var Roots = {
   $window.resize(function(){ //if the user resizes the window...
         Move(); //move the background images in relation to the movement of the scrollbar
       });   
-    
       $window.bind('scroll', function(){ //when the user is scrolling...
         Move(); //move the background images in relation to the movement of the scrollbar
       });
       console.log('unmatch');
     }
+
     function noLax(){
       console.log('match');
       $window.unbind('scroll', function(){ //when the user is scrolling...
@@ -181,10 +181,10 @@ var Roots = {
 
   enquire.register("only screen and (max-width : 992px) and (orientation : landscape)", {
     match: function() {
-      window.pLax();
+      pLax();
     },
     unmatch: function() {
-      window.noLax();
+      noLax();
     },
     setup : function() {
     },
