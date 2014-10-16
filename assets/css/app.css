@@ -33,6 +33,7 @@ right: 0;
 margin-left: 0px!important;
 margin-right: 0px!important;
 background-position: 50% 0;
+opacity: .7;
 }
 
 .sepia{
@@ -135,6 +136,9 @@ body.post-type-archive-music{
 .container-fluid>*{
    margin-left: 10px;
    margin-right: 10px;
+}
+.container-fluid{
+   background-color: #000;
 }
 .marg-top-sm{
    margin-top: 15px;
@@ -562,7 +566,7 @@ background-size: cover;
 }
 
 .video-body {
-   padding-bottom: 5%;
+   padding-bottom: 100%;
 padding-top: 15%;
 }
 
@@ -604,7 +608,6 @@ margin-top: 10px;
 
 body.category-news,
 body.views-template-blog {
-   background-image: url(../img/news-bg.jpg);
    background-size: cover;
    background-repeat: repeat;
    background-position: center;
