@@ -183,7 +183,7 @@ var Roots = {
     },
     
     // End Parallax
-    }, true);
+    });
 		
 	 
 	 $('.vid-feature').colorbox({
