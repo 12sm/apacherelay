@@ -197,35 +197,6 @@ var Roots = {
 
     });
 
-enquire.register("(max-width: 778px)", {
-    match: function() {
-      fixedBGs();
-    },
-    unmatch: function() {
-      unBind();
-    },
-    setup : function() {
-      fixedSetup();
-    }
-
-    });
-function unBind(){
-  $window.unbind('scroll'); //move the background images in relation to the movement of the scrollbar
-  $(window).bind('scroll', function(e){return true});
-}
-  function fixedSetup(){
-    var wid = window.innerWidth;
-    if (wid < 778 ){
-      fixedBGs();
-    };
-  }
-  function fixedBGs(){
-    console.log('fixedbgs firing');
-		$(window).scroll(function() {
-      var scrolledY = $(window).scrollTop();
-      console.log(scrolledY);
-      $('.bg-img').css('background-position-y', scrolledY + 'px');
-    });
   }	 
 	 $('.vid-feature').colorbox({
 	 	iframe: true,
