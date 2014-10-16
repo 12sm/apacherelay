@@ -187,6 +187,7 @@ var Roots = {
       noLax();
     },
     setup : function() {
+      pLax();
     },
     
     // End Parallax
