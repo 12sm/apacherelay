@@ -170,8 +170,8 @@ var Roots = {
       });
     },
     unmatch: function() {
+      console.log('unmatch');
       $window.resize(function(){ //if the user resizes the window...
-              console.log('unmatch');
         Move(); //move the background images in relation to the movement of the scrollbar
       });   
     
