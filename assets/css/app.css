@@ -137,7 +137,7 @@ body.post-type-archive-music{
    margin-left: 10px;
    margin-right: 10px;
 }
-.container-fluid{
+.blog-home-body, .tour-body, .music-body, .gallery-home-body,.store-body{
    background-color: rgba(0,0,0,1);
 }
 .marg-top-sm{
