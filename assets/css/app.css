@@ -568,6 +568,7 @@ background-size: cover;
 .video-body {
    padding-bottom: 100%;
 padding-top: 15%;
+background-color: rgba(0,0,0,0)!important;
 }
 
 .border-box-white{
