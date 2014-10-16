@@ -220,7 +220,7 @@ enquire.register("(max-device-width: 778px)", {
   function fixedBGs(){
 		$(window).scroll(function() {
     var scrolledY = $(window).scrollTop();
-    $('#container').css('background-position', 'left ' + ((scrolledY)) + 'px');
+    $('.img-bg').css('background-position', 'left ' + ((scrolledY)) + 'px');
     });
   }	 
 	 $('.vid-feature').colorbox({
