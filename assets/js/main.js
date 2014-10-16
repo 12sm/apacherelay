@@ -194,10 +194,10 @@ var Roots = {
     setup : function() {
       theSetup();
     },
-    
-    // End Parallax
+
     });
-enquire.register("(max-device-width: 778px)", {
+
+enquire.register("(max-width: 778px)", {
     match: function() {
       fixedBGs();
     },
@@ -206,9 +206,8 @@ enquire.register("(max-device-width: 778px)", {
     },
     setup : function() {
       fixedSetup();
-    },
-    
-    // End Parallax
+    }
+
     });
 function unBind(){
   $window.unbind('scroll'); //move the background images in relation to the movement of the scrollbar
