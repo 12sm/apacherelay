@@ -93,21 +93,6 @@ var Roots = {
 		   });
 		});
 		// End Smooth Scroll	
-			
-    $.fn.extend({
-        bgImg: function () {
-          return this.each(function(){
-            $imgBoxCont = $(this)
-            $img = $('img:first',$imgBoxCont);
-              if ($imgBoxCont.css('background-image').indexOf(encodeURI($img.attr('src'))) === -1) {
-              // Change
-              $imgBoxCont.css({'background-image': 'url("' + encodeURI($img.attr('src')) + '")'});
-            }
-            if (!$img.length) {console.log('No image found');} 
-          });
-        }
-      });
-      //$('.bg-img').bgImg();
    
 //Begin Parallax
   var $window = $(window);
