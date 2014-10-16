@@ -35,7 +35,9 @@ margin-right: 0px!important;
 background-position: 50% 0;
 opacity: .7;
 }
-
+.bg-img:before{
+   display: block;
+}
 .sepia{
    -webkit-filter: contrast(4.1) invert(0.4) sepia(1);
 }
