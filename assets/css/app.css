@@ -1071,7 +1071,7 @@ max-width: 90%;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 .bg-img {
-/*background-size: 175%;*/
+background-size: 175%;
 }
 .bg-img.blog-home-bg {
 /*top: -450px; */
