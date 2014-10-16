@@ -224,7 +224,7 @@ function unBind(){
 		$(window).scroll(function() {
       console.log('scroll');
     var scrolledY = $(window).scrollTop();
-    $('.bg-img').css('background-position', 'top ' + ((scrolledY)) + 'px');
+    $('.bg-img').css('background-position', 'top ' + scrolledY + 'px');
     });
   }	 
 	 $('.vid-feature').colorbox({
