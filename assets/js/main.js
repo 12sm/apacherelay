@@ -107,7 +107,7 @@ var Roots = {
           });
         }
       });
-      $('.bg-img').bgImg();
+      //$('.bg-img').bgImg();
    
 //Begin Parallax
   var $window = $(window);
@@ -178,7 +178,6 @@ var Roots = {
   }
   
   enquire.register("not (max-width : 992px) and (orientation : landscape)", function() {
-    console.log('enquire is firing');
         $window.resize(function(){ //if the user resizes the window...
       Move(); //move the background images in relation to the movement of the scrollbar
     });   
