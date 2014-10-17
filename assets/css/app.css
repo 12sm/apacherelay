@@ -33,7 +33,7 @@ right: 0;
 margin-left: 0px!important;
 margin-right: 0px!important;
 background-position: 50% 0;
-opacity: .3;
+opacity: .6;
 }
 .bg-img:before{
    display: block;
@@ -51,7 +51,7 @@ opacity: .3;
 overflow: hidden;
 }
 
-.backstretch {opacity:0.3;}
+.backstretch {opacity:0.6;}
 body.home .backstretch {opacity:1;}
 
 /* ==========================================================================
