@@ -481,7 +481,7 @@ body.store {
 .store-body {padding: 5%;}
 
 .store-headline{
-   font-size: 72px;
+   font-size: 52px;
 }
 
 .store-box p{
@@ -712,6 +712,10 @@ height:auto;
 margin: 30px 0px 100px 0px;
 }
 
+
+.blog-post-square h1 {
+font-size: 26px;
+}
 
 .post-nav {
 position: relative;
