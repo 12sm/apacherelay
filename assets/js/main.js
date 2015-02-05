@@ -178,10 +178,10 @@ var Roots = {
       $(window).bind('scroll', function(e){return true});
     }
     function theSetup(){
-    var wid = window.innerWidth;
-    if (wid > 992 ){
-      pLax();
-    };
+    //var wid = window.innerWidth;
+    //if (wid > 992 ){
+      //pLax();
+    //};
   }
 
   enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px) ", {
